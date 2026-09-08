@@ -1,0 +1,10 @@
+out/
+node_modules/
+AGENTS.md
+scripts/build-library.mjs
+scripts/cdp.mjs
+scripts/collect.mjs
+scripts/inspect.mjs
+scripts/make-icon.mjs
+scripts/probe.mjs
+scripts/verify.mjs
