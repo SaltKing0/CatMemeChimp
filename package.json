@@ -2,9 +2,9 @@
   "name": "catmemechimp", "version": "1.0.0", "private": false, "type": "module",
   "description": "An unserious cat archive in a very serious color.",
   "license": "MIT",
-  "repository": {"type": "git", "url": "git+https://github.com/yousefb1995/CatMemeChimp.git"},
-  "bugs": {"url": "https://github.com/yousefb1995/CatMemeChimp/issues"},
-  "homepage": "https://github.com/yousefb1995/CatMemeChimp#readme",
+  "repository": {"type": "git", "url": "git+https://github.com/burhama/CatMemeChimp.git"},
+  "bugs": {"url": "https://github.com/burhama/CatMemeChimp/issues"},
+  "homepage": "https://github.com/burhama/CatMemeChimp#readme",
   "engines": {"node": ">=22"},
   "scripts": {"start": "node server.mjs", "check": "node --check server.mjs && node --check public/app.js"}
 }
