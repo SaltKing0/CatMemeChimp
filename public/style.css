@@ -51,6 +51,15 @@
 .curse{font-weight:800;letter-spacing:.4px}
 [data-theme="dark"] .lab-intro{background:#252b45;border-color:#3a4370}
 @media(max-width:650px){.lab-layout{grid-template-columns:1fr}}
+.ticker{overflow:hidden;border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-top:22px;background:var(--paper)}
+.ticker-inner{display:inline-block;white-space:nowrap;padding:9px 0;font-size:11px;font-weight:700;letter-spacing:.5px;animation:tickmove 45s linear infinite}
+.ticker-inner span{padding-right:24px}
+@keyframes tickmove{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+@media(prefers-reduced-motion:reduce){.ticker-inner{animation:none}}
+#library{position:relative}
+#library>*{position:relative;z-index:1}
+#library::before{content:'MEOW';position:absolute;top:-24px;right:-6px;z-index:0;font-family:Fraunces,Georgia,serif;font-size:clamp(90px,15vw,210px);font-weight:700;line-height:1;color:transparent;-webkit-text-stroke:1px var(--line);opacity:.7;pointer-events:none}
+body::after{content:'';position:fixed;inset:0;z-index:1;pointer-events:none;opacity:.05;background-image:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='120' height='120'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9'/></filter><rect width='120' height='120' filter='url(%23n)' opacity='0.55'/></svg>")}
 .pack-panel{display:grid;gap:12px;background:linear-gradient(135deg,var(--olive) 0%,#5c5136 100%);color:#f7f5ee;border-radius:13px;padding:22px;margin-bottom:16px;text-align:center}
 .pack-sealed{background:none;border:2px dashed #f7f5ee66;border-radius:12px;padding:26px;display:grid;gap:6px;justify-items:center;color:#f7f5ee;width:100%}
 .pack-sealed>span{font-size:64px}
