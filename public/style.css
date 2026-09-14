@@ -26,7 +26,8 @@
 [data-theme="dark"] .mobile-nav button.active{color:#ece2cb;background:#2c2618}
 [data-theme="dark"] .skip-link{background:#ece2cb!important;color:#221d15!important}
 [data-theme="dark"] footer{color:var(--muted)}
-#theme-toggle{border:1px solid var(--line);background:var(--paper);border-radius:8px;padding:9px}
+#theme-toggle,#sound-toggle{border:1px solid var(--line);background:var(--paper);border-radius:8px;padding:9px}
+#confetti{position:fixed;inset:0;pointer-events:none;z-index:200}
 .lab-intro{background:var(--blue-pale);border:1px solid #d5dced;border-radius:13px;padding:16px 18px;margin-bottom:16px}
 .lab-intro h3{font-family:Fraunces,Georgia,serif;font-size:20px;margin-bottom:6px}
 .lab-intro p{font-size:12px;color:var(--muted);line-height:1.6}
