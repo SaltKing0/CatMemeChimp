@@ -38,6 +38,25 @@
 .curse{font-weight:800;letter-spacing:.4px}
 [data-theme="dark"] .lab-intro{background:#252b45;border-color:#3a4370}
 @media(max-width:650px){.lab-layout{grid-template-columns:1fr}}
+#stash{display:grid;gap:16px;margin-top:18px}
+.sets-panel,.trophies{background:var(--paper);border:1px solid var(--line);border-radius:13px;padding:16px}
+.sets-panel h3,.trophies h3{font-family:Fraunces,Georgia,serif;font-size:20px}
+#new-set-form{display:flex;gap:8px;margin:10px 0 6px}
+#new-set-form input{flex:1;border:1px solid var(--line);background:var(--paper);color:var(--olive);border-radius:7px;padding:10px 12px;font-size:12px;min-width:0}
+.set-row{display:flex;gap:8px;align-items:center;padding:8px 0;border-top:1px solid var(--line)}
+.set-open{flex:1;display:flex;justify-content:space-between;align-items:center;gap:10px;text-align:left;border-radius:8px;padding:8px 10px;font-size:12px}
+.set-open:hover{background:#eeeadd}
+[data-theme="dark"] .set-open:hover{background:#2c2618}
+.set-open.active{outline:2px solid var(--olive);outline-offset:2px}
+.set-open span{color:var(--muted);font-size:11px;white-space:nowrap}
+.set-delete{font-size:11px;color:var(--muted);text-decoration:underline;white-space:nowrap}
+.remove-from-set{margin:0 12px 12px;font-size:11px;font-weight:700;color:#9c6055;text-decoration:underline;align-self:start}
+.collect-body{padding:20px 22px;display:grid;gap:12px}
+#collect-list{display:grid;gap:6px}
+.collect-row{display:flex;justify-content:space-between;align-items:center;border:1px solid var(--line);border-radius:8px;padding:10px 12px;font-size:12px;font-weight:600}
+.collect-row.in{background:var(--olive);border-color:var(--olive);color:var(--paper)}
+#collect-new{display:flex;gap:8px}
+#collect-new input{flex:1;border:1px solid var(--line);background:var(--paper);color:var(--olive);border-radius:7px;padding:10px 12px;font-size:12px;min-width:0}
 .hero-paths{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:14px;font-size:10px;color:#d7d1c0}
 .hero-paths button{border:1px solid #f7f5ee44;border-radius:20px;padding:7px 12px;font-size:10px;font-weight:700;color:#f7f5ee}
 .hero-paths button:hover{background:#f7f5ee22}

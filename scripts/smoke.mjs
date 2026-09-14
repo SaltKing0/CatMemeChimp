@@ -30,7 +30,7 @@ const html = readFileSync(join(pub, 'index.html'), 'utf8');
 const count = html.match(/id="all-count">(\d+)/);
 if (!count) fail('index.html missing #all-count');
 else if (Number(count[1]) !== lib.length) fail(`#all-count is ${count[1]} but library has ${lib.length}`);
-for (const id of ['arena', 'battle-grid', 'arena-stats', 'leaderboard', 'last-crowned', 'arena-skip', 'arena-reset', 'lab', 'lab-preview', 'lab-provenance', 'lab-top', 'lab-bottom', 'lab-cat', 'lab-chaos', 'lab-save', 'lab-download', 'theme-toggle', 'meme-grid', 'viewer', 'editor']) {
+for (const id of ['arena', 'battle-grid', 'arena-stats', 'leaderboard', 'last-crowned', 'arena-skip', 'arena-reset', 'lab', 'lab-preview', 'lab-provenance', 'lab-top', 'lab-bottom', 'lab-cat', 'lab-chaos', 'lab-save', 'lab-download', 'theme-toggle', 'stash', 'sets-panel', 'trophies', 'viewer-collect', 'collect-dialog', 'collect-list', 'collect-new', 'collect-new-name', 'meme-grid', 'viewer', 'editor']) {
   if (!html.includes(`id="${id}"`)) fail(`index.html missing #${id}`);
 }
 for (const f of ['sw.js', 'app.js', 'style.css', 'library.json', 'manifest.webmanifest']) {
