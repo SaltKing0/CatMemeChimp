@@ -116,6 +116,7 @@ button.dex-card:hover{transform:translateY(-3px);box-shadow:0 8px 20px #4a412a18
 .card-source{color:#6f6a58}
 .save-button{color:#6f6a58}
 .nav-label{color:#6e6957}
+.nav-label.nav-gap{margin-top:20px}
 footer{color:#6e6957}
 .view-toggle button{color:#6e6957}
 .mobile-nav button{color:#6e6957}
