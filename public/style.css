@@ -27,3 +27,14 @@
 [data-theme="dark"] .skip-link{background:#ece2cb!important;color:#221d15!important}
 [data-theme="dark"] footer{color:var(--muted)}
 #theme-toggle{border:1px solid var(--line);background:var(--paper);border-radius:8px;padding:9px}
+.lab-intro{background:var(--blue-pale);border:1px solid #d5dced;border-radius:13px;padding:16px 18px;margin-bottom:16px}
+.lab-intro h3{font-family:Fraunces,Georgia,serif;font-size:20px;margin-bottom:6px}
+.lab-intro p{font-size:12px;color:var(--muted);line-height:1.6}
+.lab-layout{display:grid;grid-template-columns:1.1fr 1fr;gap:18px;align-items:start}
+.lab-preview{background:var(--paper);border:1px solid var(--line);border-radius:13px;overflow:hidden}
+.lab-controls{display:grid;gap:12px;align-content:start}
+.lab-row{display:flex;gap:8px;flex-wrap:wrap}
+.lab-provenance{font-size:12px;background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:10px 12px;display:grid;gap:4px;line-height:1.5}
+.curse{font-weight:800;letter-spacing:.4px}
+[data-theme="dark"] .lab-intro{background:#252b45;border-color:#3a4370}
+@media(max-width:650px){.lab-layout{grid-template-columns:1fr}}
