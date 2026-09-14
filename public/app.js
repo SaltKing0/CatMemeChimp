@@ -10,7 +10,7 @@ const moodTag=m=>`<span class="mood-label" data-mood="${esc(m)}">${moodInfo(m)[1
 const readState=(k,d)=>{try{return JSON.parse(localStorage.getItem('cmc-'+k))??d}catch{return d}};
 const asIds=v=>new Set(Array.isArray(v)?v.filter(x=>typeof x==='string'):[]);
 let saved=asIds(readState('saved',[])),seen=asIds(readState('seen',[])),created=[],library=[],page='discover',mood='all',query='',collection='',limit=18,order=[];
-function readBattles(){const d=readState('battles',{wins:{},plays:{},battles:0,streak:0,best:0,lastWinner:null});return {wins:{...d.wins||{}},plays:{...d.plays||{}},battles:d.battles|0,streak:d.streak|0,best:d.best|0,lastWinner:typeof d.lastWinner==='string'?d.lastWinner:null}}
+function readBattles(){const d=readState('battles',{wins:{},plays:{},battles:0,streak:0,best:0,lastWinner:null,lastChamp:null});return {wins:{...d.wins||{}},plays:{...d.plays||{}},battles:d.battles|0,streak:d.streak|0,best:d.best|0,lastWinner:typeof d.lastWinner==='string'?d.lastWinner:null,lastChamp:typeof d.lastChamp==='string'?d.lastChamp:null}}
 let battleStats=readBattles(),battleLeft=null,battleRight=null;
 const battleWins=id=>battleStats.wins[id]|0;
 const battlePlays=id=>battleStats.plays[id]|0;
@@ -28,12 +28,16 @@ function voteBattle(winnerId){if(!battleLeft||!battleRight)return;
   setLocal('battles',battleStats);checkAwards();
   const w=allMemes().find(m=>m.id===winnerId);
   const ms=streakMilestones[battleStats.streak];
-  sfx(ms?'fanfare':'pop');if(ms)confetti();
-  toast(ms||`“${w?.title||'Cat'}” takes the crown. ${battleTaunts[Math.floor(Math.random()*battleTaunts.length)]}`);
+  const champ=champId(),dethroned=champ&&battleStats.lastChamp&&champ!==battleStats.lastChamp&&battleStats.battles>3;
+  battleStats.lastChamp=champ;setLocal('battles',battleStats);
+  if(dethroned){const c=allMemes().find(m=>m.id===champ);sfx('fanfare');confetti();toast(`👑 DETHRONED! “${c?.title||'Cat'}” seizes the crown!`)}
+  else{sfx(ms?'fanfare':'pop');if(ms)confetti();toast(ms||`“${w?.title||'Cat'}” takes the crown. ${battleTaunts[Math.floor(Math.random()*battleTaunts.length)]}`)}
   pickBattle();renderArena();
 }
 function skipBattle(){if(battleStats.streak>0){toast('Streak reset. The cats judge your indecision.');sfx('chaos')}battleStats.streak=0;setLocal('battles',battleStats);pickBattle();renderArena()}
-function resetArena(){if(!battleStats.battles){toast('No battles yet — crown a cat first.');return}if(!window.confirm('Reset your Arena record? Wins, streaks and the leaderboard go back to zero.'))return;battleStats={wins:{},plays:{},battles:0,streak:0,best:0,lastWinner:null};setLocal('battles',battleStats);pickBattle();renderArena();toast('Fresh slate. The cats forgive you.')}
+function resetArena(){if(!battleStats.battles){toast('No battles yet — crown a cat first.');return}if(!window.confirm('Reset your Arena record? Wins, streaks and the leaderboard go back to zero.'))return;battleStats={wins:{},plays:{},battles:0,streak:0,best:0,lastWinner:null,lastChamp:null};setLocal('battles',battleStats);pickBattle();renderArena();toast('Fresh slate. The cats forgive you.')}
+function rankBoard(){return [...allMemes()].map(m=>({m,w:battleWins(m.id),p:battlePlays(m.id)})).filter(x=>x.p>0).sort((a,b)=>b.w-a.w||(b.w/b.p)-(a.w/a.p)||a.m.title.localeCompare(b.m.title))}
+const champId=()=>rankBoard()[0]?.m.id||null;
 const streakMilestones={5:'Five crowns in a row. The cats whisper your name.',10:'TEN STREAK. Certified cat judge.',25:'25 straight crowns. Unhinged. Legendary.',50:'50?! Touch grass. Then crown more cats.'};
 let labTop=null,labBottom=null,labCat=null;
 const randMeme=()=>allMemes()[Math.floor(Math.random()*allMemes().length)];
@@ -87,9 +91,11 @@ function renderArena(){if(!battleLeft||!battleRight)pickBattle();if(!battleLeft|
   const last=battleStats.lastWinner?allMemes().find(m=>m.id===battleStats.lastWinner):null;
   const lc=$('#last-crowned');if(last){lc.hidden=false;lc.innerHTML=`Last crowned: <button class="leader-open" data-open="${esc(last.id)}">${esc(last.title)}</button> <span>· ${battleWins(last.id)}W · ${battleRate(last.id)}%</span>`}else{lc.hidden=true;lc.innerHTML=''}
   $('#battle-grid').innerHTML=`${battleCard(battleLeft,'left')}<div class="battle-vs" aria-hidden="true">VS</div>${battleCard(battleRight,'right')}`;
-  const ranked=[...allMemes()].map(m=>({m,w:battleWins(m.id),p:battlePlays(m.id)})).filter(x=>x.p>0).sort((a,b)=>b.w-a.w||(b.w/b.p)-(a.w/a.p)||a.m.title.localeCompare(b.m.title)).slice(0,5);
-  const medals=['🥇','🥈','🥉','4.','5.'];
-  $('#leaderboard').innerHTML=`<h3>Local legends</h3><p class="leader-sub">${battleStats.battles?`From ${battleStats.battles} judged ${battleStats.battles===1?'battle':'battles'} · stored only in this browser`:'No champions yet — your votes build this board. Stored only in this browser.'}</p>${ranked.length?ranked.map((x,i)=>{const r=Math.round(x.w/x.p*100);return `<div class="leader-row"><span class="leader-medal" aria-hidden="true">${medals[i]}</span><img src="${esc(x.m.image)}" alt="" loading="lazy"><span class="leader-name">${esc(x.m.title)}</span><span class="rate-bar small" aria-hidden="true"><i style="width:${r}%"></i></span><span class="leader-score">${x.w}W · ${x.p-x.w}L · ${r}%</span><button class="leader-open" data-open="${esc(x.m.id)}" aria-label="View ${esc(x.m.title)}">View</button></div>`}).join(''):'<p class="leader-empty">Crown your first cat above and it will show up here.</p>'}`;
+  const ranked=rankBoard().slice(0,5),top3=ranked.slice(0,3),rest=ranked.slice(3);
+  const medalFor=i=>['🥇','🥈','🥉'][i];
+  const podiumOrder=[1,0,2].filter(i=>top3[i]);
+  const podiumCard=x=>{const i=top3.indexOf(x),r=Math.round(x.w/x.p*100);return `<button class="podium-card place-${i+1}" data-open="${esc(x.m.id)}" aria-label="${['Champion','Runner up','Third place'][i]}: ${esc(x.m.title)}, ${x.w} wins"><span class="podium-medal" aria-hidden="true">${medalFor(i)}</span><img src="${esc(x.m.image)}" alt="" loading="lazy"><span class="podium-name">${esc(x.m.title)}</span><span class="leader-score">${x.w}W · ${x.p-x.w}L · ${r}%</span></button>`};
+  $('#leaderboard').innerHTML=`<h3>Local legends</h3><p class="leader-sub">${battleStats.battles?`From ${battleStats.battles} judged ${battleStats.battles===1?'battle':'battles'} · stored only in this browser`:'No champions yet — your votes build this board. Stored only in this browser.'}</p>${ranked.length?`${top3.length?`<div class="podium" aria-label="Top three cats">${podiumOrder.map(i=>podiumCard(top3[i])).join('')}</div>`:''}${rest.map((x,i)=>{const r=Math.round(x.w/x.p*100);return `<div class="leader-row"><span class="leader-medal" aria-hidden="true">${i+4}.</span><img src="${esc(x.m.image)}" alt="" loading="lazy"><span class="leader-name">${esc(x.m.title)}</span><span class="rate-bar small" aria-hidden="true"><i style="width:${r}%"></i></span><span class="leader-score">${x.w}W · ${x.p-x.w}L · ${r}%</span><button class="leader-open" data-open="${esc(x.m.id)}" aria-label="View ${esc(x.m.title)}">View</button></div>`}).join('')}`:'<p class="leader-empty">Crown your first cat above and it will show up here.</p>'}`;
 }
 let viewerQueue=[],viewerIndex=0,autoTimer=null,toastTimer=null,editing=null,uploadedTemplate=null,dbPromise=null;
 const collections=[{id:'office',title:'The office survival kit',description:'For meetings that could have been naps.',image:'1bh7.jpg',filter:m=>m.tags.some(t=>['work','email','meeting','career','deadline'].includes(t))},{id:'battery',title:'The low battery club',description:'A safe space for professional nappers.',image:'11wis1.jpg',filter:m=>m.mood==='sleepy'},{id:'serotonin',title:'A little serotonin',description:'Small cats. Unreasonably big feelings.',image:'amuvy.jpg',filter:m=>m.mood==='wholesome'}];
