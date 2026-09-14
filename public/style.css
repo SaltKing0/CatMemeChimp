@@ -38,3 +38,6 @@
 .curse{font-weight:800;letter-spacing:.4px}
 [data-theme="dark"] .lab-intro{background:#252b45;border-color:#3a4370}
 @media(max-width:650px){.lab-layout{grid-template-columns:1fr}}
+.hero-paths{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:14px;font-size:10px;color:#d7d1c0}
+.hero-paths button{border:1px solid #f7f5ee44;border-radius:20px;padding:7px 12px;font-size:10px;font-weight:700;color:#f7f5ee}
+.hero-paths button:hover{background:#f7f5ee22}
