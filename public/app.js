@@ -25,7 +25,7 @@ const battleTaunts=['The crowd goes mild.','A historic moment for cats.','Democr
 function voteBattle(winnerId){if(!battleLeft||!battleRight)return;
   battleStats.plays[battleLeft.id]=battlePlays(battleLeft.id)+1;battleStats.plays[battleRight.id]=battlePlays(battleRight.id)+1;
   battleStats.wins[winnerId]=battleWins(winnerId)+1;battleStats.battles++;battleStats.streak++;battleStats.best=Math.max(battleStats.best,battleStats.streak);battleStats.lastWinner=winnerId;
-  setLocal('battles',battleStats);
+  setLocal('battles',battleStats);checkAwards();
   const w=allMemes().find(m=>m.id===winnerId);
   const ms=streakMilestones[battleStats.streak];
   sfx(ms?'fanfare':'pop');if(ms)confetti();
@@ -45,7 +45,7 @@ function renderLab(){if(!labTop||!labBottom||!labCat){rollLab();return}const m=l
   const stars='★'.repeat(curseRating())+'☆'.repeat(5-curseRating());
   const names=['blessed','mildly cursed','cursed','deeply cursed','FORBIDDEN'];
   $('#lab-provenance').innerHTML=`<span>Above the cat: <strong>${esc(labTop.title)}</strong></span><span>Below the cat: <strong>${esc(labBottom.title)}</strong></span><span>The cat: <strong>${esc(labCat.title)}</strong></span><span class="curse">${stars} ${names[curseRating()-1]}</span>`}
-async function saveLab(){const m={...labMeme(),id:'own-'+crypto.randomUUID(),kind:'creation',added:new Date().toISOString(),tags:['frankenmeme','my creation']};try{await dbPut(m);created.push(m);sfx('fanfare');navigate('studio');toast('Abomination preserved for future generations.')}catch{toast('Could not save in this browser. Use PNG to keep your creation.')}}
+async function saveLab(){const m={...labMeme(),id:'own-'+crypto.randomUUID(),kind:'creation',added:new Date().toISOString(),tags:['frankenmeme','my creation']};try{await dbPut(m);created.push(m);labSaves++;setLocal('stats',{labSaves});sfx('fanfare');checkAwards();navigate('studio');toast('Abomination preserved for future generations.')}catch{toast('Could not save in this browser. Use PNG to keep your creation.')}}
 function readSets(){const d=readState('sets',[]);return Array.isArray(d)?d.filter(s=>s&&typeof s.id==='string'&&typeof s.name==='string'&&Array.isArray(s.ids)):[]}
 let userSets=readSets();
 const saveSets=()=>setLocal('sets',userSets);
@@ -57,6 +57,28 @@ function renderSets(){const p=$('#sets-panel');if(!p)return;
   p.innerHTML=`<h3>Your sets</h3><p class="leader-sub">Hoard with purpose. Sets live in this browser.</p><form id="new-set-form"><input id="new-set-name" maxlength="40" placeholder="Name a set… e.g. send to mom" aria-label="New set name"><button class="primary-button" type="submit">Create set</button></form>${userSets.length?userSets.map(s=>`<div class="set-row"><button class="set-open ${collection===s.id?'active':''}" data-collection="${esc(s.id)}" aria-pressed="${collection===s.id}"><strong>${esc(s.name)}</strong><span>${s.ids.length} ${s.ids.length===1?'cat':'cats'}</span></button><button class="set-delete" data-delset="${esc(s.id)}" aria-label="Delete ${esc(s.name)}">Delete</button></div>`).join(''):'<p class="leader-empty">No sets yet. Name one above — future you says thanks.</p>'}`}
 function renderCollect(){const m=currentMeme();const box=$('#collect-list');if(!box||!m)return;
   box.innerHTML=userSets.length?userSets.map(s=>`<button class="collect-row ${s.ids.includes(m.id)?'in':''}" data-collect="${esc(s.id)}" aria-pressed="${s.ids.includes(m.id)}"><span>${s.ids.includes(m.id)?'✓':'＋'} ${esc(s.name)}</span><span class="leader-score">${s.ids.length}</span></button>`).join(''):'<p class="leader-empty">No sets yet — create one below.</p>'}
+const ACH=[
+ {id:'first-crown',icon:'👑',name:'First blood (but cats)',desc:'Crown your first Arena champion'},
+ {id:'streak-5',icon:'🔥',name:'Warming up',desc:'Reach a 5-crown streak'},
+ {id:'streak-10',icon:'🔥',name:'Certified judge',desc:'Reach a 10-crown streak'},
+ {id:'streak-25',icon:'🏆',name:'Unhinged',desc:'Reach a 25-crown streak'},
+ {id:'brawler-100',icon:'⚔️',name:'Centurion',desc:'Judge 100 battles'},
+ {id:'collector',icon:'💾',name:'Hoarder',desc:'Save 10 cats'},
+ {id:'creator',icon:'✨',name:'Meme parent',desc:'Create your first meme'},
+ {id:'prolific',icon:'🏭',name:'Meme factory',desc:'Create 5 memes'},
+ {id:'frankenstein',icon:'🧪',name:'It’s alive',desc:'Save a Frankenmeme'},
+ {id:'explorer',icon:'🧭',name:'Completionist-ish',desc:'View 75 different cats'}];
+let awards=readState('awards',[]),labSaves=readState('stats',{labSaves:0}).labSaves|0;
+function checkAwards(){const earned=[];
+  const need=(id,ok)=>{if(ok&&!awards.includes(id)&&!earned.includes(id))earned.push(id)};
+  need('first-crown',battleStats.battles>0);need('streak-5',battleStats.best>=5);need('streak-10',battleStats.best>=10);need('streak-25',battleStats.best>=25);need('brawler-100',battleStats.battles>=100);
+  need('collector',allMemes().filter(m=>saved.has(m.id)).length>=10);need('creator',created.length>=1);need('prolific',created.length>=5);
+  need('frankenstein',labSaves>=1);need('explorer',seen.size>=75);
+  if(!earned.length)return;awards=[...awards,...earned];setLocal('awards',awards);sfx('fanfare');
+  toast(earned.length===1?`🏆 Achievement: ${ACH.find(a=>a.id===earned[0]).name}!`:`🏆 ${earned.length} achievements: ${earned.map(id=>ACH.find(a=>a.id===id).name).join(' · ')}!`);
+  renderTrophies()}
+function renderTrophies(){const t=$('#trophies');if(!t)return;
+  t.innerHTML=`<h3>Trophies</h3><p class="leader-sub">${awards.length} of ${ACH.length} unlocked · stored in this browser</p><div class="trophy-grid">${ACH.map(a=>{const has=awards.includes(a.id);return `<div class="trophy ${has?'won':''}" title="${esc(a.desc)}"><span aria-hidden="true">${has?a.icon:'🔒'}</span><strong>${esc(a.name)}</strong><small>${esc(a.desc)}</small></div>`}).join('')}</div>`}
 function battleCard(m,side){const wins=battleWins(m.id),plays=battlePlays(m.id),rate=battleRate(m.id),label=moodInfo(m.mood)[2];
   return `<button class="battle-card" data-vote="${esc(m.id)}" aria-label="Vote for ${esc(m.title)}, ${esc(label)}, ${wins} ${wins===1?'win':'wins'}${rate!==null?`, ${rate} percent win rate`:', no battles yet'}. Press ${side==='left'?'left arrow':'right arrow'}."><span class="battle-side">${side==='left'?'← CONTENDER':'CONTENDER →'}</span>${visual(m,'eager')}<span class="battle-meta">${moodTag(m.mood)}<span class="battle-title">${esc(m.title)}</span><span class="battle-record">${plays?`${wins}W · ${plays-wins}L · ${rate}%`:'No battles yet — be its first fan'}</span>${rate!==null?`<span class="rate-bar" aria-hidden="true"><i style="width:${rate}%"></i></span>`:''}<span class="battle-cta">👑 Crown this cat</span></span></button>`}
 function renderArena(){if(!battleLeft||!battleRight)pickBattle();if(!battleLeft||!battleRight)return;
@@ -100,7 +122,7 @@ function render(){updateCounts();$$('[data-page]').forEach(b=>{b.classList.toggl
   document.querySelector('.results-bar').hidden=hideGrid;$('#meme-grid').hidden=hideGrid;$('#empty').hidden=hideGrid?true:!!0;$('#load-more').hidden=hideGrid;$('#end-note').hidden=hideGrid;
   if(inArena){if(!allMemes().length){$('#arena-stats').innerHTML='';$('#battle-grid').innerHTML='';$('#leaderboard').innerHTML='<p class="leader-empty">The cats haven’t arrived yet.</p>'}else renderArena();return}
   if(inLab){renderLab();return}
-  if(page==='collections'){$('#collection-grid').innerHTML=collections.map(c=>`<button class="collection-card ${collection===c.id?'active':''}" data-collection="${c.id}" aria-pressed="${collection===c.id}"><small>${library.filter(c.filter).length} CATS · CURATED COLLECTION</small><h3>${c.title}</h3><p>${c.description}</p><img src="/assets/memes/${c.image}" alt="" loading="lazy"></button>`).join('');renderSets()}
+  if(page==='collections'){$('#collection-grid').innerHTML=collections.map(c=>`<button class="collection-card ${collection===c.id?'active':''}" data-collection="${c.id}" aria-pressed="${collection===c.id}"><small>${library.filter(c.filter).length} CATS · CURATED COLLECTION</small><h3>${c.title}</h3><p>${c.description}</p><img src="/assets/memes/${c.image}" alt="" loading="lazy"></button>`).join('');renderSets();renderTrophies()}
   $('#stash').hidden=page!=='collections';
  $('#mood-filters').innerHTML=moods.map(([id,symbol,label])=>`<button class="mood-filter ${mood===id?'active':''}" data-mood="${id}" aria-pressed="${mood===id}"><span aria-hidden="true">${symbol}</span>${label}</button>`).join('');
   const list=filterMemes(),display=list.slice(0,limit);$('#meme-grid').innerHTML=display.map(card).join('');
@@ -113,7 +135,7 @@ function render(){updateCounts();$$('[data-page]').forEach(b=>{b.classList.toggl
  $('#empty-action').textContent=page==='studio'&&unfiltered?'Make your first meme':page==='saved'&&unfiltered?'Find some favorites':'Show all cats';
 }
 function navigate(p){page=p;mood='all';query='';collection='';limit=18;$('#search').value='';if(p==='arena'&&(!battleLeft||!battleRight))pickBattle();if(p==='lab'&&(!labTop||!labBottom||!labCat))rollLab();render();window.scrollTo({top:0,behavior:'smooth'})}
-function toggleSave(id){const added=!saved.has(id);const next=new Set(saved);next.has(id)?next.delete(id):next.add(id);if(!setLocal('saved',[...next]))return;saved=next;if(added)sfx('save');
+function toggleSave(id){const added=!saved.has(id);const next=new Set(saved);next.has(id)?next.delete(id):next.add(id);if(!setLocal('saved',[...next]))return;saved=next;if(added)sfx('save');checkAwards();
  if(page==='saved')render();else{$$(`[data-save="${id}"]`).forEach(b=>{b.classList.toggle('saved',saved.has(id));b.setAttribute('aria-pressed',saved.has(id));const m=allMemes().find(m=>m.id===id);b.setAttribute('aria-label',`${saved.has(id)?'Unsave':'Save'} ${m?.title||'meme'}`)});updateCounts()}
  if($('#viewer').open)updateViewerSave();toast(saved.has(id)?'A good cat, safely tucked away.':'Released back into the wild.');
 }
@@ -124,7 +146,7 @@ function updateViewerSave(){const on=saved.has(currentMeme()?.id);$('#viewer-sav
 function showViewer(){const m=currentMeme();if(!m)return;$('#viewer-image-wrap').innerHTML=visual(m,'eager');$('#viewer-title').textContent=m.title;$('#viewer-mood').outerHTML=moodTag(m.mood).replace('class="mood-label"','id="viewer-mood" class="mood-label"');$('#viewer-template').textContent=m.kind==='creation'?'Your original creation':`${m.template} · A CATMEMECHIMP remix`;
  $('#viewer-progress').textContent=`${String(viewerIndex+1).padStart(2,'0')} / ${String(viewerQueue.length).padStart(2,'0')}`;
  $('#viewer-source').hidden=!m.source;if(m.source)$('#viewer-source').href=m.source;updateViewerSave();
- seen.add(m.id);try{localStorage.setItem('cmc-seen',JSON.stringify([...seen]))}catch{}
+  seen.add(m.id);try{localStorage.setItem('cmc-seen',JSON.stringify([...seen]))}catch{}checkAwards();
  history.replaceState(null,'',m.kind==='creation'?location.pathname:location.pathname+'#meme='+encodeURIComponent(m.id));
  if(autoTimer)restartAutoplay();
 }
@@ -186,7 +208,7 @@ document.addEventListener('submit',e=>{if(e.target.id==='new-set-form'){e.preven
 $('#create-open').onclick=()=>openEditor();$('#editor-close').onclick=()=>$('#editor').close();$('#top-caption').oninput=preview;$('#bottom-caption').oninput=preview;
 $('#template-select').onchange=()=>{const m=$('#template-select').value==='custom'?uploadedTemplate:library.find(m=>m.image===$('#template-select').value);if(m){editing={...editing,image:m.image,template:m.template,source:m.source};preview()}};
 $('#upload').onchange=()=>uploadCat($('#upload').files[0]);$('#editor-download').onclick=()=>download(editorMeme(),$('#editor-download'));
-$('#editor-form').onsubmit=async e=>{e.preventDefault();const button=e.submitter;button.disabled=true;const m={...editorMeme(),id:'own-'+crypto.randomUUID(),kind:'creation',added:new Date().toISOString(),tags:['my creation']};try{await dbPut(m);created.push(m);$('#editor').close();sfx('fanfare');navigate('studio');toast('A masterpiece has been born. Saved in My creations.')}catch{toast('Could not save in this browser. Use PNG to keep your creation.')}finally{button.disabled=false}};
+$('#editor-form').onsubmit=async e=>{e.preventDefault();const button=e.submitter;button.disabled=true;const m={...editorMeme(),id:'own-'+crypto.randomUUID(),kind:'creation',added:new Date().toISOString(),tags:['my creation']};try{await dbPut(m);created.push(m);$('#editor').close();sfx('fanfare');checkAwards();navigate('studio');toast('A masterpiece has been born. Saved in My creations.')}catch{toast('Could not save in this browser. Use PNG to keep your creation.')}finally{button.disabled=false}};
 $('#about-open').onclick=about;$('#shortcuts-open').onclick=shortcuts;$('#sources-open').onclick=sources;$('#info-close').onclick=()=>$('#info').close();
 for(const d of $$('dialog'))d.addEventListener('click',e=>{if(e.target===d){const r=d.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)d.close()}});
 document.addEventListener('keydown',e=>{if(e.ctrlKey||e.altKey||e.metaKey||/INPUT|TEXTAREA|SELECT/.test(e.target.tagName)||e.target.isContentEditable)return;

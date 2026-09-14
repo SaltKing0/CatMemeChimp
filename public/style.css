@@ -41,6 +41,13 @@
 @media(max-width:650px){.lab-layout{grid-template-columns:1fr}}
 #stash{display:grid;gap:16px;margin-top:18px}
 .sets-panel,.trophies{background:var(--paper);border:1px solid var(--line);border-radius:13px;padding:16px}
+.trophy-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px;margin-top:10px}
+.trophy{border:1px solid var(--line);border-radius:10px;padding:12px 10px;text-align:center;display:grid;gap:4px;justify-items:center;opacity:.5}
+.trophy.won{opacity:1;border-color:#d9c57c;background:#fbf6e3}
+[data-theme="dark"] .trophy.won{background:#2e2a18;border-color:#6b5f30}
+.trophy span{font-size:26px}
+.trophy strong{font-size:11px}
+.trophy small{font-size:10px;color:var(--muted);line-height:1.4}
 .sets-panel h3,.trophies h3{font-family:Fraunces,Georgia,serif;font-size:20px}
 #new-set-form{display:flex;gap:8px;margin:10px 0 6px}
 #new-set-form input{flex:1;border:1px solid var(--line);background:var(--paper);color:var(--olive);border-radius:7px;padding:10px 12px;font-size:12px;min-width:0}
