@@ -33,6 +33,9 @@ else if (Number(count[1]) !== lib.length) fail(`#all-count is ${count[1]} but li
 for (const id of ['arena', 'battle-grid', 'arena-stats', 'leaderboard', 'last-crowned', 'arena-skip', 'arena-reset', 'meme-grid', 'viewer', 'editor']) {
   if (!html.includes(`id="${id}"`)) fail(`index.html missing #${id}`);
 }
+for (const f of ['sw.js', 'app.js', 'style.css', 'library.json', 'manifest.webmanifest']) {
+  if (!existsSync(join(pub, f))) fail(`public/${f} missing`);
+}
 
 if (failures.length) {
   console.error(`smoke: ${failures.length} problem(s)\n- ${failures.join('\n- ')}`);
