@@ -90,7 +90,7 @@ function doPull(bonus){
   savePack();packStage='opening';packReveal=pack.lastPull;renderPacks();sfx('chaos');
   setTimeout(()=>{if(page!=='packs')return;packStage='revealed';renderPacks();
     if(rarity==='legendary'){sfx('fanfare');confetti()}else sfx('save');
-    checkAwards();
+    checkAwards();if(!bonus&&pack.streak>=2)buddySay('streak');
     toast(wasOwned?`✨ SHINY ${lucky.title}! A duplicate, but make it fashion.`:`${bonus?'Forged pull! ':rarity==='legendary'?'🌟 LEGENDARY PULL! ':rarity==='rare'?'💎 Rare pull! ':''}“${lucky.title}” joins your haul.`)}
   ,1100)}
 function packList(){let list=packTab==='loved'?allMemes().filter(m=>saved.has(m.id)):allMemes().filter(m=>pack.haul[m.id]);
@@ -226,7 +226,27 @@ function render(){updateCounts();$$('[data-page]').forEach(b=>{b.classList.toggl
   $('#empty-copy').textContent=page==='saved'&&unfiltered?'Tap the heart on any meme. We’ll keep it warm for you.':page==='studio'&&unfiltered?'Pick a cat, add a caption, make someone’s day.':`Try a different search — ${library.length} cats are hiding somewhere.`;
  $('#empty-action').textContent=page==='studio'&&unfiltered?'Make your first meme':page==='saved'&&unfiltered?'Find some favorites':'Show all cats';
 }
-function navigate(p){page=p;mood='all';query='';collection='';limit=18;$('#search').value='';if(p==='arena'&&(!battleLeft||!battleRight))pickBattle();if(p==='lab'&&(!labTop||!labBottom||!labCat))rollLab();render();window.scrollTo({top:0,behavior:'smooth'})}
+const BUDDY_QUIPS={
+ hello:['Psst. I saved you the good cats. You’re welcome.','New here? Rule one: trust the banana cat. Rule two: see rule one.','I curate. The cats approve. Mostly.'],
+ idle:['Still here? Elite behavior.','You’ve been staring for a while. Hydrate, then resume cats.','I counted your blinks. Rookie numbers.','The cats noticed you stayed. They’re pretending not to care.'],
+ click:['Boop received. Filing it under “morale”.','Yes, I’m real. No, I won’t share my snacks.','Poke me again and I’ll tell the cats.','I’m the reason the vibes are like this.'],
+ night:['Past midnight, huh? The forbidden browsing hours. Respect.','Shh. The day-people must never know about this.'],
+ packReady:['Your daily pack is RIPE. Go rip it.','Psst — fresh pack upstairs. Don’t let it age.'],
+ streak:['Streak looking tasty. Don’t fumble it.','One more day keeps the streak dream alive.']};
+let buddyMuted=readState('buddy',{muted:false}).muted===true,buddyLast=0,buddyHideT=null,buddyPressT=null;
+function buddySay(kind){if(buddyMuted&&kind!=='force')return;const now=Date.now();if(kind!=='force'&&now-buddyLast<25000)return;buddyLast=now;
+  const lines=BUDDY_QUIPS[kind]||BUDDY_QUIPS.idle;const b=$('#buddy-bubble');if(!b)return;
+  b.textContent=lines[Math.floor(Math.random()*lines.length)];b.hidden=false;
+  clearTimeout(buddyHideT);buddyHideT=setTimeout(()=>{b.hidden=true},4500)}
+function buddyInit(){const w=$('#chimp-buddy');if(!w)return;w.hidden=false;w.classList.toggle('muted',buddyMuted);
+  setTimeout(()=>{if(page==='discover'&&!location.hash.slice(1))buddySay('hello')},2500);
+  $('#buddy-btn').onclick=()=>buddySay('force');
+  $('#buddy-btn').addEventListener('pointerdown',()=>{clearTimeout(buddyPressT);buddyPressT=setTimeout(()=>{buddyMuted=!buddyMuted;setLocal('buddy',{muted:buddyMuted});w.classList.toggle('muted',buddyMuted);$('#buddy-bubble').hidden=true;toast(buddyMuted?'Chimp muted. He’ll pretend it doesn’t hurt.':'Chimp is back. He missed you terribly.')},650)});
+  $('#buddy-btn').addEventListener('pointerup',()=>clearTimeout(buddyPressT));
+  $('#buddy-btn').addEventListener('pointerleave',()=>clearTimeout(buddyPressT));
+  let idleT=null;const poke=()=>{clearTimeout(idleT);idleT=setTimeout(()=>buddySay('idle'),90000);const h=new Date().getHours();if((h>=23||h<5)&&Math.random()<0.3)buddySay('night')};
+  for(const ev of ['pointerdown','keydown'])document.addEventListener(ev,poke,{passive:true,capture:true});poke()}
+function navigate(p){page=p;mood='all';query='';collection='';limit=18;$('#search').value='';if(p==='arena'&&(!battleLeft||!battleRight))pickBattle();if(p==='lab'&&(!labTop||!labBottom||!labCat))rollLab();if(p==='packs'&&canOpenPack())setTimeout(()=>buddySay('packReady'),800);render();window.scrollTo({top:0,behavior:'smooth'})}
 function toggleSave(id){const added=!saved.has(id);const next=new Set(saved);next.has(id)?next.delete(id):next.add(id);if(!setLocal('saved',[...next]))return;saved=next;if(added)sfx('save');checkAwards();
    if(page==='packs')render();else{$$(`[data-save="${id}"]`).forEach(b=>{b.classList.toggle('saved',saved.has(id));b.setAttribute('aria-pressed',saved.has(id));const m=allMemes().find(m=>m.id===id);b.setAttribute('aria-label',`${saved.has(id)?'Unsave':'Save'} ${m?.title||'meme'}`)});updateCounts()}
  if($('#viewer').open)updateViewerSave();toast(saved.has(id)?'A good cat, safely tucked away.':'Released back into the wild.');
@@ -355,7 +375,7 @@ document.addEventListener('keydown',e=>{if(e.ctrlKey||e.altKey||e.metaKey||/INPU
 document.addEventListener('visibilitychange',()=>{if(document.hidden&&autoTimer)stopAutoplay()});
 let swipe=null;$('#viewer-image-wrap').addEventListener('touchstart',e=>{swipe={x:e.changedTouches[0].clientX,y:e.changedTouches[0].clientY}},{passive:true});$('#viewer-image-wrap').addEventListener('touchend',e=>{if(!swipe)return;const dx=e.changedTouches[0].clientX-swipe.x,dy=e.changedTouches[0].clientY-swipe.y;if(Math.abs(dx)>55&&Math.abs(dx)>Math.abs(dy)*1.5)browse(dx<0?1:-1);swipe=null},{passive:true});
 let battleSwipe=null;$('#battle-grid').addEventListener('touchstart',e=>{battleSwipe={x:e.changedTouches[0].clientX,y:e.changedTouches[0].clientY}},{passive:true});$('#battle-grid').addEventListener('touchend',e=>{if(!battleSwipe||page!=='arena')return;const dx=e.changedTouches[0].clientX-battleSwipe.x,dy=e.changedTouches[0].clientY-battleSwipe.y;battleSwipe=null;if(Math.abs(dx)>55&&Math.abs(dx)>Math.abs(dy)*1.5){if(dx<0&&battleRight)voteBattle(battleRight.id);else if(dx>0&&battleLeft)voteBattle(battleLeft.id)}},{passive:true});
-async function init(){if('serviceWorker' in navigator){try{await navigator.serviceWorker.register('/sw.js')}catch{}}try{const response=await fetch('/library.json');if(!response.ok)throw new Error('The archive could not load.');library=await response.json();try{created=await dbRead()}catch{toast('Creations storage is unavailable; PNG downloads still work.')}battleStats=readBattles();rollSeason();pickBattle();rollLab();render();const deepId=new URLSearchParams(location.hash.slice(1)).get('meme');if(deepId){const m=library.find(m=>m.id===deepId);if(m)openViewer(m.id,library);else toast('That cat link is not in this archive.')}
+async function init(){if('serviceWorker' in navigator){try{await navigator.serviceWorker.register('/sw.js')}catch{}}try{const response=await fetch('/library.json');if(!response.ok)throw new Error('The archive could not load.');library=await response.json();try{created=await dbRead()}catch{toast('Creations storage is unavailable; PNG downloads still work.')}battleStats=readBattles();rollSeason();pickBattle();rollLab();render();buddyInit();const deepId=new URLSearchParams(location.hash.slice(1)).get('meme');if(deepId){const m=library.find(m=>m.id===deepId);if(m)openViewer(m.id,library);else toast('That cat link is not in this archive.')}
   if(!deepId&&!readState('welcomed',false)){setLocal('welcomed',true);setTimeout(()=>info('Welcome to the cat archive.',`<p>Follow the thread: <strong>🔍 Find → 🏟 Crown → 🧪 Stitch → 📦 Keep.</strong></p><p><strong>${library.length} memes.</strong> Battle them in the Arena, stitch abominations in the Lab, make your own in the Studio, and hoard everything in Collections.</p><p>Press <strong>/</strong> to search, <strong>R</strong> for a random cat, <strong>?</strong> for all shortcuts. Everything stays in this browser.</p>`),450)}
  }catch(e){$('#result-count').textContent='The cats couldn’t arrive.';$('#empty').hidden=false;$('#empty-title').textContent='A small cat-astrophe.';$('#empty-copy').textContent='The local library could not load. Reload to try again.';$('#empty-action').textContent='Try again';$('#empty-action').onclick=()=>location.reload();console.error(e)}}
 window.addEventListener('hashchange',()=>{const id=new URLSearchParams(location.hash.slice(1)).get('meme');if(!id){if($('#viewer').open)closeViewer();return}const m=library.find(m=>m.id===id);if(!m){toast('That cat link is not in this archive.');return}if($('#viewer').open){viewerQueue=[...library];viewerIndex=viewerQueue.findIndex(m=>m.id===id);showViewer()}else openViewer(id,library)});
