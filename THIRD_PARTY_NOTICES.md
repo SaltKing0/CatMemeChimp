@@ -13,6 +13,14 @@ Before using or redistributing an image separately, determine whether your use i
 - Imgflip terms: https://imgflip.com/terms
 - Imgflip cat-template search: https://imgflip.com/memesearch?q=cat
 
+## TV bumper clips
+
+The MP4 files in `public/assets/clips/` are short, muted excerpts transcoded locally with ffmpeg for size. They are bundled under their original Creative Commons licenses, which are not replaced by this repository's MIT license:
+
+- `calico.mp4` — excerpt of "Calico kitten playing" by باسم, CC BY-SA 4.0. Source: https://commons.wikimedia.org/wiki/File:Calico_kitten_playing.webm
+- `tokyo.mp4` — excerpt of "Kitten playing - Tokyo - Jan 7 2020" by Nesnad, CC BY 4.0. Source: https://commons.wikimedia.org/wiki/File:Kitten_playing_-_Tokyo_-_Jan_7_2020.webm
+- `gatos.mp4` — excerpt of "Gatos hmnos" by EEIM, CC BY-SA 4.0. Source: https://commons.wikimedia.org/wiki/File:Gatos_hmnos.webm
+
 ## Fonts
 
 The WOFF2 files in `public/assets/fonts/` are DM Sans and Fraunces files downloaded through Google Fonts. Both families are distributed under the SIL Open Font License 1.1. Their license applies to the font files; the application's MIT license does not replace it.

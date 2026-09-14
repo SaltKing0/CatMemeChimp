@@ -41,10 +41,10 @@ for (const m of js.matchAll(/\$\('#([A-Za-z0-9-]+)'\)/g)) {
 const count = html.match(/id="all-count">(\d+)/);
 if (!count) fail('index.html missing #all-count');
 else if (Number(count[1]) !== lib.length) fail(`#all-count is ${count[1]} but library has ${lib.length}`);
-for (const id of ['arena', 'battle-grid', 'arena-stats', 'leaderboard', 'last-crowned', 'arena-skip', 'arena-reset', 'lab', 'lab-preview', 'lab-provenance', 'lab-top', 'lab-bottom', 'lab-cat', 'lab-chaos', 'lab-save', 'lab-download', 'theme-toggle', 'sound-toggle', 'confetti', 'stash', 'sets-panel', 'trophies', 'viewer-collect', 'collect-dialog', 'collect-list', 'collect-new', 'collect-new-name', 'tv-toggle', 'tv-overlay', 'tv-chan', 'tv-clock', 'tv-live', 'tv-count', 'tv-name', 'tv-next', 'tv-ch-up', 'tv-ch-down', 'tv-vol', 'tv-speed', 'tv-sleep', 'tv-exit', 'screen', 'zap', 'packs', 'pack-panel', 'pack-stats', 'pack-tabs', 'haul-grid', 'daily-count', 'chimp-buddy', 'buddy-bubble', 'buddy-btn', 'ticker', 'ticker-inner', 'viewer-more', 'editor-font', 'editor-style', 'editor-sticker', 'editor-corner', 'editor-motion', 'lab-motion', 'lab-inspire', 'meme-grid', 'viewer', 'editor']) {
+for (const id of ['arena', 'battle-grid', 'arena-stats', 'leaderboard', 'last-crowned', 'arena-skip', 'arena-reset', 'lab', 'lab-preview', 'lab-provenance', 'lab-top', 'lab-bottom', 'lab-cat', 'lab-chaos', 'lab-save', 'lab-download', 'theme-toggle', 'sound-toggle', 'confetti', 'stash', 'sets-panel', 'trophies', 'viewer-collect', 'collect-dialog', 'collect-list', 'collect-new', 'collect-new-name', 'tv-toggle', 'tv-overlay', 'tv-chan', 'tv-clock', 'tv-live', 'tv-count', 'tv-name', 'tv-next', 'tv-ch-up', 'tv-ch-down', 'tv-vol', 'tv-speed', 'tv-sleep', 'tv-exit', 'tv-vj', 'tv-clip-upload', 'screen', 'zap', 'packs', 'pack-panel', 'pack-stats', 'pack-tabs', 'haul-grid', 'daily-count', 'chimp-buddy', 'buddy-bubble', 'buddy-btn', 'ticker', 'ticker-inner', 'viewer-more', 'editor-font', 'editor-style', 'editor-sticker', 'editor-corner', 'editor-motion', 'lab-motion', 'lab-inspire', 'meme-grid', 'viewer', 'editor']) {
   if (!html.includes(`id="${id}"`)) fail(`index.html missing #${id}`);
 }
-for (const f of ['sw.js', 'app.js', 'style.css', 'library.json', 'manifest.webmanifest']) {
+for (const f of ['sw.js', 'app.js', 'style.css', 'library.json', 'manifest.webmanifest', 'assets/clips/calico.mp4', 'assets/clips/tokyo.mp4', 'assets/clips/gatos.mp4']) {
   if (!existsSync(join(pub, f))) fail(`public/${f} missing`);
 }
 
