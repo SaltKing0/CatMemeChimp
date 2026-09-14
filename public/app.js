@@ -254,8 +254,8 @@ function buddySay(kind){if(buddyMuted&&kind!=='force')return;const now=Date.now(
   b.textContent=lines[Math.floor(Math.random()*lines.length)];b.hidden=false;
   clearTimeout(buddyHideT);buddyHideT=setTimeout(()=>{b.hidden=true},4500)}
 function buddyInit(){const w=$('#chimp-buddy');if(!w)return;w.hidden=false;w.classList.toggle('muted',buddyMuted);
-  setTimeout(()=>{if(page==='discover'&&!location.hash.slice(1))buddySay('hello')},2500);
-  $('#buddy-btn').onclick=()=>buddySay('force');
+  setTimeout(()=>{if(page==='discover'&&!location.hash.slice(1)){buddySay('hello');sfx('meow')}},2500);
+  $('#buddy-btn').onclick=()=>{sfx('meow');buddySay('force')};
   $('#buddy-btn').addEventListener('pointerdown',()=>{clearTimeout(buddyPressT);buddyPressT=setTimeout(()=>{buddyMuted=!buddyMuted;setLocal('buddy',{muted:buddyMuted});w.classList.toggle('muted',buddyMuted);$('#buddy-bubble').hidden=true;toast(buddyMuted?'Biscuit muted. She’ll pretend it doesn’t hurt.':'Biscuit is back. She missed you terribly.')},650)});
   $('#buddy-btn').addEventListener('pointerup',()=>clearTimeout(buddyPressT));
   $('#buddy-btn').addEventListener('pointerleave',()=>clearTimeout(buddyPressT));
@@ -387,7 +387,7 @@ const VOLS=[1,0.6,0.3,0];let volIdx=Math.max(0,VOLS.indexOf(masterVol));if(VOLS[
 for(const ev of ['pointerdown','keydown'])document.addEventListener(ev,()=>{audioReady=true},{once:true,capture:true});
 function tone(freq,dur,{type='sine',vol=0.12,at=0,slide=null}={}){const t0=audioCtx.currentTime+at;const o=audioCtx.createOscillator(),g=audioCtx.createGain();o.type=type;o.frequency.setValueAtTime(freq,t0);if(slide)o.frequency.exponentialRampToValueAtTime(slide,t0+dur);g.gain.setValueAtTime(0.0001,t0);g.gain.exponentialRampToValueAtTime(Math.max(0.0001,vol*masterVol),t0+0.015);g.gain.exponentialRampToValueAtTime(0.0001,t0+dur);o.connect(g);g.connect(audioCtx.destination);o.start(t0);o.stop(t0+dur+0.05)}
 function sfx(name){if(!soundOn||!audioReady)return;try{if(!audioCtx)audioCtx=new (window.AudioContext||window.webkitAudioContext)();if(audioCtx.state==='suspended')audioCtx.resume();
-  if(name==='pop')tone(520,0.12,{slide:880});else if(name==='save'){tone(660,0.1);tone(880,0.14,{at:0.09})}else if(name==='fanfare')[523,659,784,1047].forEach((f,i)=>tone(f,0.16,{at:i*0.09,type:'triangle'}));else if(name==='blip')tone(440,0.07,{type:'square',vol:0.05});else if(name==='chaos')tone(300,0.2,{slide:150,type:'sawtooth',vol:0.06})}catch{}}
+  if(name==='pop')tone(520,0.12,{slide:880});else if(name==='meow'){tone(500,0.15,{slide:760,type:'triangle',vol:0.1});tone(760,0.28,{at:0.14,slide:420,type:'triangle',vol:0.1})}else if(name==='save'){tone(660,0.1);tone(880,0.14,{at:0.09})}else if(name==='fanfare')[523,659,784,1047].forEach((f,i)=>tone(f,0.16,{at:i*0.09,type:'triangle'}));else if(name==='blip')tone(440,0.07,{type:'square',vol:0.05});else if(name==='chaos')tone(300,0.2,{slide:150,type:'sawtooth',vol:0.06})}catch{}}
 function applySoundIcon(){const b=$('#sound-toggle');if(!b)return;b.innerHTML=icon(soundOn?'volume':'mute');b.setAttribute('aria-label',soundOn?'Mute sounds':'Unmute sounds')}
 function toggleSound(){soundOn=!soundOn;setLocal('sound',soundOn);applySoundIcon();if(soundOn)sfx('save');toast(soundOn?'Sound on. The cats are audible.':'Sound off. Silent judgment continues.')}
 applySoundIcon();$('#sound-toggle').onclick=toggleSound;
