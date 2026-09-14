@@ -27,6 +27,14 @@ for (const [i, m] of lib.entries()) {
 }
 
 const html = readFileSync(join(pub, 'index.html'), 'utf8');
+const js = readFileSync(join(pub, 'app.js'), 'utf8');
+const defined = new Set([
+  ...[...html.matchAll(/id="([A-Za-z0-9-]+)"/g)].map((m) => m[1]),
+  ...[...js.matchAll(/id="([A-Za-z0-9-]+)"/g)].map((m) => m[1]),
+]);
+for (const m of js.matchAll(/\$\('#([A-Za-z0-9-]+)'\)/g)) {
+  if (!defined.has(m[1])) fail(`app.js uses #${m[1]} but no such id is rendered`);
+}
 const count = html.match(/id="all-count">(\d+)/);
 if (!count) fail('index.html missing #all-count');
 else if (Number(count[1]) !== lib.length) fail(`#all-count is ${count[1]} but library has ${lib.length}`);
