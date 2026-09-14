@@ -13,7 +13,10 @@
     "template": "sad thumbs up cat",
     "source": "https://imgflip.com/meme/231792809/sad-thumbs-up-cat",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2023,
+    "status": "alive",
+    "lore": "Thumbs up. Spirits down."
   },
   {
     "id": "cat-002",
@@ -29,7 +32,10 @@
     "template": "Huh Cat",
     "source": "https://imgflip.com/meme/488919824/Huh-Cat",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2024,
+    "status": "alive",
+    "lore": "Confused in high definition."
   },
   {
     "id": "cat-003",
@@ -46,7 +52,10 @@
     "template": "I Should Buy A Boat Cat",
     "source": "https://imgflip.com/meme/I-Should-Buy-A-Boat-Cat",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2012,
+    "status": "immortal",
+    "lore": "Boat questionable. Box undeniable."
   },
   {
     "id": "cat-004",
@@ -62,7 +71,10 @@
     "template": "Grumpy Cat",
     "source": "https://imgflip.com/meme/Grumpy-Cat",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2012,
+    "status": "immortal",
+    "lore": "Grumpy since 2012. Forever unimpressed."
   },
   {
     "id": "cat-005",
@@ -78,7 +90,10 @@
     "template": "Banana cat",
     "source": "https://imgflip.com/meme/470680617/Banana-cat",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2023,
+    "status": "alive",
+    "lore": "Potassium with a fanbase."
   },
   {
     "id": "cat-006",
@@ -94,7 +109,10 @@
     "template": "Sleepy Kitten",
     "source": "https://imgflip.com/meme/63663121/Sleepy-Kitten",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2013,
+    "status": "classic",
+    "lore": "Eepy before eepy was a word."
   },
   {
     "id": "cat-007",
@@ -110,7 +128,10 @@
     "template": "Smiling Cat",
     "source": "https://imgflip.com/meme/Smiling-Cat",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2022,
+    "status": "alive",
+    "lore": "Smiling through the chaos."
   },
   {
     "id": "cat-008",
@@ -126,7 +147,10 @@
     "template": "Business Cat",
     "source": "https://imgflip.com/meme/Business-Cat",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2011,
+    "status": "immortal",
+    "lore": "Climbed the corporate ladder. Knocked it over."
   },
   {
     "id": "cat-009",
@@ -142,7 +166,10 @@
     "template": "Smudge the cat",
     "source": "https://imgflip.com/meme/197052476/Smudge-the-cat",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2018,
+    "status": "immortal",
+    "lore": "Yells back at dinner since 2018."
   },
   {
     "id": "cat-010",
@@ -158,7 +185,10 @@
     "template": "vibing cat",
     "source": "https://imgflip.com/meme/277365922/vibing-cat",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2020,
+    "status": "classic",
+    "lore": "Headphones on. World off."
   },
   {
     "id": "cat-011",
@@ -174,7 +204,10 @@
     "template": "Crying cat",
     "source": "https://imgflip.com/meme/42003405/Crying-cat",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2014,
+    "status": "classic",
+    "lore": "Crying professionally for a decade."
   },
   {
     "id": "cat-012",
@@ -190,7 +223,10 @@
     "template": "Pop Cat",
     "source": "https://imgflip.com/meme/284017364/Pop-Cat",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2020,
+    "status": "classic",
+    "lore": "Two frames. Infinite volume."
   },
   {
     "id": "cat-013",
@@ -206,7 +242,10 @@
     "template": "Cool Cat Stroll",
     "source": "https://imgflip.com/meme/Cool-Cat-Stroll",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2020,
+    "status": "alive",
+    "lore": "Struts like rent is due."
   },
   {
     "id": "cat-014",
@@ -222,7 +261,10 @@
     "template": "I'm awake, but at what cost?",
     "source": "https://imgflip.com/meme/205183823/Im-awake-but-at-what-cost",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2021,
+    "status": "alive",
+    "lore": "Awake. At what cost."
   },
   {
     "id": "cat-015",
@@ -238,7 +280,10 @@
     "template": "Cute Cat",
     "source": "https://imgflip.com/meme/Cute-Cat",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2015,
+    "status": "classic",
+    "lore": "Certified cute. No notes."
   },
   {
     "id": "cat-016",
@@ -254,7 +299,10 @@
     "template": "Scared Cat",
     "source": "https://imgflip.com/meme/Scared-Cat",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2019,
+    "status": "classic",
+    "lore": "Startled since 2019."
   },
   {
     "id": "cat-017",
@@ -270,7 +318,10 @@
     "template": "Cat newspaper",
     "source": "https://imgflip.com/meme/19259689/Cat-newspaper",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2015,
+    "status": "classic",
+    "lore": "Reports the news. Is the news."
   },
   {
     "id": "cat-018",
@@ -286,7 +337,10 @@
     "template": "Grumpy Cat Not Amused",
     "source": "https://imgflip.com/meme/Grumpy-Cat-Not-Amused",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2013,
+    "status": "classic",
+    "lore": "The gold standard of not-amused."
   },
   {
     "id": "cat-019",
@@ -302,7 +356,10 @@
     "template": "Sad Cat Holding Dog",
     "source": "https://imgflip.com/meme/206464066/Sad-Cat-Holding-Dog",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2022,
+    "status": "alive",
+    "lore": "Emotional support, holding."
   },
   {
     "id": "cat-020",
@@ -318,7 +375,10 @@
     "template": "Crying cat on phone",
     "source": "https://imgflip.com/meme/234579576/Crying-cat-on-phone",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2021,
+    "status": "alive",
+    "lore": "Doomscrolling before it was cool."
   },
   {
     "id": "cat-021",
@@ -334,7 +394,10 @@
     "template": "Sleepy Cat",
     "source": "https://imgflip.com/meme/36441334/Sleepy-Cat",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2012,
+    "status": "classic",
+    "lore": "Horizontal since forever."
   },
   {
     "id": "cat-022",
@@ -350,7 +413,10 @@
     "template": "Chemistry Cat",
     "source": "https://imgflip.com/meme/Chemistry-Cat",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2011,
+    "status": "classic",
+    "lore": "Peer reviews your snacks."
   },
   {
     "id": "cat-023",
@@ -366,7 +432,10 @@
     "template": "white cat table",
     "source": "https://imgflip.com/meme/191245022/white-cat-table",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2019,
+    "status": "classic",
+    "lore": "Sits at tables. Judges at tables."
   },
   {
     "id": "cat-024",
@@ -382,7 +451,10 @@
     "template": "Excited Cat",
     "source": "https://imgflip.com/meme/Excited-Cat",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2021,
+    "status": "alive",
+    "lore": "Excitement levels: unsafe."
   },
   {
     "id": "cat-025",
@@ -398,7 +470,10 @@
     "template": "Huh Cat",
     "source": "https://imgflip.com/meme/488919824/Huh-Cat",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2024,
+    "status": "alive",
+    "lore": "Confused in high definition."
   },
   {
     "id": "cat-026",
@@ -414,7 +489,10 @@
     "template": "Banana cat",
     "source": "https://imgflip.com/meme/470680617/Banana-cat",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2023,
+    "status": "alive",
+    "lore": "Potassium with a fanbase."
   },
   {
     "id": "cat-027",
@@ -430,7 +508,10 @@
     "template": "Grumpy Cat",
     "source": "https://imgflip.com/meme/Grumpy-Cat",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2012,
+    "status": "immortal",
+    "lore": "Grumpy since 2012. Forever unimpressed."
   },
   {
     "id": "cat-028",
@@ -446,7 +527,10 @@
     "template": "Sleepy Kitten",
     "source": "https://imgflip.com/meme/63663121/Sleepy-Kitten",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2013,
+    "status": "classic",
+    "lore": "Eepy before eepy was a word."
   },
   {
     "id": "cat-029",
@@ -462,7 +546,10 @@
     "template": "vibing cat",
     "source": "https://imgflip.com/meme/277365922/vibing-cat",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2020,
+    "status": "classic",
+    "lore": "Headphones on. World off."
   },
   {
     "id": "cat-030",
@@ -478,7 +565,10 @@
     "template": "Smiling Cat",
     "source": "https://imgflip.com/meme/Smiling-Cat",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2022,
+    "status": "alive",
+    "lore": "Smiling through the chaos."
   },
   {
     "id": "cat-031",
@@ -494,7 +584,10 @@
     "template": "I Should Buy A Boat Cat",
     "source": "https://imgflip.com/meme/I-Should-Buy-A-Boat-Cat",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2012,
+    "status": "immortal",
+    "lore": "Boat questionable. Box undeniable."
   },
   {
     "id": "cat-032",
@@ -510,7 +603,10 @@
     "template": "Pop Cat",
     "source": "https://imgflip.com/meme/284017364/Pop-Cat",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2020,
+    "status": "classic",
+    "lore": "Two frames. Infinite volume."
   },
   {
     "id": "cat-033",
@@ -526,7 +622,10 @@
     "template": "sad thumbs up cat",
     "source": "https://imgflip.com/meme/231792809/sad-thumbs-up-cat",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2023,
+    "status": "alive",
+    "lore": "Thumbs up. Spirits down."
   },
   {
     "id": "cat-034",
@@ -542,7 +641,10 @@
     "template": "Cool Cat Stroll",
     "source": "https://imgflip.com/meme/Cool-Cat-Stroll",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2020,
+    "status": "alive",
+    "lore": "Struts like rent is due."
   },
   {
     "id": "cat-035",
@@ -558,7 +660,10 @@
     "template": "Smudge the cat",
     "source": "https://imgflip.com/meme/197052476/Smudge-the-cat",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2018,
+    "status": "immortal",
+    "lore": "Yells back at dinner since 2018."
   },
   {
     "id": "cat-036",
@@ -574,7 +679,10 @@
     "template": "I'm awake, but at what cost?",
     "source": "https://imgflip.com/meme/205183823/Im-awake-but-at-what-cost",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2021,
+    "status": "alive",
+    "lore": "Awake. At what cost."
   },
   {
     "id": "cat-037",
@@ -590,7 +698,10 @@
     "template": "Cute Cat",
     "source": "https://imgflip.com/meme/Cute-Cat",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2015,
+    "status": "classic",
+    "lore": "Certified cute. No notes."
   },
   {
     "id": "cat-038",
@@ -606,7 +717,10 @@
     "template": "Cat newspaper",
     "source": "https://imgflip.com/meme/19259689/Cat-newspaper",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2015,
+    "status": "classic",
+    "lore": "Reports the news. Is the news."
   },
   {
     "id": "cat-039",
@@ -622,7 +736,10 @@
     "template": "Scared Cat",
     "source": "https://imgflip.com/meme/Scared-Cat",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2019,
+    "status": "classic",
+    "lore": "Startled since 2019."
   },
   {
     "id": "cat-040",
@@ -638,7 +755,10 @@
     "template": "Business Cat",
     "source": "https://imgflip.com/meme/Business-Cat",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2011,
+    "status": "immortal",
+    "lore": "Climbed the corporate ladder. Knocked it over."
   },
   {
     "id": "cat-041",
@@ -654,7 +774,10 @@
     "template": "Sleepy Cat",
     "source": "https://imgflip.com/meme/36441334/Sleepy-Cat",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2012,
+    "status": "classic",
+    "lore": "Horizontal since forever."
   },
   {
     "id": "cat-042",
@@ -670,7 +793,10 @@
     "template": "Grumpy Cat Not Amused",
     "source": "https://imgflip.com/meme/Grumpy-Cat-Not-Amused",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2013,
+    "status": "classic",
+    "lore": "The gold standard of not-amused."
   },
   {
     "id": "cat-043",
@@ -686,7 +812,10 @@
     "template": "Sad Cat Holding Dog",
     "source": "https://imgflip.com/meme/206464066/Sad-Cat-Holding-Dog",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2022,
+    "status": "alive",
+    "lore": "Emotional support, holding."
   },
   {
     "id": "cat-044",
@@ -702,7 +831,10 @@
     "template": "Chemistry Cat",
     "source": "https://imgflip.com/meme/Chemistry-Cat",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2011,
+    "status": "classic",
+    "lore": "Peer reviews your snacks."
   },
   {
     "id": "cat-045",
@@ -718,7 +850,10 @@
     "template": "white cat table",
     "source": "https://imgflip.com/meme/191245022/white-cat-table",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2019,
+    "status": "classic",
+    "lore": "Sits at tables. Judges at tables."
   },
   {
     "id": "cat-046",
@@ -734,7 +869,10 @@
     "template": "Crying cat",
     "source": "https://imgflip.com/meme/42003405/Crying-cat",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2014,
+    "status": "classic",
+    "lore": "Crying professionally for a decade."
   },
   {
     "id": "cat-047",
@@ -750,7 +888,10 @@
     "template": "Excited Cat",
     "source": "https://imgflip.com/meme/Excited-Cat",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2021,
+    "status": "alive",
+    "lore": "Excitement levels: unsafe."
   },
   {
     "id": "cat-048",
@@ -766,7 +907,10 @@
     "template": "Crying cat on phone",
     "source": "https://imgflip.com/meme/234579576/Crying-cat-on-phone",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2021,
+    "status": "alive",
+    "lore": "Doomscrolling before it was cool."
   },
   {
     "id": "cat-049",
@@ -782,7 +926,10 @@
     "template": "Grumpy Cat",
     "source": "https://imgflip.com/meme/Grumpy-Cat",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2012,
+    "status": "immortal",
+    "lore": "Grumpy since 2012. Forever unimpressed."
   },
   {
     "id": "cat-050",
@@ -798,7 +945,10 @@
     "template": "Banana cat",
     "source": "https://imgflip.com/meme/470680617/Banana-cat",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2023,
+    "status": "alive",
+    "lore": "Potassium with a fanbase."
   },
   {
     "id": "cat-051",
@@ -814,7 +964,10 @@
     "template": "Sleepy Kitten",
     "source": "https://imgflip.com/meme/63663121/Sleepy-Kitten",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2013,
+    "status": "classic",
+    "lore": "Eepy before eepy was a word."
   },
   {
     "id": "cat-052",
@@ -830,7 +983,10 @@
     "template": "Smiling Cat",
     "source": "https://imgflip.com/meme/Smiling-Cat",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2022,
+    "status": "alive",
+    "lore": "Smiling through the chaos."
   },
   {
     "id": "cat-053",
@@ -846,7 +1002,10 @@
     "template": "I Should Buy A Boat Cat",
     "source": "https://imgflip.com/meme/I-Should-Buy-A-Boat-Cat",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2012,
+    "status": "immortal",
+    "lore": "Boat questionable. Box undeniable."
   },
   {
     "id": "cat-054",
@@ -862,7 +1021,10 @@
     "template": "Smudge the cat",
     "source": "https://imgflip.com/meme/197052476/Smudge-the-cat",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2018,
+    "status": "immortal",
+    "lore": "Yells back at dinner since 2018."
   },
   {
     "id": "cat-055",
@@ -878,7 +1040,10 @@
     "template": "Grumpy Cat Not Amused",
     "source": "https://imgflip.com/meme/Grumpy-Cat-Not-Amused",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2013,
+    "status": "classic",
+    "lore": "The gold standard of not-amused."
   },
   {
     "id": "cat-056",
@@ -894,7 +1059,10 @@
     "template": "Pop Cat",
     "source": "https://imgflip.com/meme/284017364/Pop-Cat",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2020,
+    "status": "classic",
+    "lore": "Two frames. Infinite volume."
   },
   {
     "id": "cat-057",
@@ -910,7 +1078,10 @@
     "template": "Sleepy Cat",
     "source": "https://imgflip.com/meme/36441334/Sleepy-Cat",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2012,
+    "status": "classic",
+    "lore": "Horizontal since forever."
   },
   {
     "id": "cat-058",
@@ -926,7 +1097,10 @@
     "template": "white cat table",
     "source": "https://imgflip.com/meme/191245022/white-cat-table",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2019,
+    "status": "classic",
+    "lore": "Sits at tables. Judges at tables."
   },
   {
     "id": "cat-059",
@@ -942,7 +1116,10 @@
     "template": "I'm awake, but at what cost?",
     "source": "https://imgflip.com/meme/205183823/Im-awake-but-at-what-cost",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2021,
+    "status": "alive",
+    "lore": "Awake. At what cost."
   },
   {
     "id": "cat-060",
@@ -958,7 +1135,10 @@
     "template": "Huh Cat",
     "source": "https://imgflip.com/meme/488919824/Huh-Cat",
     "kind": "remix",
-    "added": "2026-09-08"
+    "added": "2026-09-08",
+    "origin": 2024,
+    "status": "alive",
+    "lore": "Confused in high definition."
   },
   {
     "id": "cat-061",
@@ -974,7 +1154,10 @@
     "template": "Grumpy Cat",
     "source": "https://imgflip.com/meme/Grumpy-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2012,
+    "status": "immortal",
+    "lore": "Grumpy since 2012. Forever unimpressed."
   },
   {
     "id": "cat-062",
@@ -990,7 +1173,10 @@
     "template": "Huh Cat",
     "source": "https://imgflip.com/meme/488919824/Huh-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2024,
+    "status": "alive",
+    "lore": "Confused in high definition."
   },
   {
     "id": "cat-063",
@@ -1006,7 +1192,10 @@
     "template": "Business Cat",
     "source": "https://imgflip.com/meme/Business-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2011,
+    "status": "immortal",
+    "lore": "Climbed the corporate ladder. Knocked it over."
   },
   {
     "id": "cat-064",
@@ -1022,7 +1211,10 @@
     "template": "Crying cat",
     "source": "https://imgflip.com/meme/42003405/Crying-cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2014,
+    "status": "classic",
+    "lore": "Crying professionally for a decade."
   },
   {
     "id": "cat-065",
@@ -1038,7 +1230,10 @@
     "template": "sad thumbs up cat",
     "source": "https://imgflip.com/meme/231792809/sad-thumbs-up-cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2023,
+    "status": "alive",
+    "lore": "Thumbs up. Spirits down."
   },
   {
     "id": "cat-066",
@@ -1054,7 +1249,10 @@
     "template": "white cat table",
     "source": "https://imgflip.com/meme/191245022/white-cat-table",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2019,
+    "status": "classic",
+    "lore": "Sits at tables. Judges at tables."
   },
   {
     "id": "cat-067",
@@ -1070,7 +1268,10 @@
     "template": "Chemistry Cat",
     "source": "https://imgflip.com/meme/Chemistry-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2011,
+    "status": "classic",
+    "lore": "Peer reviews your snacks."
   },
   {
     "id": "cat-068",
@@ -1086,7 +1287,10 @@
     "template": "Cool Cat Stroll",
     "source": "https://imgflip.com/meme/Cool-Cat-Stroll",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2020,
+    "status": "alive",
+    "lore": "Struts like rent is due."
   },
   {
     "id": "cat-069",
@@ -1102,7 +1306,10 @@
     "template": "Scared Cat",
     "source": "https://imgflip.com/meme/Scared-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2019,
+    "status": "classic",
+    "lore": "Startled since 2019."
   },
   {
     "id": "cat-070",
@@ -1118,7 +1325,10 @@
     "template": "Banana cat",
     "source": "https://imgflip.com/meme/470680617/Banana-cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2023,
+    "status": "alive",
+    "lore": "Potassium with a fanbase."
   },
   {
     "id": "cat-071",
@@ -1134,7 +1344,10 @@
     "template": "Pop Cat",
     "source": "https://imgflip.com/meme/284017364/Pop-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2020,
+    "status": "classic",
+    "lore": "Two frames. Infinite volume."
   },
   {
     "id": "cat-072",
@@ -1150,7 +1363,10 @@
     "template": "Huh Cat",
     "source": "https://imgflip.com/meme/488919824/Huh-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2024,
+    "status": "alive",
+    "lore": "Confused in high definition."
   },
   {
     "id": "cat-073",
@@ -1166,7 +1382,10 @@
     "template": "vibing cat",
     "source": "https://imgflip.com/meme/277365922/vibing-cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2020,
+    "status": "classic",
+    "lore": "Headphones on. World off."
   },
   {
     "id": "cat-074",
@@ -1182,7 +1401,10 @@
     "template": "I Should Buy A Boat Cat",
     "source": "https://imgflip.com/meme/I-Should-Buy-A-Boat-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2012,
+    "status": "immortal",
+    "lore": "Boat questionable. Box undeniable."
   },
   {
     "id": "cat-075",
@@ -1198,7 +1420,10 @@
     "template": "Smudge the cat",
     "source": "https://imgflip.com/meme/197052476/Smudge-the-cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2018,
+    "status": "immortal",
+    "lore": "Yells back at dinner since 2018."
   },
   {
     "id": "cat-076",
@@ -1214,7 +1439,10 @@
     "template": "Pop Cat",
     "source": "https://imgflip.com/meme/284017364/Pop-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2020,
+    "status": "classic",
+    "lore": "Two frames. Infinite volume."
   },
   {
     "id": "cat-077",
@@ -1230,7 +1458,10 @@
     "template": "Chemistry Cat",
     "source": "https://imgflip.com/meme/Chemistry-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2011,
+    "status": "classic",
+    "lore": "Peer reviews your snacks."
   },
   {
     "id": "cat-078",
@@ -1246,7 +1477,10 @@
     "template": "Cat newspaper",
     "source": "https://imgflip.com/meme/19259689/Cat-newspaper",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2015,
+    "status": "classic",
+    "lore": "Reports the news. Is the news."
   },
   {
     "id": "cat-079",
@@ -1262,7 +1496,10 @@
     "template": "Business Cat",
     "source": "https://imgflip.com/meme/Business-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2011,
+    "status": "immortal",
+    "lore": "Climbed the corporate ladder. Knocked it over."
   },
   {
     "id": "cat-080",
@@ -1278,7 +1515,10 @@
     "template": "Cute Cat",
     "source": "https://imgflip.com/meme/Cute-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2015,
+    "status": "classic",
+    "lore": "Certified cute. No notes."
   },
   {
     "id": "cat-081",
@@ -1294,7 +1534,10 @@
     "template": "Banana cat",
     "source": "https://imgflip.com/meme/470680617/Banana-cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2023,
+    "status": "alive",
+    "lore": "Potassium with a fanbase."
   },
   {
     "id": "cat-082",
@@ -1310,7 +1553,10 @@
     "template": "Grumpy Cat Not Amused",
     "source": "https://imgflip.com/meme/Grumpy-Cat-Not-Amused",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2013,
+    "status": "classic",
+    "lore": "The gold standard of not-amused."
   },
   {
     "id": "cat-083",
@@ -1326,7 +1572,10 @@
     "template": "white cat table",
     "source": "https://imgflip.com/meme/191245022/white-cat-table",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2019,
+    "status": "classic",
+    "lore": "Sits at tables. Judges at tables."
   },
   {
     "id": "cat-084",
@@ -1342,7 +1591,10 @@
     "template": "Smudge the cat",
     "source": "https://imgflip.com/meme/197052476/Smudge-the-cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2018,
+    "status": "immortal",
+    "lore": "Yells back at dinner since 2018."
   },
   {
     "id": "cat-085",
@@ -1358,7 +1610,10 @@
     "template": "Grumpy Cat",
     "source": "https://imgflip.com/meme/Grumpy-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2012,
+    "status": "immortal",
+    "lore": "Grumpy since 2012. Forever unimpressed."
   },
   {
     "id": "cat-086",
@@ -1374,7 +1629,10 @@
     "template": "Cool Cat Stroll",
     "source": "https://imgflip.com/meme/Cool-Cat-Stroll",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2020,
+    "status": "alive",
+    "lore": "Struts like rent is due."
   },
   {
     "id": "cat-087",
@@ -1390,7 +1648,10 @@
     "template": "sad thumbs up cat",
     "source": "https://imgflip.com/meme/231792809/sad-thumbs-up-cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2023,
+    "status": "alive",
+    "lore": "Thumbs up. Spirits down."
   },
   {
     "id": "cat-088",
@@ -1406,7 +1667,10 @@
     "template": "Grumpy Cat Not Amused",
     "source": "https://imgflip.com/meme/Grumpy-Cat-Not-Amused",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2013,
+    "status": "classic",
+    "lore": "The gold standard of not-amused."
   },
   {
     "id": "cat-089",
@@ -1422,7 +1686,10 @@
     "template": "Sleepy Kitten",
     "source": "https://imgflip.com/meme/63663121/Sleepy-Kitten",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2013,
+    "status": "classic",
+    "lore": "Eepy before eepy was a word."
   },
   {
     "id": "cat-090",
@@ -1438,7 +1705,10 @@
     "template": "Sleepy Cat",
     "source": "https://imgflip.com/meme/36441334/Sleepy-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2012,
+    "status": "classic",
+    "lore": "Horizontal since forever."
   },
   {
     "id": "cat-091",
@@ -1454,7 +1724,10 @@
     "template": "I'm awake, but at what cost?",
     "source": "https://imgflip.com/meme/205183823/Im-awake-but-at-what-cost",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2021,
+    "status": "alive",
+    "lore": "Awake. At what cost."
   },
   {
     "id": "cat-092",
@@ -1470,7 +1743,10 @@
     "template": "Crying cat on phone",
     "source": "https://imgflip.com/meme/234579576/Crying-cat-on-phone",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2021,
+    "status": "alive",
+    "lore": "Doomscrolling before it was cool."
   },
   {
     "id": "cat-093",
@@ -1486,7 +1762,10 @@
     "template": "Business Cat",
     "source": "https://imgflip.com/meme/Business-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2011,
+    "status": "immortal",
+    "lore": "Climbed the corporate ladder. Knocked it over."
   },
   {
     "id": "cat-094",
@@ -1502,7 +1781,10 @@
     "template": "Sleepy Kitten",
     "source": "https://imgflip.com/meme/63663121/Sleepy-Kitten",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2013,
+    "status": "classic",
+    "lore": "Eepy before eepy was a word."
   },
   {
     "id": "cat-095",
@@ -1518,7 +1800,10 @@
     "template": "Smiling Cat",
     "source": "https://imgflip.com/meme/Smiling-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2022,
+    "status": "alive",
+    "lore": "Smiling through the chaos."
   },
   {
     "id": "cat-096",
@@ -1534,7 +1819,10 @@
     "template": "Sad Cat Holding Dog",
     "source": "https://imgflip.com/meme/206464066/Sad-Cat-Holding-Dog",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2022,
+    "status": "alive",
+    "lore": "Emotional support, holding."
   },
   {
     "id": "cat-097",
@@ -1550,7 +1838,10 @@
     "template": "Excited Cat",
     "source": "https://imgflip.com/meme/Excited-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2021,
+    "status": "alive",
+    "lore": "Excitement levels: unsafe."
   },
   {
     "id": "cat-098",
@@ -1566,7 +1857,10 @@
     "template": "Cute Cat",
     "source": "https://imgflip.com/meme/Cute-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2015,
+    "status": "classic",
+    "lore": "Certified cute. No notes."
   },
   {
     "id": "cat-099",
@@ -1582,7 +1876,10 @@
     "template": "Smiling Cat",
     "source": "https://imgflip.com/meme/Smiling-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2022,
+    "status": "alive",
+    "lore": "Smiling through the chaos."
   },
   {
     "id": "cat-100",
@@ -1598,7 +1895,10 @@
     "template": "Excited Cat",
     "source": "https://imgflip.com/meme/Excited-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2021,
+    "status": "alive",
+    "lore": "Excitement levels: unsafe."
   },
   {
     "id": "cat-101",
@@ -1614,7 +1914,10 @@
     "template": "Crying cat on phone",
     "source": "https://imgflip.com/meme/234579576/Crying-cat-on-phone",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2021,
+    "status": "alive",
+    "lore": "Doomscrolling before it was cool."
   },
   {
     "id": "cat-102",
@@ -1630,7 +1933,10 @@
     "template": "Huh Cat",
     "source": "https://imgflip.com/meme/488919824/Huh-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2024,
+    "status": "alive",
+    "lore": "Confused in high definition."
   },
   {
     "id": "cat-103",
@@ -1646,7 +1952,10 @@
     "template": "sad thumbs up cat",
     "source": "https://imgflip.com/meme/231792809/sad-thumbs-up-cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2023,
+    "status": "alive",
+    "lore": "Thumbs up. Spirits down."
   },
   {
     "id": "cat-104",
@@ -1662,7 +1971,10 @@
     "template": "white cat table",
     "source": "https://imgflip.com/meme/191245022/white-cat-table",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2019,
+    "status": "classic",
+    "lore": "Sits at tables. Judges at tables."
   },
   {
     "id": "cat-105",
@@ -1678,7 +1990,10 @@
     "template": "Chemistry Cat",
     "source": "https://imgflip.com/meme/Chemistry-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2011,
+    "status": "classic",
+    "lore": "Peer reviews your snacks."
   },
   {
     "id": "cat-106",
@@ -1694,7 +2009,10 @@
     "template": "Crying cat",
     "source": "https://imgflip.com/meme/42003405/Crying-cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2014,
+    "status": "classic",
+    "lore": "Crying professionally for a decade."
   },
   {
     "id": "cat-107",
@@ -1710,7 +2028,10 @@
     "template": "Business Cat",
     "source": "https://imgflip.com/meme/Business-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2011,
+    "status": "immortal",
+    "lore": "Climbed the corporate ladder. Knocked it over."
   },
   {
     "id": "cat-108",
@@ -1726,7 +2047,10 @@
     "template": "I'm awake, but at what cost?",
     "source": "https://imgflip.com/meme/205183823/Im-awake-but-at-what-cost",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2021,
+    "status": "alive",
+    "lore": "Awake. At what cost."
   },
   {
     "id": "cat-109",
@@ -1742,7 +2066,10 @@
     "template": "Cool Cat Stroll",
     "source": "https://imgflip.com/meme/Cool-Cat-Stroll",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2020,
+    "status": "alive",
+    "lore": "Struts like rent is due."
   },
   {
     "id": "cat-110",
@@ -1758,7 +2085,10 @@
     "template": "Scared Cat",
     "source": "https://imgflip.com/meme/Scared-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2019,
+    "status": "classic",
+    "lore": "Startled since 2019."
   },
   {
     "id": "cat-111",
@@ -1774,7 +2104,10 @@
     "template": "Banana cat",
     "source": "https://imgflip.com/meme/470680617/Banana-cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2023,
+    "status": "alive",
+    "lore": "Potassium with a fanbase."
   },
   {
     "id": "cat-112",
@@ -1790,7 +2123,10 @@
     "template": "Pop Cat",
     "source": "https://imgflip.com/meme/284017364/Pop-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2020,
+    "status": "classic",
+    "lore": "Two frames. Infinite volume."
   },
   {
     "id": "cat-113",
@@ -1806,7 +2142,10 @@
     "template": "vibing cat",
     "source": "https://imgflip.com/meme/277365922/vibing-cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2020,
+    "status": "classic",
+    "lore": "Headphones on. World off."
   },
   {
     "id": "cat-114",
@@ -1822,7 +2161,10 @@
     "template": "I Should Buy A Boat Cat",
     "source": "https://imgflip.com/meme/I-Should-Buy-A-Boat-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2012,
+    "status": "immortal",
+    "lore": "Boat questionable. Box undeniable."
   },
   {
     "id": "cat-115",
@@ -1838,7 +2180,10 @@
     "template": "Huh Cat",
     "source": "https://imgflip.com/meme/488919824/Huh-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2024,
+    "status": "alive",
+    "lore": "Confused in high definition."
   },
   {
     "id": "cat-116",
@@ -1854,7 +2199,10 @@
     "template": "Smudge the cat",
     "source": "https://imgflip.com/meme/197052476/Smudge-the-cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2018,
+    "status": "immortal",
+    "lore": "Yells back at dinner since 2018."
   },
   {
     "id": "cat-117",
@@ -1870,7 +2218,10 @@
     "template": "Smudge the cat",
     "source": "https://imgflip.com/meme/197052476/Smudge-the-cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2018,
+    "status": "immortal",
+    "lore": "Yells back at dinner since 2018."
   },
   {
     "id": "cat-118",
@@ -1886,7 +2237,10 @@
     "template": "Pop Cat",
     "source": "https://imgflip.com/meme/284017364/Pop-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2020,
+    "status": "classic",
+    "lore": "Two frames. Infinite volume."
   },
   {
     "id": "cat-119",
@@ -1902,7 +2256,10 @@
     "template": "Chemistry Cat",
     "source": "https://imgflip.com/meme/Chemistry-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2011,
+    "status": "classic",
+    "lore": "Peer reviews your snacks."
   },
   {
     "id": "cat-120",
@@ -1918,7 +2275,10 @@
     "template": "Cat newspaper",
     "source": "https://imgflip.com/meme/19259689/Cat-newspaper",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2015,
+    "status": "classic",
+    "lore": "Reports the news. Is the news."
   },
   {
     "id": "cat-121",
@@ -1934,7 +2294,10 @@
     "template": "Business Cat",
     "source": "https://imgflip.com/meme/Business-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2011,
+    "status": "immortal",
+    "lore": "Climbed the corporate ladder. Knocked it over."
   },
   {
     "id": "cat-122",
@@ -1950,7 +2313,10 @@
     "template": "Cute Cat",
     "source": "https://imgflip.com/meme/Cute-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2015,
+    "status": "classic",
+    "lore": "Certified cute. No notes."
   },
   {
     "id": "cat-123",
@@ -1966,7 +2332,10 @@
     "template": "Banana cat",
     "source": "https://imgflip.com/meme/470680617/Banana-cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2023,
+    "status": "alive",
+    "lore": "Potassium with a fanbase."
   },
   {
     "id": "cat-124",
@@ -1982,7 +2351,10 @@
     "template": "Cool Cat Stroll",
     "source": "https://imgflip.com/meme/Cool-Cat-Stroll",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2020,
+    "status": "alive",
+    "lore": "Struts like rent is due."
   },
   {
     "id": "cat-125",
@@ -1998,7 +2370,10 @@
     "template": "Grumpy Cat",
     "source": "https://imgflip.com/meme/Grumpy-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2012,
+    "status": "immortal",
+    "lore": "Grumpy since 2012. Forever unimpressed."
   },
   {
     "id": "cat-126",
@@ -2014,7 +2389,10 @@
     "template": "Grumpy Cat Not Amused",
     "source": "https://imgflip.com/meme/Grumpy-Cat-Not-Amused",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2013,
+    "status": "classic",
+    "lore": "The gold standard of not-amused."
   },
   {
     "id": "cat-127",
@@ -2030,7 +2408,10 @@
     "template": "white cat table",
     "source": "https://imgflip.com/meme/191245022/white-cat-table",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2019,
+    "status": "classic",
+    "lore": "Sits at tables. Judges at tables."
   },
   {
     "id": "cat-128",
@@ -2046,7 +2427,10 @@
     "template": "Smudge the cat",
     "source": "https://imgflip.com/meme/197052476/Smudge-the-cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2018,
+    "status": "immortal",
+    "lore": "Yells back at dinner since 2018."
   },
   {
     "id": "cat-129",
@@ -2062,7 +2446,10 @@
     "template": "Cool Cat Stroll",
     "source": "https://imgflip.com/meme/Cool-Cat-Stroll",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2020,
+    "status": "alive",
+    "lore": "Struts like rent is due."
   },
   {
     "id": "cat-130",
@@ -2078,7 +2465,10 @@
     "template": "sad thumbs up cat",
     "source": "https://imgflip.com/meme/231792809/sad-thumbs-up-cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2023,
+    "status": "alive",
+    "lore": "Thumbs up. Spirits down."
   },
   {
     "id": "cat-131",
@@ -2094,7 +2484,10 @@
     "template": "Grumpy Cat",
     "source": "https://imgflip.com/meme/Grumpy-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2012,
+    "status": "immortal",
+    "lore": "Grumpy since 2012. Forever unimpressed."
   },
   {
     "id": "cat-132",
@@ -2110,7 +2503,10 @@
     "template": "Grumpy Cat Not Amused",
     "source": "https://imgflip.com/meme/Grumpy-Cat-Not-Amused",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2013,
+    "status": "classic",
+    "lore": "The gold standard of not-amused."
   },
   {
     "id": "cat-133",
@@ -2126,7 +2522,10 @@
     "template": "Sleepy Kitten",
     "source": "https://imgflip.com/meme/63663121/Sleepy-Kitten",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2013,
+    "status": "classic",
+    "lore": "Eepy before eepy was a word."
   },
   {
     "id": "cat-134",
@@ -2142,7 +2541,10 @@
     "template": "Sleepy Cat",
     "source": "https://imgflip.com/meme/36441334/Sleepy-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2012,
+    "status": "classic",
+    "lore": "Horizontal since forever."
   },
   {
     "id": "cat-135",
@@ -2158,7 +2560,10 @@
     "template": "I'm awake, but at what cost?",
     "source": "https://imgflip.com/meme/205183823/Im-awake-but-at-what-cost",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2021,
+    "status": "alive",
+    "lore": "Awake. At what cost."
   },
   {
     "id": "cat-136",
@@ -2174,7 +2579,10 @@
     "template": "Crying cat on phone",
     "source": "https://imgflip.com/meme/234579576/Crying-cat-on-phone",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2021,
+    "status": "alive",
+    "lore": "Doomscrolling before it was cool."
   },
   {
     "id": "cat-137",
@@ -2190,7 +2598,10 @@
     "template": "Sleepy Kitten",
     "source": "https://imgflip.com/meme/63663121/Sleepy-Kitten",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2013,
+    "status": "classic",
+    "lore": "Eepy before eepy was a word."
   },
   {
     "id": "cat-138",
@@ -2206,7 +2617,10 @@
     "template": "Business Cat",
     "source": "https://imgflip.com/meme/Business-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2011,
+    "status": "immortal",
+    "lore": "Climbed the corporate ladder. Knocked it over."
   },
   {
     "id": "cat-139",
@@ -2222,7 +2636,10 @@
     "template": "Sleepy Cat",
     "source": "https://imgflip.com/meme/36441334/Sleepy-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2012,
+    "status": "classic",
+    "lore": "Horizontal since forever."
   },
   {
     "id": "cat-140",
@@ -2238,7 +2655,10 @@
     "template": "I'm awake, but at what cost?",
     "source": "https://imgflip.com/meme/205183823/Im-awake-but-at-what-cost",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2021,
+    "status": "alive",
+    "lore": "Awake. At what cost."
   },
   {
     "id": "cat-141",
@@ -2254,7 +2674,10 @@
     "template": "Crying cat on phone",
     "source": "https://imgflip.com/meme/234579576/Crying-cat-on-phone",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2021,
+    "status": "alive",
+    "lore": "Doomscrolling before it was cool."
   },
   {
     "id": "cat-142",
@@ -2270,7 +2693,10 @@
     "template": "Smiling Cat",
     "source": "https://imgflip.com/meme/Smiling-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2022,
+    "status": "alive",
+    "lore": "Smiling through the chaos."
   },
   {
     "id": "cat-143",
@@ -2286,7 +2712,10 @@
     "template": "Sad Cat Holding Dog",
     "source": "https://imgflip.com/meme/206464066/Sad-Cat-Holding-Dog",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2022,
+    "status": "alive",
+    "lore": "Emotional support, holding."
   },
   {
     "id": "cat-144",
@@ -2302,7 +2731,10 @@
     "template": "Excited Cat",
     "source": "https://imgflip.com/meme/Excited-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2021,
+    "status": "alive",
+    "lore": "Excitement levels: unsafe."
   },
   {
     "id": "cat-145",
@@ -2318,7 +2750,10 @@
     "template": "Cute Cat",
     "source": "https://imgflip.com/meme/Cute-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2015,
+    "status": "classic",
+    "lore": "Certified cute. No notes."
   },
   {
     "id": "cat-146",
@@ -2334,7 +2769,10 @@
     "template": "Smiling Cat",
     "source": "https://imgflip.com/meme/Smiling-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2022,
+    "status": "alive",
+    "lore": "Smiling through the chaos."
   },
   {
     "id": "cat-147",
@@ -2350,7 +2788,10 @@
     "template": "Sad Cat Holding Dog",
     "source": "https://imgflip.com/meme/206464066/Sad-Cat-Holding-Dog",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2022,
+    "status": "alive",
+    "lore": "Emotional support, holding."
   },
   {
     "id": "cat-148",
@@ -2366,7 +2807,10 @@
     "template": "Excited Cat",
     "source": "https://imgflip.com/meme/Excited-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2021,
+    "status": "alive",
+    "lore": "Excitement levels: unsafe."
   },
   {
     "id": "cat-149",
@@ -2382,7 +2826,10 @@
     "template": "Cute Cat",
     "source": "https://imgflip.com/meme/Cute-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2015,
+    "status": "classic",
+    "lore": "Certified cute. No notes."
   },
   {
     "id": "cat-150",
@@ -2398,7 +2845,10 @@
     "template": "Smiling Cat",
     "source": "https://imgflip.com/meme/Smiling-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2022,
+    "status": "alive",
+    "lore": "Smiling through the chaos."
   },
   {
     "id": "cat-151",
@@ -2414,7 +2864,10 @@
     "template": "Crying cat on phone",
     "source": "https://imgflip.com/meme/234579576/Crying-cat-on-phone",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2021,
+    "status": "alive",
+    "lore": "Doomscrolling before it was cool."
   },
   {
     "id": "cat-152",
@@ -2430,7 +2883,10 @@
     "template": "Huh Cat",
     "source": "https://imgflip.com/meme/488919824/Huh-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2024,
+    "status": "alive",
+    "lore": "Confused in high definition."
   },
   {
     "id": "cat-153",
@@ -2446,7 +2902,10 @@
     "template": "sad thumbs up cat",
     "source": "https://imgflip.com/meme/231792809/sad-thumbs-up-cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2023,
+    "status": "alive",
+    "lore": "Thumbs up. Spirits down."
   },
   {
     "id": "cat-154",
@@ -2462,7 +2921,10 @@
     "template": "white cat table",
     "source": "https://imgflip.com/meme/191245022/white-cat-table",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2019,
+    "status": "classic",
+    "lore": "Sits at tables. Judges at tables."
   },
   {
     "id": "cat-155",
@@ -2478,7 +2940,10 @@
     "template": "Chemistry Cat",
     "source": "https://imgflip.com/meme/Chemistry-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2011,
+    "status": "classic",
+    "lore": "Peer reviews your snacks."
   },
   {
     "id": "cat-156",
@@ -2494,7 +2959,10 @@
     "template": "Crying cat",
     "source": "https://imgflip.com/meme/42003405/Crying-cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2014,
+    "status": "classic",
+    "lore": "Crying professionally for a decade."
   },
   {
     "id": "cat-157",
@@ -2510,7 +2978,10 @@
     "template": "Business Cat",
     "source": "https://imgflip.com/meme/Business-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2011,
+    "status": "immortal",
+    "lore": "Climbed the corporate ladder. Knocked it over."
   },
   {
     "id": "cat-158",
@@ -2526,7 +2997,10 @@
     "template": "I'm awake, but at what cost?",
     "source": "https://imgflip.com/meme/205183823/Im-awake-but-at-what-cost",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2021,
+    "status": "alive",
+    "lore": "Awake. At what cost."
   },
   {
     "id": "cat-159",
@@ -2542,7 +3016,10 @@
     "template": "Smiling Cat",
     "source": "https://imgflip.com/meme/Smiling-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2022,
+    "status": "alive",
+    "lore": "Smiling through the chaos."
   },
   {
     "id": "cat-160",
@@ -2558,7 +3035,10 @@
     "template": "Excited Cat",
     "source": "https://imgflip.com/meme/Excited-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2021,
+    "status": "alive",
+    "lore": "Excitement levels: unsafe."
   },
   {
     "id": "cat-161",
@@ -2574,7 +3054,10 @@
     "template": "Smudge the cat",
     "source": "https://imgflip.com/meme/197052476/Smudge-the-cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2018,
+    "status": "immortal",
+    "lore": "Yells back at dinner since 2018."
   },
   {
     "id": "cat-162",
@@ -2590,7 +3073,10 @@
     "template": "Pop Cat",
     "source": "https://imgflip.com/meme/284017364/Pop-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2020,
+    "status": "classic",
+    "lore": "Two frames. Infinite volume."
   },
   {
     "id": "cat-163",
@@ -2606,7 +3092,10 @@
     "template": "Grumpy Cat Not Amused",
     "source": "https://imgflip.com/meme/Grumpy-Cat-Not-Amused",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2013,
+    "status": "classic",
+    "lore": "The gold standard of not-amused."
   },
   {
     "id": "cat-164",
@@ -2622,7 +3111,10 @@
     "template": "Grumpy Cat",
     "source": "https://imgflip.com/meme/Grumpy-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2012,
+    "status": "immortal",
+    "lore": "Grumpy since 2012. Forever unimpressed."
   },
   {
     "id": "cat-165",
@@ -2638,7 +3130,10 @@
     "template": "Cat newspaper",
     "source": "https://imgflip.com/meme/19259689/Cat-newspaper",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2015,
+    "status": "classic",
+    "lore": "Reports the news. Is the news."
   },
   {
     "id": "cat-166",
@@ -2654,7 +3149,10 @@
     "template": "Sleepy Cat",
     "source": "https://imgflip.com/meme/36441334/Sleepy-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2012,
+    "status": "classic",
+    "lore": "Horizontal since forever."
   },
   {
     "id": "cat-167",
@@ -2670,7 +3168,10 @@
     "template": "Sad Cat Holding Dog",
     "source": "https://imgflip.com/meme/206464066/Sad-Cat-Holding-Dog",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2022,
+    "status": "alive",
+    "lore": "Emotional support, holding."
   },
   {
     "id": "cat-168",
@@ -2686,7 +3187,10 @@
     "template": "Cool Cat Stroll",
     "source": "https://imgflip.com/meme/Cool-Cat-Stroll",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2020,
+    "status": "alive",
+    "lore": "Struts like rent is due."
   },
   {
     "id": "cat-169",
@@ -2702,7 +3206,10 @@
     "template": "Scared Cat",
     "source": "https://imgflip.com/meme/Scared-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2019,
+    "status": "classic",
+    "lore": "Startled since 2019."
   },
   {
     "id": "cat-170",
@@ -2718,7 +3225,10 @@
     "template": "Banana cat",
     "source": "https://imgflip.com/meme/470680617/Banana-cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2023,
+    "status": "alive",
+    "lore": "Potassium with a fanbase."
   },
   {
     "id": "cat-171",
@@ -2734,7 +3244,10 @@
     "template": "Pop Cat",
     "source": "https://imgflip.com/meme/284017364/Pop-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2020,
+    "status": "classic",
+    "lore": "Two frames. Infinite volume."
   },
   {
     "id": "cat-172",
@@ -2750,7 +3263,10 @@
     "template": "vibing cat",
     "source": "https://imgflip.com/meme/277365922/vibing-cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2020,
+    "status": "classic",
+    "lore": "Headphones on. World off."
   },
   {
     "id": "cat-173",
@@ -2766,7 +3282,10 @@
     "template": "I Should Buy A Boat Cat",
     "source": "https://imgflip.com/meme/I-Should-Buy-A-Boat-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2012,
+    "status": "immortal",
+    "lore": "Boat questionable. Box undeniable."
   },
   {
     "id": "cat-174",
@@ -2782,7 +3301,10 @@
     "template": "Huh Cat",
     "source": "https://imgflip.com/meme/488919824/Huh-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2024,
+    "status": "alive",
+    "lore": "Confused in high definition."
   },
   {
     "id": "cat-175",
@@ -2798,7 +3320,10 @@
     "template": "Smudge the cat",
     "source": "https://imgflip.com/meme/197052476/Smudge-the-cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2018,
+    "status": "immortal",
+    "lore": "Yells back at dinner since 2018."
   },
   {
     "id": "cat-176",
@@ -2814,7 +3339,10 @@
     "template": "Sleepy Kitten",
     "source": "https://imgflip.com/meme/63663121/Sleepy-Kitten",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2013,
+    "status": "classic",
+    "lore": "Eepy before eepy was a word."
   },
   {
     "id": "cat-177",
@@ -2830,7 +3358,10 @@
     "template": "Business Cat",
     "source": "https://imgflip.com/meme/Business-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2011,
+    "status": "immortal",
+    "lore": "Climbed the corporate ladder. Knocked it over."
   },
   {
     "id": "cat-178",
@@ -2846,7 +3377,10 @@
     "template": "sad thumbs up cat",
     "source": "https://imgflip.com/meme/231792809/sad-thumbs-up-cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2023,
+    "status": "alive",
+    "lore": "Thumbs up. Spirits down."
   },
   {
     "id": "cat-179",
@@ -2862,7 +3396,10 @@
     "template": "Grumpy Cat",
     "source": "https://imgflip.com/meme/Grumpy-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2012,
+    "status": "immortal",
+    "lore": "Grumpy since 2012. Forever unimpressed."
   },
   {
     "id": "cat-180",
@@ -2878,7 +3415,10 @@
     "template": "Smiling Cat",
     "source": "https://imgflip.com/meme/Smiling-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2022,
+    "status": "alive",
+    "lore": "Smiling through the chaos."
   },
   {
     "id": "cat-181",
@@ -2894,7 +3434,10 @@
     "template": "Grumpy Cat Not Amused",
     "source": "https://imgflip.com/meme/Grumpy-Cat-Not-Amused",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2013,
+    "status": "classic",
+    "lore": "The gold standard of not-amused."
   },
   {
     "id": "cat-182",
@@ -2910,7 +3453,10 @@
     "template": "Scared Cat",
     "source": "https://imgflip.com/meme/Scared-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2019,
+    "status": "classic",
+    "lore": "Startled since 2019."
   },
   {
     "id": "cat-183",
@@ -2926,7 +3472,10 @@
     "template": "Cat newspaper",
     "source": "https://imgflip.com/meme/19259689/Cat-newspaper",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2015,
+    "status": "classic",
+    "lore": "Reports the news. Is the news."
   },
   {
     "id": "cat-184",
@@ -2942,7 +3491,10 @@
     "template": "Excited Cat",
     "source": "https://imgflip.com/meme/Excited-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2021,
+    "status": "alive",
+    "lore": "Excitement levels: unsafe."
   },
   {
     "id": "cat-185",
@@ -2958,7 +3510,10 @@
     "template": "Smudge the cat",
     "source": "https://imgflip.com/meme/197052476/Smudge-the-cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2018,
+    "status": "immortal",
+    "lore": "Yells back at dinner since 2018."
   },
   {
     "id": "cat-186",
@@ -2974,7 +3529,10 @@
     "template": "Pop Cat",
     "source": "https://imgflip.com/meme/284017364/Pop-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2020,
+    "status": "classic",
+    "lore": "Two frames. Infinite volume."
   },
   {
     "id": "cat-187",
@@ -2990,7 +3548,10 @@
     "template": "Chemistry Cat",
     "source": "https://imgflip.com/meme/Chemistry-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2011,
+    "status": "classic",
+    "lore": "Peer reviews your snacks."
   },
   {
     "id": "cat-188",
@@ -3006,7 +3567,10 @@
     "template": "Cat newspaper",
     "source": "https://imgflip.com/meme/19259689/Cat-newspaper",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2015,
+    "status": "classic",
+    "lore": "Reports the news. Is the news."
   },
   {
     "id": "cat-189",
@@ -3022,7 +3586,10 @@
     "template": "Business Cat",
     "source": "https://imgflip.com/meme/Business-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2011,
+    "status": "immortal",
+    "lore": "Climbed the corporate ladder. Knocked it over."
   },
   {
     "id": "cat-190",
@@ -3038,7 +3605,10 @@
     "template": "Cute Cat",
     "source": "https://imgflip.com/meme/Cute-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2015,
+    "status": "classic",
+    "lore": "Certified cute. No notes."
   },
   {
     "id": "cat-191",
@@ -3054,7 +3624,10 @@
     "template": "Banana cat",
     "source": "https://imgflip.com/meme/470680617/Banana-cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2023,
+    "status": "alive",
+    "lore": "Potassium with a fanbase."
   },
   {
     "id": "cat-192",
@@ -3070,7 +3643,10 @@
     "template": "Cool Cat Stroll",
     "source": "https://imgflip.com/meme/Cool-Cat-Stroll",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2020,
+    "status": "alive",
+    "lore": "Struts like rent is due."
   },
   {
     "id": "cat-193",
@@ -3086,7 +3662,10 @@
     "template": "sad thumbs up cat",
     "source": "https://imgflip.com/meme/231792809/sad-thumbs-up-cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2023,
+    "status": "alive",
+    "lore": "Thumbs up. Spirits down."
   },
   {
     "id": "cat-194",
@@ -3102,7 +3681,10 @@
     "template": "Grumpy Cat",
     "source": "https://imgflip.com/meme/Grumpy-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2012,
+    "status": "immortal",
+    "lore": "Grumpy since 2012. Forever unimpressed."
   },
   {
     "id": "cat-195",
@@ -3118,7 +3700,10 @@
     "template": "Crying cat on phone",
     "source": "https://imgflip.com/meme/234579576/Crying-cat-on-phone",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2021,
+    "status": "alive",
+    "lore": "Doomscrolling before it was cool."
   },
   {
     "id": "cat-196",
@@ -3134,7 +3719,10 @@
     "template": "Smiling Cat",
     "source": "https://imgflip.com/meme/Smiling-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2022,
+    "status": "alive",
+    "lore": "Smiling through the chaos."
   },
   {
     "id": "cat-197",
@@ -3150,7 +3738,10 @@
     "template": "Excited Cat",
     "source": "https://imgflip.com/meme/Excited-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2021,
+    "status": "alive",
+    "lore": "Excitement levels: unsafe."
   },
   {
     "id": "cat-198",
@@ -3166,7 +3757,10 @@
     "template": "Grumpy Cat Not Amused",
     "source": "https://imgflip.com/meme/Grumpy-Cat-Not-Amused",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2013,
+    "status": "classic",
+    "lore": "The gold standard of not-amused."
   },
   {
     "id": "cat-199",
@@ -3182,7 +3776,10 @@
     "template": "white cat table",
     "source": "https://imgflip.com/meme/191245022/white-cat-table",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2019,
+    "status": "classic",
+    "lore": "Sits at tables. Judges at tables."
   },
   {
     "id": "cat-200",
@@ -3198,7 +3795,10 @@
     "template": "Crying cat",
     "source": "https://imgflip.com/meme/42003405/Crying-cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2014,
+    "status": "classic",
+    "lore": "Crying professionally for a decade."
   },
   {
     "id": "cat-201",
@@ -3214,7 +3814,10 @@
     "template": "Sleepy Cat",
     "source": "https://imgflip.com/meme/36441334/Sleepy-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2012,
+    "status": "classic",
+    "lore": "Horizontal since forever."
   },
   {
     "id": "cat-202",
@@ -3230,7 +3833,10 @@
     "template": "Grumpy Cat",
     "source": "https://imgflip.com/meme/Grumpy-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2012,
+    "status": "immortal",
+    "lore": "Grumpy since 2012. Forever unimpressed."
   },
   {
     "id": "cat-203",
@@ -3246,7 +3852,10 @@
     "template": "Grumpy Cat Not Amused",
     "source": "https://imgflip.com/meme/Grumpy-Cat-Not-Amused",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2013,
+    "status": "classic",
+    "lore": "The gold standard of not-amused."
   },
   {
     "id": "cat-204",
@@ -3262,7 +3871,10 @@
     "template": "white cat table",
     "source": "https://imgflip.com/meme/191245022/white-cat-table",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2019,
+    "status": "classic",
+    "lore": "Sits at tables. Judges at tables."
   },
   {
     "id": "cat-205",
@@ -3278,7 +3890,10 @@
     "template": "Smudge the cat",
     "source": "https://imgflip.com/meme/197052476/Smudge-the-cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2018,
+    "status": "immortal",
+    "lore": "Yells back at dinner since 2018."
   },
   {
     "id": "cat-206",
@@ -3294,7 +3909,10 @@
     "template": "Cool Cat Stroll",
     "source": "https://imgflip.com/meme/Cool-Cat-Stroll",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2020,
+    "status": "alive",
+    "lore": "Struts like rent is due."
   },
   {
     "id": "cat-207",
@@ -3310,7 +3928,10 @@
     "template": "sad thumbs up cat",
     "source": "https://imgflip.com/meme/231792809/sad-thumbs-up-cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2023,
+    "status": "alive",
+    "lore": "Thumbs up. Spirits down."
   },
   {
     "id": "cat-208",
@@ -3326,7 +3947,10 @@
     "template": "Grumpy Cat",
     "source": "https://imgflip.com/meme/Grumpy-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2012,
+    "status": "immortal",
+    "lore": "Grumpy since 2012. Forever unimpressed."
   },
   {
     "id": "cat-209",
@@ -3342,7 +3966,10 @@
     "template": "Grumpy Cat Not Amused",
     "source": "https://imgflip.com/meme/Grumpy-Cat-Not-Amused",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2013,
+    "status": "classic",
+    "lore": "The gold standard of not-amused."
   },
   {
     "id": "cat-210",
@@ -3358,7 +3985,10 @@
     "template": "Business Cat",
     "source": "https://imgflip.com/meme/Business-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2011,
+    "status": "immortal",
+    "lore": "Climbed the corporate ladder. Knocked it over."
   },
   {
     "id": "cat-211",
@@ -3374,7 +4004,10 @@
     "template": "I'm awake, but at what cost?",
     "source": "https://imgflip.com/meme/205183823/Im-awake-but-at-what-cost",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2021,
+    "status": "alive",
+    "lore": "Awake. At what cost."
   },
   {
     "id": "cat-212",
@@ -3390,7 +4023,10 @@
     "template": "Scared Cat",
     "source": "https://imgflip.com/meme/Scared-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2019,
+    "status": "classic",
+    "lore": "Startled since 2019."
   },
   {
     "id": "cat-213",
@@ -3406,7 +4042,10 @@
     "template": "Cat newspaper",
     "source": "https://imgflip.com/meme/19259689/Cat-newspaper",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2015,
+    "status": "classic",
+    "lore": "Reports the news. Is the news."
   },
   {
     "id": "cat-214",
@@ -3422,7 +4061,10 @@
     "template": "vibing cat",
     "source": "https://imgflip.com/meme/277365922/vibing-cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2020,
+    "status": "classic",
+    "lore": "Headphones on. World off."
   },
   {
     "id": "cat-215",
@@ -3438,7 +4080,10 @@
     "template": "Smiling Cat",
     "source": "https://imgflip.com/meme/Smiling-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2022,
+    "status": "alive",
+    "lore": "Smiling through the chaos."
   },
   {
     "id": "cat-216",
@@ -3454,7 +4099,10 @@
     "template": "Excited Cat",
     "source": "https://imgflip.com/meme/Excited-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2021,
+    "status": "alive",
+    "lore": "Excitement levels: unsafe."
   },
   {
     "id": "cat-217",
@@ -3470,7 +4118,10 @@
     "template": "Cute Cat",
     "source": "https://imgflip.com/meme/Cute-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2015,
+    "status": "classic",
+    "lore": "Certified cute. No notes."
   },
   {
     "id": "cat-218",
@@ -3486,7 +4137,10 @@
     "template": "Sad Cat Holding Dog",
     "source": "https://imgflip.com/meme/206464066/Sad-Cat-Holding-Dog",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2022,
+    "status": "alive",
+    "lore": "Emotional support, holding."
   },
   {
     "id": "cat-219",
@@ -3502,7 +4156,10 @@
     "template": "Sleepy Kitten",
     "source": "https://imgflip.com/meme/63663121/Sleepy-Kitten",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2013,
+    "status": "classic",
+    "lore": "Eepy before eepy was a word."
   },
   {
     "id": "cat-220",
@@ -3518,7 +4175,10 @@
     "template": "Sleepy Cat",
     "source": "https://imgflip.com/meme/36441334/Sleepy-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2012,
+    "status": "classic",
+    "lore": "Horizontal since forever."
   },
   {
     "id": "cat-221",
@@ -3534,7 +4194,10 @@
     "template": "I'm awake, but at what cost?",
     "source": "https://imgflip.com/meme/205183823/Im-awake-but-at-what-cost",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2021,
+    "status": "alive",
+    "lore": "Awake. At what cost."
   },
   {
     "id": "cat-222",
@@ -3550,7 +4213,10 @@
     "template": "Crying cat on phone",
     "source": "https://imgflip.com/meme/234579576/Crying-cat-on-phone",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2021,
+    "status": "alive",
+    "lore": "Doomscrolling before it was cool."
   },
   {
     "id": "cat-223",
@@ -3566,7 +4232,10 @@
     "template": "Sleepy Kitten",
     "source": "https://imgflip.com/meme/63663121/Sleepy-Kitten",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2013,
+    "status": "classic",
+    "lore": "Eepy before eepy was a word."
   },
   {
     "id": "cat-224",
@@ -3582,7 +4251,10 @@
     "template": "Business Cat",
     "source": "https://imgflip.com/meme/Business-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2011,
+    "status": "immortal",
+    "lore": "Climbed the corporate ladder. Knocked it over."
   },
   {
     "id": "cat-225",
@@ -3598,7 +4270,10 @@
     "template": "Sleepy Cat",
     "source": "https://imgflip.com/meme/36441334/Sleepy-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2012,
+    "status": "classic",
+    "lore": "Horizontal since forever."
   },
   {
     "id": "cat-226",
@@ -3614,7 +4289,10 @@
     "template": "I'm awake, but at what cost?",
     "source": "https://imgflip.com/meme/205183823/Im-awake-but-at-what-cost",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2021,
+    "status": "alive",
+    "lore": "Awake. At what cost."
   },
   {
     "id": "cat-227",
@@ -3630,7 +4308,10 @@
     "template": "Crying cat on phone",
     "source": "https://imgflip.com/meme/234579576/Crying-cat-on-phone",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2021,
+    "status": "alive",
+    "lore": "Doomscrolling before it was cool."
   },
   {
     "id": "cat-228",
@@ -3646,7 +4327,10 @@
     "template": "Smiling Cat",
     "source": "https://imgflip.com/meme/Smiling-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2022,
+    "status": "alive",
+    "lore": "Smiling through the chaos."
   },
   {
     "id": "cat-229",
@@ -3662,7 +4346,10 @@
     "template": "Cute Cat",
     "source": "https://imgflip.com/meme/Cute-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2015,
+    "status": "classic",
+    "lore": "Certified cute. No notes."
   },
   {
     "id": "cat-230",
@@ -3678,7 +4365,10 @@
     "template": "Excited Cat",
     "source": "https://imgflip.com/meme/Excited-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2021,
+    "status": "alive",
+    "lore": "Excitement levels: unsafe."
   },
   {
     "id": "cat-231",
@@ -3694,7 +4384,10 @@
     "template": "Grumpy Cat Not Amused",
     "source": "https://imgflip.com/meme/Grumpy-Cat-Not-Amused",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2013,
+    "status": "classic",
+    "lore": "The gold standard of not-amused."
   },
   {
     "id": "cat-232",
@@ -3710,7 +4403,10 @@
     "template": "Grumpy Cat",
     "source": "https://imgflip.com/meme/Grumpy-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2012,
+    "status": "immortal",
+    "lore": "Grumpy since 2012. Forever unimpressed."
   },
   {
     "id": "cat-233",
@@ -3726,7 +4422,10 @@
     "template": "white cat table",
     "source": "https://imgflip.com/meme/191245022/white-cat-table",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2019,
+    "status": "classic",
+    "lore": "Sits at tables. Judges at tables."
   },
   {
     "id": "cat-234",
@@ -3742,7 +4441,10 @@
     "template": "Smudge the cat",
     "source": "https://imgflip.com/meme/197052476/Smudge-the-cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2018,
+    "status": "immortal",
+    "lore": "Yells back at dinner since 2018."
   },
   {
     "id": "cat-235",
@@ -3758,7 +4460,10 @@
     "template": "Smiling Cat",
     "source": "https://imgflip.com/meme/Smiling-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2022,
+    "status": "alive",
+    "lore": "Smiling through the chaos."
   },
   {
     "id": "cat-236",
@@ -3774,7 +4479,10 @@
     "template": "Sad Cat Holding Dog",
     "source": "https://imgflip.com/meme/206464066/Sad-Cat-Holding-Dog",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2022,
+    "status": "alive",
+    "lore": "Emotional support, holding."
   },
   {
     "id": "cat-237",
@@ -3790,7 +4498,10 @@
     "template": "Excited Cat",
     "source": "https://imgflip.com/meme/Excited-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2021,
+    "status": "alive",
+    "lore": "Excitement levels: unsafe."
   },
   {
     "id": "cat-238",
@@ -3806,7 +4517,10 @@
     "template": "Cute Cat",
     "source": "https://imgflip.com/meme/Cute-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2015,
+    "status": "classic",
+    "lore": "Certified cute. No notes."
   },
   {
     "id": "cat-239",
@@ -3822,7 +4536,10 @@
     "template": "Smiling Cat",
     "source": "https://imgflip.com/meme/Smiling-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2022,
+    "status": "alive",
+    "lore": "Smiling through the chaos."
   },
   {
     "id": "cat-240",
@@ -3838,7 +4555,10 @@
     "template": "Sad Cat Holding Dog",
     "source": "https://imgflip.com/meme/206464066/Sad-Cat-Holding-Dog",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2022,
+    "status": "alive",
+    "lore": "Emotional support, holding."
   },
   {
     "id": "cat-241",
@@ -3854,7 +4574,10 @@
     "template": "Excited Cat",
     "source": "https://imgflip.com/meme/Excited-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2021,
+    "status": "alive",
+    "lore": "Excitement levels: unsafe."
   },
   {
     "id": "cat-242",
@@ -3870,7 +4593,10 @@
     "template": "Cute Cat",
     "source": "https://imgflip.com/meme/Cute-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2015,
+    "status": "classic",
+    "lore": "Certified cute. No notes."
   },
   {
     "id": "cat-243",
@@ -3886,7 +4612,10 @@
     "template": "Smiling Cat",
     "source": "https://imgflip.com/meme/Smiling-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2022,
+    "status": "alive",
+    "lore": "Smiling through the chaos."
   },
   {
     "id": "cat-244",
@@ -3902,7 +4631,10 @@
     "template": "Sad Cat Holding Dog",
     "source": "https://imgflip.com/meme/206464066/Sad-Cat-Holding-Dog",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2022,
+    "status": "alive",
+    "lore": "Emotional support, holding."
   },
   {
     "id": "cat-245",
@@ -3918,7 +4650,10 @@
     "template": "Excited Cat",
     "source": "https://imgflip.com/meme/Excited-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2021,
+    "status": "alive",
+    "lore": "Excitement levels: unsafe."
   },
   {
     "id": "cat-246",
@@ -3934,7 +4669,10 @@
     "template": "Cute Cat",
     "source": "https://imgflip.com/meme/Cute-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2015,
+    "status": "classic",
+    "lore": "Certified cute. No notes."
   },
   {
     "id": "cat-247",
@@ -3950,7 +4688,10 @@
     "template": "Smiling Cat",
     "source": "https://imgflip.com/meme/Smiling-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2022,
+    "status": "alive",
+    "lore": "Smiling through the chaos."
   },
   {
     "id": "cat-248",
@@ -3966,7 +4707,10 @@
     "template": "Sad Cat Holding Dog",
     "source": "https://imgflip.com/meme/206464066/Sad-Cat-Holding-Dog",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2022,
+    "status": "alive",
+    "lore": "Emotional support, holding."
   },
   {
     "id": "cat-249",
@@ -3982,7 +4726,10 @@
     "template": "Excited Cat",
     "source": "https://imgflip.com/meme/Excited-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2021,
+    "status": "alive",
+    "lore": "Excitement levels: unsafe."
   },
   {
     "id": "cat-250",
@@ -3998,6 +4745,9 @@
     "template": "Smiling Cat",
     "source": "https://imgflip.com/meme/Smiling-Cat",
     "kind": "remix",
-    "added": "2026-09-14"
+    "added": "2026-09-14",
+    "origin": 2022,
+    "status": "alive",
+    "lore": "Smiling through the chaos."
   }
 ]

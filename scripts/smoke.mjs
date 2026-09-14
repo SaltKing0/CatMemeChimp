@@ -22,7 +22,10 @@ for (const [i, m] of lib.entries()) {
   if (!moods.has(m.mood)) fail(`${where} bad mood ${m.mood}`);
   if (!Array.isArray(m.tags) || !m.tags.length) fail(`${where} tags must be non-empty`);
   if (typeof m.image !== 'string' || !m.image.startsWith('/assets/memes/')) fail(`${where} bad image path`);
-  else if (!existsSync(join(pub, m.image.slice(1)))) fail(`${where} missing file ${m.image}`);
+  else   if (!existsSync(join(pub, m.image.slice(1)))) fail(`${where} missing file ${m.image}`);
+  if (typeof m.origin !== 'number') fail(`${where} missing origin year`);
+  if (!['immortal', 'classic', 'alive'].includes(m.status)) fail(`${where} bad status ${m.status}`);
+  if (typeof m.lore !== 'string' || !m.lore) fail(`${where} missing lore`);
   if (m.source !== null && m.source !== undefined && !String(m.source).startsWith('https://')) fail(`${where} bad source`);
 }
 
