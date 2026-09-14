@@ -75,6 +75,11 @@
 .meme-card{position:relative}
 .shiny-badge{position:absolute;top:8px;left:8px;z-index:2;background:#ffd75e;color:#3a2f10;font-size:10px;font-weight:800;border-radius:6px;padding:3px 8px}
 .meme-card.is-shiny{border-color:#d9c57c}
+.forge{background:var(--paper);border:1px solid var(--line);border-radius:13px;padding:16px;margin-bottom:16px}
+.forge h3{font-family:Fraunces,Georgia,serif;font-size:20px}
+.forge-top{display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin:10px 0 4px}
+.scrap-count{font-size:15px;font-weight:800}
+.forge .primary-button:disabled{cursor:not-allowed;opacity:.45}
 [data-theme="dark"] .pack-panel{background:linear-gradient(135deg,#2b2517,#3a3120);color:#f0e9d6}
 #stash{display:grid;gap:16px;margin-top:18px}
 .sets-panel,.trophies{background:var(--paper);border:1px solid var(--line);border-radius:13px;padding:16px}
