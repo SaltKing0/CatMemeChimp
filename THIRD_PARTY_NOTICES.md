@@ -4,7 +4,7 @@ CATMEMECHIMP is open-source software. The MIT license in this repository covers 
 
 ## Meme template images
 
-The 24 files in `public/assets/memes/` are community meme templates obtained from Imgflip. Each item in `public/library.json` records the template name and its individual Imgflip source page. The application also exposes that source link in the focused viewer.
+The 31 files in `public/assets/memes/` are community meme templates obtained from Imgflip. Each item in `public/library.json` records the template name and its individual Imgflip source page. The application also exposes that source link in the focused viewer.
 
 Imgflip is a user-generated-content platform and may not own every image uploaded to it. The inclusion of a source link is attribution and provenance, not a claim that Imgflip or this project can relicense the underlying image. These images are bundled to support the project's caption remixes and offline experience. They are expressly excluded from the repository's MIT license.
 
@@ -12,6 +12,14 @@ Before using or redistributing an image separately, determine whether your use i
 
 - Imgflip terms: https://imgflip.com/terms
 - Imgflip cat-template search: https://imgflip.com/memesearch?q=cat
+
+## TV bumper clips
+
+The MP4 files in `public/assets/clips/` are short, muted excerpts transcoded locally with ffmpeg for size. They are bundled under their original Creative Commons licenses, which are not replaced by this repository's MIT license:
+
+- `calico.mp4` — excerpt of "Calico kitten playing" by باسم, CC BY-SA 4.0. Source: https://commons.wikimedia.org/wiki/File:Calico_kitten_playing.webm
+- `tokyo.mp4` — excerpt of "Kitten playing - Tokyo - Jan 7 2020" by Nesnad, CC BY 4.0. Source: https://commons.wikimedia.org/wiki/File:Kitten_playing_-_Tokyo_-_Jan_7_2020.webm
+- `gatos.mp4` — excerpt of "Gatos hmnos" by EEIM, CC BY-SA 4.0. Source: https://commons.wikimedia.org/wiki/File:Gatos_hmnos.webm
 
 ## Fonts
 
