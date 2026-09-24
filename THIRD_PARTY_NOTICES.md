@@ -1,6 +1,6 @@
 # Third-party notices
 
-CATMEMECHIMP is open-source software. The MIT license in this repository covers the original application code, original CATMEMECHIMP captions, and CATMEMECHIMP branding. It does not grant rights to third-party photographs, meme templates, or font files.
+MEMECHIMP is open-source software. The MIT license in this repository covers the original application code, original MEMECHIMP captions, and MEMECHIMP branding. It does not grant rights to third-party photographs, meme templates, or font files.
 
 ## Meme template images
 

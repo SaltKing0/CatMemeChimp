@@ -1,216 +1,6 @@
 [
   {
-    "id": "cat-001",
-    "title": "An emotionally stable individual",
-    "top": "me replying “no worries”",
-    "bottom": "while actively having several worries",
-    "mood": "relatable",
-    "tags": [
-      "social",
-      "feelings"
-    ],
-    "image": "/assets/memes/3u04h5.jpg",
-    "template": "sad thumbs up cat",
-    "source": "https://imgflip.com/meme/231792809/sad-thumbs-up-cat",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2023,
-    "status": "alive",
-    "lore": "Thumbs up. Spirits down."
-  },
-  {
-    "id": "cat-002",
-    "title": "One brain cell. Currently buffering.",
-    "top": "when they explain the rules",
-    "bottom": "and immediately ask if you understood",
-    "mood": "chaos",
-    "tags": [
-      "confused",
-      "brain"
-    ],
-    "image": "/assets/memes/8338y8.jpg",
-    "template": "Huh Cat",
-    "source": "https://imgflip.com/meme/488919824/Huh-Cat",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2024,
-    "status": "alive",
-    "lore": "Confused in high definition."
-  },
-  {
-    "id": "cat-003",
-    "title": "A sound financial decision",
-    "top": "I should buy a boat.",
-    "bottom": "The box it comes in will be incredible.",
-    "mood": "snacks",
-    "tags": [
-      "boat",
-      "classic",
-      "box"
-    ],
-    "image": "/assets/memes/tau4.jpg",
-    "template": "I Should Buy A Boat Cat",
-    "source": "https://imgflip.com/meme/I-Should-Buy-A-Boat-Cat",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2012,
-    "status": "immortal",
-    "lore": "Boat questionable. Box undeniable."
-  },
-  {
-    "id": "cat-004",
-    "title": "A very measured response",
-    "top": "I’ve considered your proposal.",
-    "bottom": "No.",
-    "mood": "judgment",
-    "tags": [
-      "grumpy",
-      "work"
-    ],
-    "image": "/assets/memes/8p0a.jpg",
-    "template": "Grumpy Cat",
-    "source": "https://imgflip.com/meme/Grumpy-Cat",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2012,
-    "status": "immortal",
-    "lore": "Grumpy since 2012. Forever unimpressed."
-  },
-  {
-    "id": "cat-005",
-    "title": "Potassium with feelings",
-    "top": "trying to hold it together",
-    "bottom": "but I am literally a banana",
-    "mood": "chaos",
-    "tags": [
-      "banana",
-      "feelings"
-    ],
-    "image": "/assets/memes/7s8bhl.jpg",
-    "template": "Banana cat",
-    "source": "https://imgflip.com/meme/470680617/Banana-cat",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2023,
-    "status": "alive",
-    "lore": "Potassium with a fanbase."
-  },
-  {
-    "id": "cat-006",
-    "title": "Power saving mode",
-    "top": "I’m not ignoring my responsibilities.",
-    "bottom": "I’m letting them marinate.",
-    "mood": "sleepy",
-    "tags": [
-      "nap",
-      "tired"
-    ],
-    "image": "/assets/memes/11wis1.jpg",
-    "template": "Sleepy Kitten",
-    "source": "https://imgflip.com/meme/63663121/Sleepy-Kitten",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2013,
-    "status": "classic",
-    "lore": "Eepy before eepy was a word."
-  },
-  {
-    "id": "cat-007",
-    "title": "My favorite notification",
-    "top": "when your favorite person",
-    "bottom": "sends you a cat meme",
-    "mood": "wholesome",
-    "tags": [
-      "friendship",
-      "love"
-    ],
-    "image": "/assets/memes/amuvy.jpg",
-    "template": "Smiling Cat",
-    "source": "https://imgflip.com/meme/Smiling-Cat",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2022,
-    "status": "alive",
-    "lore": "Smiling through the chaos."
-  },
-  {
-    "id": "cat-008",
-    "title": "Let’s circle back",
-    "top": "this meeting could have been",
-    "bottom": "a nap in a sunbeam",
-    "mood": "relatable",
-    "tags": [
-      "work",
-      "meeting"
-    ],
-    "image": "/assets/memes/1bh7.jpg",
-    "template": "Business Cat",
-    "source": "https://imgflip.com/meme/Business-Cat",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2011,
-    "status": "immortal",
-    "lore": "Climbed the corporate ladder. Knocked it over."
-  },
-  {
-    "id": "cat-009",
-    "title": "The salad incident",
-    "top": "I specifically ordered",
-    "bottom": "the absence of vegetables",
-    "mood": "snacks",
-    "tags": [
-      "salad",
-      "dinner"
-    ],
-    "image": "/assets/memes/39binw.jpg",
-    "template": "Smudge the cat",
-    "source": "https://imgflip.com/meme/197052476/Smudge-the-cat",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2018,
-    "status": "immortal",
-    "lore": "Yells back at dinner since 2018."
-  },
-  {
-    "id": "cat-010",
-    "title": "The tiny things",
-    "top": "life is a lot",
-    "bottom": "but this song is doing its best",
-    "mood": "wholesome",
-    "tags": [
-      "music",
-      "vibe"
-    ],
-    "image": "/assets/memes/4l4wwy.jpg",
-    "template": "vibing cat",
-    "source": "https://imgflip.com/meme/277365922/vibing-cat",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2020,
-    "status": "classic",
-    "lore": "Headphones on. World off."
-  },
-  {
-    "id": "cat-011",
-    "title": "A reasonable request",
-    "top": "me asking for one small favor",
-    "bottom": "after rehearsing it for 45 minutes",
-    "mood": "relatable",
-    "tags": [
-      "anxiety",
-      "social"
-    ],
-    "image": "/assets/memes/p0a19.jpg",
-    "template": "Crying cat",
-    "source": "https://imgflip.com/meme/42003405/Crying-cat",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2014,
-    "status": "classic",
-    "lore": "Crying professionally for a decade."
-  },
-  {
-    "id": "cat-012",
+    "id": "meme-001",
     "title": "The snack alarm",
     "top": "the sound of a bag opening",
     "bottom": "three rooms away",
@@ -226,352 +16,12 @@
     "added": "2026-09-08",
     "origin": 2020,
     "status": "classic",
-    "lore": "Two frames. Infinite volume."
+    "lore": "Two frames. Infinite volume.",
+    "legacyId": "cat-012",
+    "category": "cat"
   },
   {
-    "id": "cat-013",
-    "title": "Suspiciously unbothered",
-    "top": "walking away from a problem",
-    "bottom": "I definitely created",
-    "mood": "chaos",
-    "tags": [
-      "trouble",
-      "walk"
-    ],
-    "image": "/assets/memes/24uu.jpg",
-    "template": "Cool Cat Stroll",
-    "source": "https://imgflip.com/meme/Cool-Cat-Stroll",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2020,
-    "status": "alive",
-    "lore": "Struts like rent is due."
-  },
-  {
-    "id": "cat-014",
-    "title": "A successful morning",
-    "top": "I got out of bed.",
-    "bottom": "Let’s not get ambitious.",
-    "mood": "sleepy",
-    "tags": [
-      "morning",
-      "tired"
-    ],
-    "image": "/assets/memes/3e5sun.jpg",
-    "template": "I'm awake, but at what cost?",
-    "source": "https://imgflip.com/meme/205183823/Im-awake-but-at-what-cost",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2021,
-    "status": "alive",
-    "lore": "Awake. At what cost."
-  },
-  {
-    "id": "cat-015",
-    "title": "You are doing great",
-    "top": "just a small reminder",
-    "bottom": "you’re someone’s favorite human",
-    "mood": "wholesome",
-    "tags": [
-      "kindness",
-      "love"
-    ],
-    "image": "/assets/memes/4xgqu.jpg",
-    "template": "Cute Cat",
-    "source": "https://imgflip.com/meme/Cute-Cat",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2015,
-    "status": "classic",
-    "lore": "Certified cute. No notes."
-  },
-  {
-    "id": "cat-016",
-    "title": "The front camera",
-    "top": "accidentally opening the camera",
-    "bottom": "and meeting the actual me",
-    "mood": "chaos",
-    "tags": [
-      "phone",
-      "surprised"
-    ],
-    "image": "/assets/memes/2hgfw.jpg",
-    "template": "Scared Cat",
-    "source": "https://imgflip.com/meme/Scared-Cat",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2019,
-    "status": "classic",
-    "lore": "Startled since 2019."
-  },
-  {
-    "id": "cat-017",
-    "title": "Breaking mews",
-    "top": "local cat does absolutely nothing",
-    "bottom": "still needs a little treat",
-    "mood": "snacks",
-    "tags": [
-      "news",
-      "treat"
-    ],
-    "image": "/assets/memes/bgsvd.jpg",
-    "template": "Cat newspaper",
-    "source": "https://imgflip.com/meme/19259689/Cat-newspaper",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2015,
-    "status": "classic",
-    "lore": "Reports the news. Is the news."
-  },
-  {
-    "id": "cat-018",
-    "title": "Your unsolicited opinion",
-    "top": "I hear what you’re saying.",
-    "bottom": "I wish I didn’t.",
-    "mood": "judgment",
-    "tags": [
-      "grumpy",
-      "social"
-    ],
-    "image": "/assets/memes/5do96.jpg",
-    "template": "Grumpy Cat Not Amused",
-    "source": "https://imgflip.com/meme/Grumpy-Cat-Not-Amused",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2013,
-    "status": "classic",
-    "lore": "The gold standard of not-amused."
-  },
-  {
-    "id": "cat-019",
-    "title": "Emotional support manager",
-    "top": "when your friend is sad",
-    "bottom": "and your only skill is being there",
-    "mood": "wholesome",
-    "tags": [
-      "friendship",
-      "hug"
-    ],
-    "image": "/assets/memes/3ex8oy.jpg",
-    "template": "Sad Cat Holding Dog",
-    "source": "https://imgflip.com/meme/206464066/Sad-Cat-Holding-Dog",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2022,
-    "status": "alive",
-    "lore": "Emotional support, holding."
-  },
-  {
-    "id": "cat-020",
-    "title": "The typing indicator",
-    "top": "watching “typing…” disappear",
-    "bottom": "after I sent a heartfelt paragraph",
-    "mood": "relatable",
-    "tags": [
-      "texting",
-      "phone"
-    ],
-    "image": "/assets/memes/3vnurc.jpg",
-    "template": "Crying cat on phone",
-    "source": "https://imgflip.com/meme/234579576/Crying-cat-on-phone",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2021,
-    "status": "alive",
-    "lore": "Doomscrolling before it was cool."
-  },
-  {
-    "id": "cat-021",
-    "title": "An ambitious schedule",
-    "top": "9:00 — nap",
-    "bottom": "10:00 — recover from nap",
-    "mood": "sleepy",
-    "tags": [
-      "nap",
-      "schedule"
-    ],
-    "image": "/assets/memes/lp2ba.jpg",
-    "template": "Sleepy Cat",
-    "source": "https://imgflip.com/meme/36441334/Sleepy-Cat",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2012,
-    "status": "classic",
-    "lore": "Horizontal since forever."
-  },
-  {
-    "id": "cat-022",
-    "title": "Peer reviewed",
-    "top": "scientists have confirmed",
-    "bottom": "the bowl is empty in the middle",
-    "mood": "snacks",
-    "tags": [
-      "science",
-      "bowl"
-    ],
-    "image": "/assets/memes/1bif.jpg",
-    "template": "Chemistry Cat",
-    "source": "https://imgflip.com/meme/Chemistry-Cat",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2011,
-    "status": "classic",
-    "lore": "Peer reviews your snacks."
-  },
-  {
-    "id": "cat-023",
-    "title": "The audacity department",
-    "top": "you moved me off the keyboard",
-    "bottom": "to do WHAT exactly?",
-    "mood": "judgment",
-    "tags": [
-      "work",
-      "keyboard"
-    ],
-    "image": "/assets/memes/35v1lq.jpg",
-    "template": "white cat table",
-    "source": "https://imgflip.com/meme/191245022/white-cat-table",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2019,
-    "status": "classic",
-    "lore": "Sits at tables. Judges at tables."
-  },
-  {
-    "id": "cat-024",
-    "title": "Unnecessary enthusiasm",
-    "top": "when someone says “want to come?”",
-    "bottom": "and I was already putting shoes on",
-    "mood": "wholesome",
-    "tags": [
-      "friends",
-      "excited"
-    ],
-    "image": "/assets/memes/72k5g.jpg",
-    "template": "Excited Cat",
-    "source": "https://imgflip.com/meme/Excited-Cat",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2021,
-    "status": "alive",
-    "lore": "Excitement levels: unsafe."
-  },
-  {
-    "id": "cat-025",
-    "title": "Instructions unclear",
-    "top": "I have read the same sentence",
-    "bottom": "seven times. A new record.",
-    "mood": "relatable",
-    "tags": [
-      "reading",
-      "confused"
-    ],
-    "image": "/assets/memes/8338y8.jpg",
-    "template": "Huh Cat",
-    "source": "https://imgflip.com/meme/488919824/Huh-Cat",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2024,
-    "status": "alive",
-    "lore": "Confused in high definition."
-  },
-  {
-    "id": "cat-026",
-    "title": "Fruit with a deadline",
-    "top": "born to be a little banana",
-    "bottom": "forced to answer emails",
-    "mood": "relatable",
-    "tags": [
-      "work",
-      "banana"
-    ],
-    "image": "/assets/memes/7s8bhl.jpg",
-    "template": "Banana cat",
-    "source": "https://imgflip.com/meme/470680617/Banana-cat",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2023,
-    "status": "alive",
-    "lore": "Potassium with a fanbase."
-  },
-  {
-    "id": "cat-027",
-    "title": "A customer satisfaction survey",
-    "top": "on a scale of one to ten",
-    "bottom": "please leave",
-    "mood": "judgment",
-    "tags": [
-      "grumpy",
-      "people"
-    ],
-    "image": "/assets/memes/8p0a.jpg",
-    "template": "Grumpy Cat",
-    "source": "https://imgflip.com/meme/Grumpy-Cat",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2012,
-    "status": "immortal",
-    "lore": "Grumpy since 2012. Forever unimpressed."
-  },
-  {
-    "id": "cat-028",
-    "title": "Social battery: 1%",
-    "top": "had one conversation",
-    "bottom": "need three business days to recover",
-    "mood": "sleepy",
-    "tags": [
-      "social",
-      "battery"
-    ],
-    "image": "/assets/memes/11wis1.jpg",
-    "template": "Sleepy Kitten",
-    "source": "https://imgflip.com/meme/63663121/Sleepy-Kitten",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2013,
-    "status": "classic",
-    "lore": "Eepy before eepy was a word."
-  },
-  {
-    "id": "cat-029",
-    "title": "A private concert",
-    "top": "the microwave hums in B flat",
-    "bottom": "and honestly it’s a banger",
-    "mood": "chaos",
-    "tags": [
-      "music",
-      "brain"
-    ],
-    "image": "/assets/memes/4l4wwy.jpg",
-    "template": "vibing cat",
-    "source": "https://imgflip.com/meme/277365922/vibing-cat",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2020,
-    "status": "classic",
-    "lore": "Headphones on. World off."
-  },
-  {
-    "id": "cat-030",
-    "title": "Together is a place",
-    "top": "doing absolutely nothing",
-    "bottom": "but next to my favorite person",
-    "mood": "wholesome",
-    "tags": [
-      "love",
-      "friendship"
-    ],
-    "image": "/assets/memes/amuvy.jpg",
-    "template": "Smiling Cat",
-    "source": "https://imgflip.com/meme/Smiling-Cat",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2022,
-    "status": "alive",
-    "lore": "Smiling through the chaos."
-  },
-  {
-    "id": "cat-031",
+    "id": "meme-002",
     "title": "The box economy",
     "top": "buy expensive cat bed",
     "bottom": "sleep in the receipt",
@@ -587,257 +37,12 @@
     "added": "2026-09-08",
     "origin": 2012,
     "status": "immortal",
-    "lore": "Boat questionable. Box undeniable."
+    "lore": "Boat questionable. Box undeniable.",
+    "legacyId": "cat-031",
+    "category": "cat"
   },
   {
-    "id": "cat-032",
-    "title": "The opening ceremony",
-    "top": "you said “snack”",
-    "bottom": "I heard “mandatory attendance”",
-    "mood": "snacks",
-    "tags": [
-      "hungry",
-      "treat"
-    ],
-    "image": "/assets/memes/4p3h78.jpg",
-    "template": "Pop Cat",
-    "source": "https://imgflip.com/meme/284017364/Pop-Cat",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2020,
-    "status": "classic",
-    "lore": "Two frames. Infinite volume."
-  },
-  {
-    "id": "cat-033",
-    "title": "A very normal email",
-    "top": "“just following up!”",
-    "bottom": "sent from the edge of my sanity",
-    "mood": "relatable",
-    "tags": [
-      "email",
-      "work"
-    ],
-    "image": "/assets/memes/3u04h5.jpg",
-    "template": "sad thumbs up cat",
-    "source": "https://imgflip.com/meme/231792809/sad-thumbs-up-cat",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2023,
-    "status": "alive",
-    "lore": "Thumbs up. Spirits down."
-  },
-  {
-    "id": "cat-034",
-    "title": "The 3 a.m. sprint",
-    "top": "no destination. no explanation.",
-    "bottom": "just extremely urgent cat business.",
-    "mood": "chaos",
-    "tags": [
-      "zoomies",
-      "night"
-    ],
-    "image": "/assets/memes/24uu.jpg",
-    "template": "Cool Cat Stroll",
-    "source": "https://imgflip.com/meme/Cool-Cat-Stroll",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2020,
-    "status": "alive",
-    "lore": "Struts like rent is due."
-  },
-  {
-    "id": "cat-035",
-    "title": "The wrong side of the door",
-    "top": "let me out.",
-    "bottom": "actually, let me in.",
-    "mood": "judgment",
-    "tags": [
-      "door",
-      "cat"
-    ],
-    "image": "/assets/memes/39binw.jpg",
-    "template": "Smudge the cat",
-    "source": "https://imgflip.com/meme/197052476/Smudge-the-cat",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2018,
-    "status": "immortal",
-    "lore": "Yells back at dinner since 2018."
-  },
-  {
-    "id": "cat-036",
-    "title": "Tomorrow’s problem",
-    "top": "me setting an early alarm",
-    "bottom": "as if I’m a different person tomorrow",
-    "mood": "sleepy",
-    "tags": [
-      "alarm",
-      "morning"
-    ],
-    "image": "/assets/memes/3e5sun.jpg",
-    "template": "I'm awake, but at what cost?",
-    "source": "https://imgflip.com/meme/205183823/Im-awake-but-at-what-cost",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2021,
-    "status": "alive",
-    "lore": "Awake. At what cost."
-  },
-  {
-    "id": "cat-037",
-    "title": "A small achievement",
-    "top": "you drank water today?",
-    "bottom": "incredible. we’re celebrating.",
-    "mood": "wholesome",
-    "tags": [
-      "kindness",
-      "win"
-    ],
-    "image": "/assets/memes/4xgqu.jpg",
-    "template": "Cute Cat",
-    "source": "https://imgflip.com/meme/Cute-Cat",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2015,
-    "status": "classic",
-    "lore": "Certified cute. No notes."
-  },
-  {
-    "id": "cat-038",
-    "title": "An investigative journalist",
-    "top": "checking the fridge again",
-    "bottom": "in case the plot has developed",
-    "mood": "snacks",
-    "tags": [
-      "food",
-      "fridge"
-    ],
-    "image": "/assets/memes/bgsvd.jpg",
-    "template": "Cat newspaper",
-    "source": "https://imgflip.com/meme/19259689/Cat-newspaper",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2015,
-    "status": "classic",
-    "lore": "Reports the news. Is the news."
-  },
-  {
-    "id": "cat-039",
-    "title": "Unscheduled visitor",
-    "top": "when someone knocks",
-    "bottom": "and you weren’t expecting a plot twist",
-    "mood": "chaos",
-    "tags": [
-      "surprised",
-      "door"
-    ],
-    "image": "/assets/memes/2hgfw.jpg",
-    "template": "Scared Cat",
-    "source": "https://imgflip.com/meme/Scared-Cat",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2019,
-    "status": "classic",
-    "lore": "Startled since 2019."
-  },
-  {
-    "id": "cat-040",
-    "title": "Available for opportunities",
-    "top": "my core competencies include",
-    "bottom": "looking busy and sitting on things",
-    "mood": "relatable",
-    "tags": [
-      "work",
-      "career"
-    ],
-    "image": "/assets/memes/1bh7.jpg",
-    "template": "Business Cat",
-    "source": "https://imgflip.com/meme/Business-Cat",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2011,
-    "status": "immortal",
-    "lore": "Climbed the corporate ladder. Knocked it over."
-  },
-  {
-    "id": "cat-041",
-    "title": "Closed for maintenance",
-    "top": "my weekend plans",
-    "bottom": "are horizontal",
-    "mood": "sleepy",
-    "tags": [
-      "weekend",
-      "nap"
-    ],
-    "image": "/assets/memes/lp2ba.jpg",
-    "template": "Sleepy Cat",
-    "source": "https://imgflip.com/meme/36441334/Sleepy-Cat",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2012,
-    "status": "classic",
-    "lore": "Horizontal since forever."
-  },
-  {
-    "id": "cat-042",
-    "title": "The red dot investigation",
-    "top": "you control the red dot.",
-    "bottom": "I saw everything.",
-    "mood": "judgment",
-    "tags": [
-      "laser",
-      "grumpy"
-    ],
-    "image": "/assets/memes/5do96.jpg",
-    "template": "Grumpy Cat Not Amused",
-    "source": "https://imgflip.com/meme/Grumpy-Cat-Not-Amused",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2013,
-    "status": "classic",
-    "lore": "The gold standard of not-amused."
-  },
-  {
-    "id": "cat-043",
-    "title": "Your designated little guy",
-    "top": "I cannot fix your problems",
-    "bottom": "but I can sit directly on them",
-    "mood": "wholesome",
-    "tags": [
-      "support",
-      "love"
-    ],
-    "image": "/assets/memes/3ex8oy.jpg",
-    "template": "Sad Cat Holding Dog",
-    "source": "https://imgflip.com/meme/206464066/Sad-Cat-Holding-Dog",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2022,
-    "status": "alive",
-    "lore": "Emotional support, holding."
-  },
-  {
-    "id": "cat-044",
-    "title": "A balanced diet",
-    "top": "one treat for good behavior",
-    "bottom": "two treats for potential good behavior",
-    "mood": "snacks",
-    "tags": [
-      "treat",
-      "science"
-    ],
-    "image": "/assets/memes/1bif.jpg",
-    "template": "Chemistry Cat",
-    "source": "https://imgflip.com/meme/Chemistry-Cat",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2011,
-    "status": "classic",
-    "lore": "Peer reviews your snacks."
-  },
-  {
-    "id": "cat-045",
+    "id": "meme-003",
     "title": "Five-star guest",
     "top": "I live here.",
     "bottom": "You just pay for it.",
@@ -853,10 +58,12 @@
     "added": "2026-09-08",
     "origin": 2019,
     "status": "classic",
-    "lore": "Sits at tables. Judges at tables."
+    "lore": "Sits at tables. Judges at tables.",
+    "legacyId": "cat-045",
+    "category": "cat"
   },
   {
-    "id": "cat-046",
+    "id": "meme-004",
     "title": "Calendar betrayal",
     "top": "when “next week”",
     "bottom": "becomes this week",
@@ -872,238 +79,12 @@
     "added": "2026-09-08",
     "origin": 2014,
     "status": "classic",
-    "lore": "Crying professionally for a decade."
+    "lore": "Crying professionally for a decade.",
+    "legacyId": "cat-046",
+    "category": "cat"
   },
   {
-    "id": "cat-047",
-    "title": "The welcome committee",
-    "top": "you were gone for four minutes",
-    "bottom": "I have prepared a reunion",
-    "mood": "wholesome",
-    "tags": [
-      "welcome",
-      "love"
-    ],
-    "image": "/assets/memes/72k5g.jpg",
-    "template": "Excited Cat",
-    "source": "https://imgflip.com/meme/Excited-Cat",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2021,
-    "status": "alive",
-    "lore": "Excitement levels: unsafe."
-  },
-  {
-    "id": "cat-048",
-    "title": "Digital hibernation",
-    "top": "phone on do not disturb",
-    "bottom": "brain on do not perceive",
-    "mood": "sleepy",
-    "tags": [
-      "phone",
-      "tired"
-    ],
-    "image": "/assets/memes/3vnurc.jpg",
-    "template": "Crying cat on phone",
-    "source": "https://imgflip.com/meme/234579576/Crying-cat-on-phone",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2021,
-    "status": "alive",
-    "lore": "Doomscrolling before it was cool."
-  },
-  {
-    "id": "cat-049",
-    "title": "Personal growth",
-    "top": "I’m becoming more patient.",
-    "bottom": "You are making it difficult.",
-    "mood": "judgment",
-    "tags": [
-      "grumpy",
-      "patience"
-    ],
-    "image": "/assets/memes/8p0a.jpg",
-    "template": "Grumpy Cat",
-    "source": "https://imgflip.com/meme/Grumpy-Cat",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2012,
-    "status": "immortal",
-    "lore": "Grumpy since 2012. Forever unimpressed."
-  },
-  {
-    "id": "cat-050",
-    "title": "Just happy to be here",
-    "top": "no thoughts",
-    "bottom": "only potassium",
-    "mood": "chaos",
-    "tags": [
-      "banana",
-      "brain"
-    ],
-    "image": "/assets/memes/7s8bhl.jpg",
-    "template": "Banana cat",
-    "source": "https://imgflip.com/meme/470680617/Banana-cat",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2023,
-    "status": "alive",
-    "lore": "Potassium with a fanbase."
-  },
-  {
-    "id": "cat-051",
-    "title": "An urgent appointment",
-    "top": "can’t talk right now",
-    "bottom": "the sunbeam is moving",
-    "mood": "sleepy",
-    "tags": [
-      "sun",
-      "nap"
-    ],
-    "image": "/assets/memes/11wis1.jpg",
-    "template": "Sleepy Kitten",
-    "source": "https://imgflip.com/meme/63663121/Sleepy-Kitten",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2013,
-    "status": "classic",
-    "lore": "Eepy before eepy was a word."
-  },
-  {
-    "id": "cat-052",
-    "title": "Found family",
-    "top": "some people feel like",
-    "bottom": "the warm side of the blanket",
-    "mood": "wholesome",
-    "tags": [
-      "love",
-      "friends"
-    ],
-    "image": "/assets/memes/amuvy.jpg",
-    "template": "Smiling Cat",
-    "source": "https://imgflip.com/meme/Smiling-Cat",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2022,
-    "status": "alive",
-    "lore": "Smiling through the chaos."
-  },
-  {
-    "id": "cat-053",
-    "title": "Financial planning",
-    "top": "rent is expensive",
-    "bottom": "have we considered a larger cardboard box?",
-    "mood": "relatable",
-    "tags": [
-      "money",
-      "box"
-    ],
-    "image": "/assets/memes/tau4.jpg",
-    "template": "I Should Buy A Boat Cat",
-    "source": "https://imgflip.com/meme/I-Should-Buy-A-Boat-Cat",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2012,
-    "status": "immortal",
-    "lore": "Boat questionable. Box undeniable."
-  },
-  {
-    "id": "cat-054",
-    "title": "Michelin inspector",
-    "top": "the food is fine",
-    "bottom": "I wanted yours",
-    "mood": "snacks",
-    "tags": [
-      "dinner",
-      "food"
-    ],
-    "image": "/assets/memes/39binw.jpg",
-    "template": "Smudge the cat",
-    "source": "https://imgflip.com/meme/197052476/Smudge-the-cat",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2018,
-    "status": "immortal",
-    "lore": "Yells back at dinner since 2018."
-  },
-  {
-    "id": "cat-055",
-    "title": "Quality assurance",
-    "top": "you called that a belly rub?",
-    "bottom": "interesting.",
-    "mood": "judgment",
-    "tags": [
-      "grumpy",
-      "belly"
-    ],
-    "image": "/assets/memes/5do96.jpg",
-    "template": "Grumpy Cat Not Amused",
-    "source": "https://imgflip.com/meme/Grumpy-Cat-Not-Amused",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2013,
-    "status": "classic",
-    "lore": "The gold standard of not-amused."
-  },
-  {
-    "id": "cat-056",
-    "title": "Tiny opera singer",
-    "top": "singing the song of my people",
-    "bottom": "because dinner is 12 seconds late",
-    "mood": "snacks",
-    "tags": [
-      "hungry",
-      "drama"
-    ],
-    "image": "/assets/memes/4p3h78.jpg",
-    "template": "Pop Cat",
-    "source": "https://imgflip.com/meme/284017364/Pop-Cat",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2020,
-    "status": "classic",
-    "lore": "Two frames. Infinite volume."
-  },
-  {
-    "id": "cat-057",
-    "title": "Do less. Then rest.",
-    "top": "I need a nap",
-    "bottom": "to prepare for going to bed",
-    "mood": "sleepy",
-    "tags": [
-      "nap",
-      "bed"
-    ],
-    "image": "/assets/memes/lp2ba.jpg",
-    "template": "Sleepy Cat",
-    "source": "https://imgflip.com/meme/36441334/Sleepy-Cat",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2012,
-    "status": "classic",
-    "lore": "Horizontal since forever."
-  },
-  {
-    "id": "cat-058",
-    "title": "A performance review",
-    "top": "your work-life balance is poor",
-    "bottom": "you work. I have a life.",
-    "mood": "judgment",
-    "tags": [
-      "work",
-      "attitude"
-    ],
-    "image": "/assets/memes/35v1lq.jpg",
-    "template": "white cat table",
-    "source": "https://imgflip.com/meme/191245022/white-cat-table",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2019,
-    "status": "classic",
-    "lore": "Sits at tables. Judges at tables."
-  },
-  {
-    "id": "cat-059",
+    "id": "meme-005",
     "title": "A brief intermission",
     "top": "brb",
     "bottom": "experiencing gravity",
@@ -1119,143 +100,12 @@
     "added": "2026-09-08",
     "origin": 2021,
     "status": "alive",
-    "lore": "Awake. At what cost."
+    "lore": "Awake. At what cost.",
+    "legacyId": "cat-059",
+    "category": "cat"
   },
   {
-    "id": "cat-060",
-    "title": "Recalculating",
-    "top": "the math is not mathing",
-    "bottom": "and I am not helping",
-    "mood": "chaos",
-    "tags": [
-      "confused",
-      "math"
-    ],
-    "image": "/assets/memes/8338y8.jpg",
-    "template": "Huh Cat",
-    "source": "https://imgflip.com/meme/488919824/Huh-Cat",
-    "kind": "remix",
-    "added": "2026-09-08",
-    "origin": 2024,
-    "status": "alive",
-    "lore": "Confused in high definition."
-  },
-  {
-    "id": "cat-061",
-    "title": "Read at 9:03 PM",
-    "top": "leaves me on read",
-    "bottom": "posts a story 4 minutes later",
-    "mood": "relatable",
-    "tags": [
-      "texting",
-      "friends"
-    ],
-    "image": "/assets/memes/8p0a.jpg",
-    "template": "Grumpy Cat",
-    "source": "https://imgflip.com/meme/Grumpy-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2012,
-    "status": "immortal",
-    "lore": "Grumpy since 2012. Forever unimpressed."
-  },
-  {
-    "id": "cat-062",
-    "title": "The group chat lore",
-    "top": "everyone laughing at messages",
-    "bottom": "from while I was asleep",
-    "mood": "relatable",
-    "tags": [
-      "friends",
-      "confused"
-    ],
-    "image": "/assets/memes/8338y8.jpg",
-    "template": "Huh Cat",
-    "source": "https://imgflip.com/meme/488919824/Huh-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2024,
-    "status": "alive",
-    "lore": "Confused in high definition."
-  },
-  {
-    "id": "cat-063",
-    "title": "Inbox zero speedrun",
-    "top": "0 unread emails",
-    "bottom": "147 unread life decisions",
-    "mood": "relatable",
-    "tags": [
-      "work",
-      "email"
-    ],
-    "image": "/assets/memes/1bh7.jpg",
-    "template": "Business Cat",
-    "source": "https://imgflip.com/meme/Business-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2011,
-    "status": "immortal",
-    "lore": "Climbed the corporate ladder. Knocked it over."
-  },
-  {
-    "id": "cat-064",
-    "title": "The Sunday reset",
-    "top": "new week, new me",
-    "bottom": "same me, new snacks",
-    "mood": "relatable",
-    "tags": [
-      "weekend",
-      "snacks"
-    ],
-    "image": "/assets/memes/p0a19.jpg",
-    "template": "Crying cat",
-    "source": "https://imgflip.com/meme/42003405/Crying-cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2014,
-    "status": "classic",
-    "lore": "Crying professionally for a decade."
-  },
-  {
-    "id": "cat-065",
-    "title": "Performance review face",
-    "top": "“we value work-life balance”",
-    "bottom": "sends 11pm slack anyway",
-    "mood": "relatable",
-    "tags": [
-      "work",
-      "slack"
-    ],
-    "image": "/assets/memes/3u04h5.jpg",
-    "template": "sad thumbs up cat",
-    "source": "https://imgflip.com/meme/231792809/sad-thumbs-up-cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2023,
-    "status": "alive",
-    "lore": "Thumbs up. Spirits down."
-  },
-  {
-    "id": "cat-066",
-    "title": "The rent conversation",
-    "top": "landlord: just a small increase",
-    "bottom": "my salary: absolutely not",
-    "mood": "relatable",
-    "tags": [
-      "money",
-      "home"
-    ],
-    "image": "/assets/memes/35v1lq.jpg",
-    "template": "white cat table",
-    "source": "https://imgflip.com/meme/191245022/white-cat-table",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2019,
-    "status": "classic",
-    "lore": "Sits at tables. Judges at tables."
-  },
-  {
-    "id": "cat-067",
+    "id": "meme-006",
     "title": "Trust the science",
     "top": "studies show naps improve",
     "bottom": "literally everything",
@@ -1271,86 +121,12 @@
     "added": "2026-09-14",
     "origin": 2011,
     "status": "classic",
-    "lore": "Peer reviews your snacks."
+    "lore": "Peer reviews your snacks.",
+    "legacyId": "cat-067",
+    "category": "cat"
   },
   {
-    "id": "cat-068",
-    "title": "HR has been notified",
-    "top": "me leaving the meeting",
-    "bottom": "I was never invited to",
-    "mood": "chaos",
-    "tags": [
-      "work",
-      "trouble"
-    ],
-    "image": "/assets/memes/24uu.jpg",
-    "template": "Cool Cat Stroll",
-    "source": "https://imgflip.com/meme/Cool-Cat-Stroll",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2020,
-    "status": "alive",
-    "lore": "Struts like rent is due."
-  },
-  {
-    "id": "cat-069",
-    "title": "The doorbell cinematic universe",
-    "top": "package for you",
-    "bottom": "fight or flight: activated",
-    "mood": "chaos",
-    "tags": [
-      "surprised",
-      "door"
-    ],
-    "image": "/assets/memes/2hgfw.jpg",
-    "template": "Scared Cat",
-    "source": "https://imgflip.com/meme/Scared-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2019,
-    "status": "classic",
-    "lore": "Startled since 2019."
-  },
-  {
-    "id": "cat-070",
-    "title": "Emotional support fruit",
-    "top": "peeling good today",
-    "bottom": "potassium levels: unhinged",
-    "mood": "chaos",
-    "tags": [
-      "banana",
-      "feelings"
-    ],
-    "image": "/assets/memes/7s8bhl.jpg",
-    "template": "Banana cat",
-    "source": "https://imgflip.com/meme/470680617/Banana-cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2023,
-    "status": "alive",
-    "lore": "Potassium with a fanbase."
-  },
-  {
-    "id": "cat-071",
-    "title": "The 2am duet",
-    "top": "smoke detector: chirp",
-    "bottom": "me: chirp back, but louder",
-    "mood": "chaos",
-    "tags": [
-      "night",
-      "drama"
-    ],
-    "image": "/assets/memes/4p3h78.jpg",
-    "template": "Pop Cat",
-    "source": "https://imgflip.com/meme/284017364/Pop-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2020,
-    "status": "classic",
-    "lore": "Two frames. Infinite volume."
-  },
-  {
-    "id": "cat-072",
+    "id": "meme-007",
     "title": "Math again?",
     "top": "quick mafs",
     "bottom": "slow regrets",
@@ -1366,48 +142,12 @@
     "added": "2026-09-14",
     "origin": 2024,
     "status": "alive",
-    "lore": "Confused in high definition."
+    "lore": "Confused in high definition.",
+    "legacyId": "cat-072",
+    "category": "cat"
   },
   {
-    "id": "cat-073",
-    "title": "DJ Fridge Hum",
-    "top": "headlining my kitchen",
-    "bottom": "one night only (every night)",
-    "mood": "chaos",
-    "tags": [
-      "music",
-      "night"
-    ],
-    "image": "/assets/memes/4l4wwy.jpg",
-    "template": "vibing cat",
-    "source": "https://imgflip.com/meme/277365922/vibing-cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2020,
-    "status": "classic",
-    "lore": "Headphones on. World off."
-  },
-  {
-    "id": "cat-074",
-    "title": "The five-year plan",
-    "top": "step 1: get box",
-    "bottom": "step 2: sit in box. done.",
-    "mood": "chaos",
-    "tags": [
-      "box",
-      "classic"
-    ],
-    "image": "/assets/memes/tau4.jpg",
-    "template": "I Should Buy A Boat Cat",
-    "source": "https://imgflip.com/meme/I-Should-Buy-A-Boat-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2012,
-    "status": "immortal",
-    "lore": "Boat questionable. Box undeniable."
-  },
-  {
-    "id": "cat-075",
+    "id": "meme-008",
     "title": "The dinner audit",
     "top": "you made pasta",
     "bottom": "where is MY pasta",
@@ -1423,105 +163,12 @@
     "added": "2026-09-14",
     "origin": 2018,
     "status": "immortal",
-    "lore": "Yells back at dinner since 2018."
+    "lore": "Yells back at dinner since 2018.",
+    "legacyId": "cat-075",
+    "category": "cat"
   },
   {
-    "id": "cat-076",
-    "title": "Crunch-based communication",
-    "top": "if I crunch louder",
-    "bottom": "second breakfast appears",
-    "mood": "snacks",
-    "tags": [
-      "hungry",
-      "breakfast"
-    ],
-    "image": "/assets/memes/4p3h78.jpg",
-    "template": "Pop Cat",
-    "source": "https://imgflip.com/meme/284017364/Pop-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2020,
-    "status": "classic",
-    "lore": "Two frames. Infinite volume."
-  },
-  {
-    "id": "cat-077",
-    "title": "Peer-reviewed snackology",
-    "top": "hypothesis: fridge snacks",
-    "bottom": "taste better at midnight",
-    "mood": "snacks",
-    "tags": [
-      "science",
-      "night"
-    ],
-    "image": "/assets/memes/1bif.jpg",
-    "template": "Chemistry Cat",
-    "source": "https://imgflip.com/meme/Chemistry-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2011,
-    "status": "classic",
-    "lore": "Peer reviews your snacks."
-  },
-  {
-    "id": "cat-078",
-    "title": "Snack market update",
-    "top": "treat stocks rising",
-    "bottom": "analysts recommend screaming",
-    "mood": "snacks",
-    "tags": [
-      "news",
-      "treat"
-    ],
-    "image": "/assets/memes/bgsvd.jpg",
-    "template": "Cat newspaper",
-    "source": "https://imgflip.com/meme/19259689/Cat-newspaper",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2015,
-    "status": "classic",
-    "lore": "Reports the news. Is the news."
-  },
-  {
-    "id": "cat-079",
-    "title": "Lunch and learn",
-    "top": "today’s lesson:",
-    "bottom": "your sandwich is communal",
-    "mood": "snacks",
-    "tags": [
-      "work",
-      "lunch"
-    ],
-    "image": "/assets/memes/1bh7.jpg",
-    "template": "Business Cat",
-    "source": "https://imgflip.com/meme/Business-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2011,
-    "status": "immortal",
-    "lore": "Climbed the corporate ladder. Knocked it over."
-  },
-  {
-    "id": "cat-080",
-    "title": "The dessert defense",
-    "top": "I’m full",
-    "bottom": "(of dessert-adjacent room)",
-    "mood": "snacks",
-    "tags": [
-      "dinner",
-      "dessert"
-    ],
-    "image": "/assets/memes/4xgqu.jpg",
-    "template": "Cute Cat",
-    "source": "https://imgflip.com/meme/Cute-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2015,
-    "status": "classic",
-    "lore": "Certified cute. No notes."
-  },
-  {
-    "id": "cat-081",
+    "id": "meme-009",
     "title": "Smoothie era",
     "top": "blended my feelings",
     "bottom": "still lumpy",
@@ -1537,86 +184,12 @@
     "added": "2026-09-14",
     "origin": 2023,
     "status": "alive",
-    "lore": "Potassium with a fanbase."
+    "lore": "Potassium with a fanbase.",
+    "legacyId": "cat-081",
+    "category": "cat"
   },
   {
-    "id": "cat-082",
-    "title": "The gym membership",
-    "top": "paying monthly",
-    "bottom": "to be judged by a cat",
-    "mood": "judgment",
-    "tags": [
-      "gym",
-      "grumpy"
-    ],
-    "image": "/assets/memes/5do96.jpg",
-    "template": "Grumpy Cat Not Amused",
-    "source": "https://imgflip.com/meme/Grumpy-Cat-Not-Amused",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2013,
-    "status": "classic",
-    "lore": "The gold standard of not-amused."
-  },
-  {
-    "id": "cat-083",
-    "title": "The code review",
-    "top": "“just one small comment”",
-    "bottom": "47 comments later",
-    "mood": "judgment",
-    "tags": [
-      "work",
-      "code"
-    ],
-    "image": "/assets/memes/35v1lq.jpg",
-    "template": "white cat table",
-    "source": "https://imgflip.com/meme/191245022/white-cat-table",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2019,
-    "status": "classic",
-    "lore": "Sits at tables. Judges at tables."
-  },
-  {
-    "id": "cat-084",
-    "title": "The salad verdict",
-    "top": "you ordered salad",
-    "bottom": "in THIS economy of flavor?",
-    "mood": "judgment",
-    "tags": [
-      "salad",
-      "dinner"
-    ],
-    "image": "/assets/memes/39binw.jpg",
-    "template": "Smudge the cat",
-    "source": "https://imgflip.com/meme/197052476/Smudge-the-cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2018,
-    "status": "immortal",
-    "lore": "Yells back at dinner since 2018."
-  },
-  {
-    "id": "cat-085",
-    "title": "The morning people",
-    "top": "“rise and grind”",
-    "bottom": "I rise and judge",
-    "mood": "judgment",
-    "tags": [
-      "morning",
-      "grumpy"
-    ],
-    "image": "/assets/memes/8p0a.jpg",
-    "template": "Grumpy Cat",
-    "source": "https://imgflip.com/meme/Grumpy-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2012,
-    "status": "immortal",
-    "lore": "Grumpy since 2012. Forever unimpressed."
-  },
-  {
-    "id": "cat-086",
+    "id": "meme-010",
     "title": "The neighbor report",
     "top": "mows lawn at 7am",
     "bottom": "noted. forever.",
@@ -1632,10 +205,12 @@
     "added": "2026-09-14",
     "origin": 2020,
     "status": "alive",
-    "lore": "Struts like rent is due."
+    "lore": "Struts like rent is due.",
+    "legacyId": "cat-086",
+    "category": "cat"
   },
   {
-    "id": "cat-087",
+    "id": "meme-011",
     "title": "The software update",
     "top": "“a quick restart”",
     "bottom": "45 minutes of betrayal",
@@ -1651,10 +226,12 @@
     "added": "2026-09-14",
     "origin": 2023,
     "status": "alive",
-    "lore": "Thumbs up. Spirits down."
+    "lore": "Thumbs up. Spirits down.",
+    "legacyId": "cat-087",
+    "category": "cat"
   },
   {
-    "id": "cat-088",
+    "id": "meme-012",
     "title": "The photo shoot",
     "top": "say cheese",
     "bottom": "I said what I said",
@@ -1670,10 +247,12 @@
     "added": "2026-09-14",
     "origin": 2013,
     "status": "classic",
-    "lore": "The gold standard of not-amused."
+    "lore": "The gold standard of not-amused.",
+    "legacyId": "cat-088",
+    "category": "cat"
   },
   {
-    "id": "cat-089",
+    "id": "meme-013",
     "title": "The elevator nap",
     "top": "blinked once",
     "bottom": "missed my floor",
@@ -1689,86 +268,12 @@
     "added": "2026-09-14",
     "origin": 2013,
     "status": "classic",
-    "lore": "Eepy before eepy was a word."
+    "lore": "Eepy before eepy was a word.",
+    "legacyId": "cat-089",
+    "category": "cat"
   },
   {
-    "id": "cat-090",
-    "title": "The ambitious weekend",
-    "top": "so many plans",
-    "bottom": "so horizontal",
-    "mood": "sleepy",
-    "tags": [
-      "weekend",
-      "nap"
-    ],
-    "image": "/assets/memes/lp2ba.jpg",
-    "template": "Sleepy Cat",
-    "source": "https://imgflip.com/meme/36441334/Sleepy-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2012,
-    "status": "classic",
-    "lore": "Horizontal since forever."
-  },
-  {
-    "id": "cat-091",
-    "title": "The 6am club",
-    "top": "member since never",
-    "bottom": "meetings attended: against will",
-    "mood": "sleepy",
-    "tags": [
-      "morning",
-      "work"
-    ],
-    "image": "/assets/memes/3e5sun.jpg",
-    "template": "I'm awake, but at what cost?",
-    "source": "https://imgflip.com/meme/205183823/Im-awake-but-at-what-cost",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2021,
-    "status": "alive",
-    "lore": "Awake. At what cost."
-  },
-  {
-    "id": "cat-092",
-    "title": "Do not perceive",
-    "top": "bedtime: 10pm",
-    "bottom": "doomscroll: until 3am",
-    "mood": "sleepy",
-    "tags": [
-      "phone",
-      "night"
-    ],
-    "image": "/assets/memes/3vnurc.jpg",
-    "template": "Crying cat on phone",
-    "source": "https://imgflip.com/meme/234579576/Crying-cat-on-phone",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2021,
-    "status": "alive",
-    "lore": "Doomscrolling before it was cool."
-  },
-  {
-    "id": "cat-093",
-    "title": "The nap negotiation",
-    "top": "just 20 minutes",
-    "bottom": "wakes up employed-ish",
-    "mood": "sleepy",
-    "tags": [
-      "nap",
-      "work"
-    ],
-    "image": "/assets/memes/1bh7.jpg",
-    "template": "Business Cat",
-    "source": "https://imgflip.com/meme/Business-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2011,
-    "status": "immortal",
-    "lore": "Climbed the corporate ladder. Knocked it over."
-  },
-  {
-    "id": "cat-094",
+    "id": "meme-014",
     "title": "Low power mode",
     "top": "battery: 2%",
     "bottom": "vibe: airplane mode",
@@ -1784,29 +289,12 @@
     "added": "2026-09-14",
     "origin": 2013,
     "status": "classic",
-    "lore": "Eepy before eepy was a word."
+    "lore": "Eepy before eepy was a word.",
+    "legacyId": "cat-094",
+    "category": "cat"
   },
   {
-    "id": "cat-095",
-    "title": "The good morning text",
-    "top": "no reason",
-    "bottom": "just thought you’d like this cat",
-    "mood": "wholesome",
-    "tags": [
-      "friends",
-      "love"
-    ],
-    "image": "/assets/memes/amuvy.jpg",
-    "template": "Smiling Cat",
-    "source": "https://imgflip.com/meme/Smiling-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2022,
-    "status": "alive",
-    "lore": "Smiling through the chaos."
-  },
-  {
-    "id": "cat-096",
+    "id": "meme-015",
     "title": "The buddy system",
     "top": "bad day?",
     "bottom": "hug deployment initiated",
@@ -1822,257 +310,12 @@
     "added": "2026-09-14",
     "origin": 2022,
     "status": "alive",
-    "lore": "Emotional support, holding."
+    "lore": "Emotional support, holding.",
+    "legacyId": "cat-096",
+    "category": "cat"
   },
   {
-    "id": "cat-097",
-    "title": "The airport pickup",
-    "top": "flight landed",
-    "bottom": "emotional support human en route",
-    "mood": "wholesome",
-    "tags": [
-      "friends",
-      "excited"
-    ],
-    "image": "/assets/memes/72k5g.jpg",
-    "template": "Excited Cat",
-    "source": "https://imgflip.com/meme/Excited-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2021,
-    "status": "alive",
-    "lore": "Excitement levels: unsafe."
-  },
-  {
-    "id": "cat-098",
-    "title": "The compliment heist",
-    "top": "stealing this moment",
-    "bottom": "to say you’re doing great",
-    "mood": "wholesome",
-    "tags": [
-      "kindness",
-      "win"
-    ],
-    "image": "/assets/memes/4xgqu.jpg",
-    "template": "Cute Cat",
-    "source": "https://imgflip.com/meme/Cute-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2015,
-    "status": "classic",
-    "lore": "Certified cute. No notes."
-  },
-  {
-    "id": "cat-099",
-    "title": "The soup protocol",
-    "top": "you sound sick",
-    "bottom": "soup is already simmering",
-    "mood": "wholesome",
-    "tags": [
-      "care",
-      "love"
-    ],
-    "image": "/assets/memes/amuvy.jpg",
-    "template": "Smiling Cat",
-    "source": "https://imgflip.com/meme/Smiling-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2022,
-    "status": "alive",
-    "lore": "Smiling through the chaos."
-  },
-  {
-    "id": "cat-100",
-    "title": "The Friday feeling",
-    "top": "you survived the week",
-    "bottom": "gold star. nap next.",
-    "mood": "wholesome",
-    "tags": [
-      "weekend",
-      "win"
-    ],
-    "image": "/assets/memes/72k5g.jpg",
-    "template": "Excited Cat",
-    "source": "https://imgflip.com/meme/Excited-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2021,
-    "status": "alive",
-    "lore": "Excitement levels: unsafe."
-  },
-  {
-    "id": "cat-101",
-    "title": "The read receipt spiral",
-    "top": "seen 2:14pm",
-    "bottom": "reply drafted. deleted. drafted.",
-    "mood": "relatable",
-    "tags": [
-      "texting",
-      "anxiety"
-    ],
-    "image": "/assets/memes/3vnurc.jpg",
-    "template": "Crying cat on phone",
-    "source": "https://imgflip.com/meme/234579576/Crying-cat-on-phone",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2021,
-    "status": "alive",
-    "lore": "Doomscrolling before it was cool."
-  },
-  {
-    "id": "cat-102",
-    "title": "The tutorial skipper",
-    "top": "skips tutorial",
-    "bottom": "immediately needs tutorial",
-    "mood": "relatable",
-    "tags": [
-      "gaming",
-      "confused"
-    ],
-    "image": "/assets/memes/8338y8.jpg",
-    "template": "Huh Cat",
-    "source": "https://imgflip.com/meme/488919824/Huh-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2024,
-    "status": "alive",
-    "lore": "Confused in high definition."
-  },
-  {
-    "id": "cat-103",
-    "title": "The calendar invite",
-    "top": "“quick sync?”",
-    "bottom": "90 minutes. 14 people. no agenda.",
-    "mood": "relatable",
-    "tags": [
-      "work",
-      "meeting"
-    ],
-    "image": "/assets/memes/3u04h5.jpg",
-    "template": "sad thumbs up cat",
-    "source": "https://imgflip.com/meme/231792809/sad-thumbs-up-cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2023,
-    "status": "alive",
-    "lore": "Thumbs up. Spirits down."
-  },
-  {
-    "id": "cat-104",
-    "title": "The subscription audit",
-    "top": "$4.99 here, $9.99 there",
-    "bottom": "net worth: streaming services",
-    "mood": "relatable",
-    "tags": [
-      "money",
-      "tech"
-    ],
-    "image": "/assets/memes/35v1lq.jpg",
-    "template": "white cat table",
-    "source": "https://imgflip.com/meme/191245022/white-cat-table",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2019,
-    "status": "classic",
-    "lore": "Sits at tables. Judges at tables."
-  },
-  {
-    "id": "cat-105",
-    "title": "The adulting formula",
-    "top": "taxes + laundry +",
-    "bottom": "existential dread = tuesday",
-    "mood": "relatable",
-    "tags": [
-      "science",
-      "adulting"
-    ],
-    "image": "/assets/memes/1bif.jpg",
-    "template": "Chemistry Cat",
-    "source": "https://imgflip.com/meme/Chemistry-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2011,
-    "status": "classic",
-    "lore": "Peer reviews your snacks."
-  },
-  {
-    "id": "cat-106",
-    "title": "The haircut gamble",
-    "top": "“just a trim”",
-    "bottom": "new identity unlocked",
-    "mood": "relatable",
-    "tags": [
-      "hair",
-      "regret"
-    ],
-    "image": "/assets/memes/p0a19.jpg",
-    "template": "Crying cat",
-    "source": "https://imgflip.com/meme/42003405/Crying-cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2014,
-    "status": "classic",
-    "lore": "Crying professionally for a decade."
-  },
-  {
-    "id": "cat-107",
-    "title": "The out-of-office",
-    "top": "set OOO. feel peace.",
-    "bottom": "phone buzzes anyway",
-    "mood": "relatable",
-    "tags": [
-      "work",
-      "vacation"
-    ],
-    "image": "/assets/memes/1bh7.jpg",
-    "template": "Business Cat",
-    "source": "https://imgflip.com/meme/Business-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2011,
-    "status": "immortal",
-    "lore": "Climbed the corporate ladder. Knocked it over."
-  },
-  {
-    "id": "cat-108",
-    "title": "The alarm snooze treaty",
-    "top": "5 more minutes",
-    "bottom": "signed every single morning",
-    "mood": "relatable",
-    "tags": [
-      "morning",
-      "sleep"
-    ],
-    "image": "/assets/memes/3e5sun.jpg",
-    "template": "I'm awake, but at what cost?",
-    "source": "https://imgflip.com/meme/205183823/Im-awake-but-at-what-cost",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2021,
-    "status": "alive",
-    "lore": "Awake. At what cost."
-  },
-  {
-    "id": "cat-109",
-    "title": "The hallway strut",
-    "top": "heard my song",
-    "bottom": "in the grocery store",
-    "mood": "chaos",
-    "tags": [
-      "music",
-      "strut"
-    ],
-    "image": "/assets/memes/24uu.jpg",
-    "template": "Cool Cat Stroll",
-    "source": "https://imgflip.com/meme/Cool-Cat-Stroll",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2020,
-    "status": "alive",
-    "lore": "Struts like rent is due."
-  },
-  {
-    "id": "cat-110",
+    "id": "meme-016",
     "title": "The microwave beep",
     "top": "3… 2… 1…",
     "bottom": "JUMPSCARE AT MIDNIGHT",
@@ -2088,67 +331,12 @@
     "added": "2026-09-14",
     "origin": 2019,
     "status": "classic",
-    "lore": "Startled since 2019."
+    "lore": "Startled since 2019.",
+    "legacyId": "cat-110",
+    "category": "cat"
   },
   {
-    "id": "cat-111",
-    "title": "The potassium prophecy",
-    "top": "dreams in yellow",
-    "bottom": "wakes up curved",
-    "mood": "chaos",
-    "tags": [
-      "banana",
-      "dreams"
-    ],
-    "image": "/assets/memes/7s8bhl.jpg",
-    "template": "Banana cat",
-    "source": "https://imgflip.com/meme/470680617/Banana-cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2023,
-    "status": "alive",
-    "lore": "Potassium with a fanbase."
-  },
-  {
-    "id": "cat-112",
-    "title": "The keyboard warrior",
-    "top": "types one email",
-    "bottom": "mouth open the whole time",
-    "mood": "chaos",
-    "tags": [
-      "work",
-      "drama"
-    ],
-    "image": "/assets/memes/4p3h78.jpg",
-    "template": "Pop Cat",
-    "source": "https://imgflip.com/meme/284017364/Pop-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2020,
-    "status": "classic",
-    "lore": "Two frames. Infinite volume."
-  },
-  {
-    "id": "cat-113",
-    "title": "The elevator DJ",
-    "top": "no aux. no problem.",
-    "bottom": "humming the lobby anthem",
-    "mood": "chaos",
-    "tags": [
-      "music",
-      "vibe"
-    ],
-    "image": "/assets/memes/4l4wwy.jpg",
-    "template": "vibing cat",
-    "source": "https://imgflip.com/meme/277365922/vibing-cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2020,
-    "status": "classic",
-    "lore": "Headphones on. World off."
-  },
-  {
-    "id": "cat-114",
+    "id": "meme-017",
     "title": "The laundry mountain",
     "top": "will fold tomorrow",
     "bottom": "tomorrow is a myth",
@@ -2164,48 +352,12 @@
     "added": "2026-09-14",
     "origin": 2012,
     "status": "immortal",
-    "lore": "Boat questionable. Box undeniable."
+    "lore": "Boat questionable. Box undeniable.",
+    "legacyId": "cat-114",
+    "category": "cat"
   },
   {
-    "id": "cat-115",
-    "title": "The plot twist",
-    "top": "read the same page",
-    "bottom": "three times. still lost.",
-    "mood": "chaos",
-    "tags": [
-      "reading",
-      "confused"
-    ],
-    "image": "/assets/memes/8338y8.jpg",
-    "template": "Huh Cat",
-    "source": "https://imgflip.com/meme/488919824/Huh-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2024,
-    "status": "alive",
-    "lore": "Confused in high definition."
-  },
-  {
-    "id": "cat-116",
-    "title": "The vet receipt",
-    "top": "“just a checkup”",
-    "bottom": "$400 and one betrayed stare",
-    "mood": "chaos",
-    "tags": [
-      "vet",
-      "drama"
-    ],
-    "image": "/assets/memes/39binw.jpg",
-    "template": "Smudge the cat",
-    "source": "https://imgflip.com/meme/197052476/Smudge-the-cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2018,
-    "status": "immortal",
-    "lore": "Yells back at dinner since 2018."
-  },
-  {
-    "id": "cat-117",
+    "id": "meme-018",
     "title": "The fry tax",
     "top": "you ordered fries",
     "bottom": "I collect the toll",
@@ -2221,29 +373,12 @@
     "added": "2026-09-14",
     "origin": 2018,
     "status": "immortal",
-    "lore": "Yells back at dinner since 2018."
+    "lore": "Yells back at dinner since 2018.",
+    "legacyId": "cat-117",
+    "category": "cat"
   },
   {
-    "id": "cat-118",
-    "title": "The cereal summit",
-    "top": "emergency meeting:",
-    "bottom": "milk first or cereal first?",
-    "mood": "snacks",
-    "tags": [
-      "breakfast",
-      "debate"
-    ],
-    "image": "/assets/memes/4p3h78.jpg",
-    "template": "Pop Cat",
-    "source": "https://imgflip.com/meme/284017364/Pop-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2020,
-    "status": "classic",
-    "lore": "Two frames. Infinite volume."
-  },
-  {
-    "id": "cat-119",
+    "id": "meme-019",
     "title": "The midnight experiment",
     "top": "control group: asleep",
     "bottom": "test group: tacos",
@@ -2259,238 +394,12 @@
     "added": "2026-09-14",
     "origin": 2011,
     "status": "classic",
-    "lore": "Peer reviews your snacks."
+    "lore": "Peer reviews your snacks.",
+    "legacyId": "cat-119",
+    "category": "cat"
   },
   {
-    "id": "cat-120",
-    "title": "The crumb report",
-    "top": "kitchen floor: 40% snack",
-    "bottom": "cleanup crew dispatched (me)",
-    "mood": "snacks",
-    "tags": [
-      "news",
-      "snack"
-    ],
-    "image": "/assets/memes/bgsvd.jpg",
-    "template": "Cat newspaper",
-    "source": "https://imgflip.com/meme/19259689/Cat-newspaper",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2015,
-    "status": "classic",
-    "lore": "Reports the news. Is the news."
-  },
-  {
-    "id": "cat-121",
-    "title": "The snack drawer memo",
-    "top": "per my last email:",
-    "bottom": "these are MY crackers",
-    "mood": "snacks",
-    "tags": [
-      "work",
-      "snack"
-    ],
-    "image": "/assets/memes/1bh7.jpg",
-    "template": "Business Cat",
-    "source": "https://imgflip.com/meme/Business-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2011,
-    "status": "immortal",
-    "lore": "Climbed the corporate ladder. Knocked it over."
-  },
-  {
-    "id": "cat-122",
-    "title": "The pizza crust connoisseur",
-    "top": "saves the best",
-    "bottom": "for last. then cries it’s over.",
-    "mood": "snacks",
-    "tags": [
-      "pizza",
-      "dinner"
-    ],
-    "image": "/assets/memes/4xgqu.jpg",
-    "template": "Cute Cat",
-    "source": "https://imgflip.com/meme/Cute-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2015,
-    "status": "classic",
-    "lore": "Certified cute. No notes."
-  },
-  {
-    "id": "cat-123",
-    "title": "The banana standoff",
-    "top": "perfect yellow today",
-    "bottom": "brown spots tomorrow. pressure’s on.",
-    "mood": "snacks",
-    "tags": [
-      "banana",
-      "pressure"
-    ],
-    "image": "/assets/memes/7s8bhl.jpg",
-    "template": "Banana cat",
-    "source": "https://imgflip.com/meme/470680617/Banana-cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2023,
-    "status": "alive",
-    "lore": "Potassium with a fanbase."
-  },
-  {
-    "id": "cat-124",
-    "title": "The drive-thru regular",
-    "top": "“the usual?”",
-    "bottom": "fame tastes like fries",
-    "mood": "snacks",
-    "tags": [
-      "fastfood",
-      "fame"
-    ],
-    "image": "/assets/memes/24uu.jpg",
-    "template": "Cool Cat Stroll",
-    "source": "https://imgflip.com/meme/Cool-Cat-Stroll",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2020,
-    "status": "alive",
-    "lore": "Struts like rent is due."
-  },
-  {
-    "id": "cat-125",
-    "title": "The reply-all",
-    "top": "replies all",
-    "bottom": "just to say “thanks”",
-    "mood": "judgment",
-    "tags": [
-      "work",
-      "email"
-    ],
-    "image": "/assets/memes/8p0a.jpg",
-    "template": "Grumpy Cat",
-    "source": "https://imgflip.com/meme/Grumpy-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2012,
-    "status": "immortal",
-    "lore": "Grumpy since 2012. Forever unimpressed."
-  },
-  {
-    "id": "cat-126",
-    "title": "The loud chewer",
-    "top": "crunch. crunch.",
-    "bottom": "court is now in session",
-    "mood": "judgment",
-    "tags": [
-      "food",
-      "grumpy"
-    ],
-    "image": "/assets/memes/5do96.jpg",
-    "template": "Grumpy Cat Not Amused",
-    "source": "https://imgflip.com/meme/Grumpy-Cat-Not-Amused",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2013,
-    "status": "classic",
-    "lore": "The gold standard of not-amused."
-  },
-  {
-    "id": "cat-127",
-    "title": "The group project",
-    "top": "“we should all contribute”",
-    "bottom": "— sent from my couch",
-    "mood": "judgment",
-    "tags": [
-      "school",
-      "work"
-    ],
-    "image": "/assets/memes/35v1lq.jpg",
-    "template": "white cat table",
-    "source": "https://imgflip.com/meme/191245022/white-cat-table",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2019,
-    "status": "classic",
-    "lore": "Sits at tables. Judges at tables."
-  },
-  {
-    "id": "cat-128",
-    "title": "The hotel breakfast",
-    "top": "“continental breakfast”",
-    "bottom": "this is toast with confidence",
-    "mood": "judgment",
-    "tags": [
-      "travel",
-      "breakfast"
-    ],
-    "image": "/assets/memes/39binw.jpg",
-    "template": "Smudge the cat",
-    "source": "https://imgflip.com/meme/197052476/Smudge-the-cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2018,
-    "status": "immortal",
-    "lore": "Yells back at dinner since 2018."
-  },
-  {
-    "id": "cat-129",
-    "title": "The parking spot",
-    "top": "waits 10 minutes",
-    "bottom": "for the close spot. walks anyway.",
-    "mood": "judgment",
-    "tags": [
-      "driving",
-      "logic"
-    ],
-    "image": "/assets/memes/24uu.jpg",
-    "template": "Cool Cat Stroll",
-    "source": "https://imgflip.com/meme/Cool-Cat-Stroll",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2020,
-    "status": "alive",
-    "lore": "Struts like rent is due."
-  },
-  {
-    "id": "cat-130",
-    "title": "The terms and conditions",
-    "top": "read 0 of 47 pages",
-    "bottom": "agreed to everything",
-    "mood": "judgment",
-    "tags": [
-      "tech",
-      "phone"
-    ],
-    "image": "/assets/memes/3u04h5.jpg",
-    "template": "sad thumbs up cat",
-    "source": "https://imgflip.com/meme/231792809/sad-thumbs-up-cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2023,
-    "status": "alive",
-    "lore": "Thumbs up. Spirits down."
-  },
-  {
-    "id": "cat-131",
-    "title": "The influencer morning",
-    "top": "“my 5am routine”",
-    "bottom": "posted at noon",
-    "mood": "judgment",
-    "tags": [
-      "morning",
-      "social"
-    ],
-    "image": "/assets/memes/8p0a.jpg",
-    "template": "Grumpy Cat",
-    "source": "https://imgflip.com/meme/Grumpy-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2012,
-    "status": "immortal",
-    "lore": "Grumpy since 2012. Forever unimpressed."
-  },
-  {
-    "id": "cat-132",
+    "id": "meme-020",
     "title": "The spoiler",
     "top": "“I won’t spoil it”",
     "bottom": "spoils it immediately",
@@ -2506,29 +415,12 @@
     "added": "2026-09-14",
     "origin": 2013,
     "status": "classic",
-    "lore": "The gold standard of not-amused."
+    "lore": "The gold standard of not-amused.",
+    "legacyId": "cat-132",
+    "category": "cat"
   },
   {
-    "id": "cat-133",
-    "title": "The couch gravity",
-    "top": "sat down for a sec",
-    "bottom": "woke up in 2027",
-    "mood": "sleepy",
-    "tags": [
-      "nap",
-      "couch"
-    ],
-    "image": "/assets/memes/11wis1.jpg",
-    "template": "Sleepy Kitten",
-    "source": "https://imgflip.com/meme/63663121/Sleepy-Kitten",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2013,
-    "status": "classic",
-    "lore": "Eepy before eepy was a word."
-  },
-  {
-    "id": "cat-134",
+    "id": "meme-021",
     "title": "The blanket burrito",
     "top": "rolled tight",
     "bottom": "do not unroll",
@@ -2544,29 +436,12 @@
     "added": "2026-09-14",
     "origin": 2012,
     "status": "classic",
-    "lore": "Horizontal since forever."
+    "lore": "Horizontal since forever.",
+    "legacyId": "cat-134",
+    "category": "cat"
   },
   {
-    "id": "cat-135",
-    "title": "The Monday loading screen",
-    "top": "buffering…",
-    "bottom": "please wait indefinitely",
-    "mood": "sleepy",
-    "tags": [
-      "morning",
-      "monday"
-    ],
-    "image": "/assets/memes/3e5sun.jpg",
-    "template": "I'm awake, but at what cost?",
-    "source": "https://imgflip.com/meme/205183823/Im-awake-but-at-what-cost",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2021,
-    "status": "alive",
-    "lore": "Awake. At what cost."
-  },
-  {
-    "id": "cat-136",
+    "id": "meme-022",
     "title": "The 1% club",
     "top": "phone dying",
     "bottom": "me: same, honestly",
@@ -2582,29 +457,12 @@
     "added": "2026-09-14",
     "origin": 2021,
     "status": "alive",
-    "lore": "Doomscrolling before it was cool."
+    "lore": "Doomscrolling before it was cool.",
+    "legacyId": "cat-136",
+    "category": "cat"
   },
   {
-    "id": "cat-137",
-    "title": "The sunbeam schedule",
-    "top": "sunbeam moves one inch",
-    "bottom": "I move with it",
-    "mood": "sleepy",
-    "tags": [
-      "sun",
-      "nap"
-    ],
-    "image": "/assets/memes/11wis1.jpg",
-    "template": "Sleepy Kitten",
-    "source": "https://imgflip.com/meme/63663121/Sleepy-Kitten",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2013,
-    "status": "classic",
-    "lore": "Eepy before eepy was a word."
-  },
-  {
-    "id": "cat-138",
+    "id": "meme-023",
     "title": "The meeting nap",
     "top": "camera off",
     "bottom": "soul off too",
@@ -2620,124 +478,12 @@
     "added": "2026-09-14",
     "origin": 2011,
     "status": "immortal",
-    "lore": "Climbed the corporate ladder. Knocked it over."
+    "lore": "Climbed the corporate ladder. Knocked it over.",
+    "legacyId": "cat-138",
+    "category": "cat"
   },
   {
-    "id": "cat-139",
-    "title": "The yawn contagion",
-    "top": "one yawn",
-    "bottom": "whole office infected",
-    "mood": "sleepy",
-    "tags": [
-      "work",
-      "tired"
-    ],
-    "image": "/assets/memes/lp2ba.jpg",
-    "template": "Sleepy Cat",
-    "source": "https://imgflip.com/meme/36441334/Sleepy-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2012,
-    "status": "classic",
-    "lore": "Horizontal since forever."
-  },
-  {
-    "id": "cat-140",
-    "title": "The daylight savings",
-    "top": "lost one hour",
-    "bottom": "will mourn for weeks",
-    "mood": "sleepy",
-    "tags": [
-      "time",
-      "tired"
-    ],
-    "image": "/assets/memes/3e5sun.jpg",
-    "template": "I'm awake, but at what cost?",
-    "source": "https://imgflip.com/meme/205183823/Im-awake-but-at-what-cost",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2021,
-    "status": "alive",
-    "lore": "Awake. At what cost."
-  },
-  {
-    "id": "cat-141",
-    "title": "The bedtime story",
-    "top": "one more video",
-    "bottom": "47 videos later",
-    "mood": "sleepy",
-    "tags": [
-      "phone",
-      "night"
-    ],
-    "image": "/assets/memes/3vnurc.jpg",
-    "template": "Crying cat on phone",
-    "source": "https://imgflip.com/meme/234579576/Crying-cat-on-phone",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2021,
-    "status": "alive",
-    "lore": "Doomscrolling before it was cool."
-  },
-  {
-    "id": "cat-142",
-    "title": "The sidewalk flower",
-    "top": "picked for you",
-    "bottom": "slightly crushed. full of love.",
-    "mood": "wholesome",
-    "tags": [
-      "kindness",
-      "love"
-    ],
-    "image": "/assets/memes/amuvy.jpg",
-    "template": "Smiling Cat",
-    "source": "https://imgflip.com/meme/Smiling-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2022,
-    "status": "alive",
-    "lore": "Smiling through the chaos."
-  },
-  {
-    "id": "cat-143",
-    "title": "The rain rescue",
-    "top": "shares umbrella",
-    "bottom": "gets wet. worth it.",
-    "mood": "wholesome",
-    "tags": [
-      "kindness",
-      "rain"
-    ],
-    "image": "/assets/memes/3ex8oy.jpg",
-    "template": "Sad Cat Holding Dog",
-    "source": "https://imgflip.com/meme/206464066/Sad-Cat-Holding-Dog",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2022,
-    "status": "alive",
-    "lore": "Emotional support, holding."
-  },
-  {
-    "id": "cat-144",
-    "title": "The good news sprint",
-    "top": "heard your news",
-    "bottom": "already celebrating",
-    "mood": "wholesome",
-    "tags": [
-      "friends",
-      "win"
-    ],
-    "image": "/assets/memes/72k5g.jpg",
-    "template": "Excited Cat",
-    "source": "https://imgflip.com/meme/Excited-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2021,
-    "status": "alive",
-    "lore": "Excitement levels: unsafe."
-  },
-  {
-    "id": "cat-145",
+    "id": "meme-024",
     "title": "The tiny victory",
     "top": "made the bed",
     "bottom": "unstoppable now",
@@ -2753,124 +499,12 @@
     "added": "2026-09-14",
     "origin": 2015,
     "status": "classic",
-    "lore": "Certified cute. No notes."
+    "lore": "Certified cute. No notes.",
+    "legacyId": "cat-145",
+    "category": "cat"
   },
   {
-    "id": "cat-146",
-    "title": "The playlist gift",
-    "top": "made you 47 songs",
-    "bottom": "all say “you got this”",
-    "mood": "wholesome",
-    "tags": [
-      "music",
-      "friends"
-    ],
-    "image": "/assets/memes/amuvy.jpg",
-    "template": "Smiling Cat",
-    "source": "https://imgflip.com/meme/Smiling-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2022,
-    "status": "alive",
-    "lore": "Smiling through the chaos."
-  },
-  {
-    "id": "cat-147",
-    "title": "The couch counselor",
-    "top": "no advice. just snacks.",
-    "bottom": "plus premium listening",
-    "mood": "wholesome",
-    "tags": [
-      "support",
-      "snacks"
-    ],
-    "image": "/assets/memes/3ex8oy.jpg",
-    "template": "Sad Cat Holding Dog",
-    "source": "https://imgflip.com/meme/206464066/Sad-Cat-Holding-Dog",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2022,
-    "status": "alive",
-    "lore": "Emotional support, holding."
-  },
-  {
-    "id": "cat-148",
-    "title": "The reunion zoomies",
-    "top": "haven’t seen you in DAYS",
-    "bottom": "(it was 3 hours)",
-    "mood": "wholesome",
-    "tags": [
-      "friends",
-      "love"
-    ],
-    "image": "/assets/memes/72k5g.jpg",
-    "template": "Excited Cat",
-    "source": "https://imgflip.com/meme/Excited-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2021,
-    "status": "alive",
-    "lore": "Excitement levels: unsafe."
-  },
-  {
-    "id": "cat-149",
-    "title": "The window sunrise",
-    "top": "saved you a seat",
-    "bottom": "best view at 7am",
-    "mood": "wholesome",
-    "tags": [
-      "morning",
-      "cozy"
-    ],
-    "image": "/assets/memes/4xgqu.jpg",
-    "template": "Cute Cat",
-    "source": "https://imgflip.com/meme/Cute-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2015,
-    "status": "classic",
-    "lore": "Certified cute. No notes."
-  },
-  {
-    "id": "cat-150",
-    "title": "The thank-you note",
-    "top": "you helped me once",
-    "bottom": "now I tell everyone",
-    "mood": "wholesome",
-    "tags": [
-      "gratitude",
-      "love"
-    ],
-    "image": "/assets/memes/amuvy.jpg",
-    "template": "Smiling Cat",
-    "source": "https://imgflip.com/meme/Smiling-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2022,
-    "status": "alive",
-    "lore": "Smiling through the chaos."
-  },
-  {
-    "id": "cat-151",
-    "title": "The typing Olympics",
-    "top": "drafting the perfect reply",
-    "bottom": "sends “ok”",
-    "mood": "relatable",
-    "tags": [
-      "texting",
-      "friends"
-    ],
-    "image": "/assets/memes/3vnurc.jpg",
-    "template": "Crying cat on phone",
-    "source": "https://imgflip.com/meme/234579576/Crying-cat-on-phone",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2021,
-    "status": "alive",
-    "lore": "Doomscrolling before it was cool."
-  },
-  {
-    "id": "cat-152",
+    "id": "meme-025",
     "title": "The meeting math",
     "top": "“quick question”",
     "bottom": "27 follow-ups later",
@@ -2886,29 +520,12 @@
     "added": "2026-09-14",
     "origin": 2024,
     "status": "alive",
-    "lore": "Confused in high definition."
+    "lore": "Confused in high definition.",
+    "legacyId": "cat-152",
+    "category": "cat"
   },
   {
-    "id": "cat-153",
-    "title": "The wifi funeral",
-    "top": "one bar. one dream.",
-    "bottom": "buffering my personality",
-    "mood": "relatable",
-    "tags": [
-      "tech",
-      "phone"
-    ],
-    "image": "/assets/memes/3u04h5.jpg",
-    "template": "sad thumbs up cat",
-    "source": "https://imgflip.com/meme/231792809/sad-thumbs-up-cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2023,
-    "status": "alive",
-    "lore": "Thumbs up. Spirits down."
-  },
-  {
-    "id": "cat-154",
+    "id": "meme-026",
     "title": "The plant parent",
     "top": "buys a fern",
     "bottom": "funeral by friday",
@@ -2924,105 +541,12 @@
     "added": "2026-09-14",
     "origin": 2019,
     "status": "classic",
-    "lore": "Sits at tables. Judges at tables."
+    "lore": "Sits at tables. Judges at tables.",
+    "legacyId": "cat-154",
+    "category": "cat"
   },
   {
-    "id": "cat-155",
-    "title": "The group chat economist",
-    "top": "venmo request for $2.14",
-    "bottom": "plus emotional damages",
-    "mood": "relatable",
-    "tags": [
-      "money",
-      "friends"
-    ],
-    "image": "/assets/memes/1bif.jpg",
-    "template": "Chemistry Cat",
-    "source": "https://imgflip.com/meme/Chemistry-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2011,
-    "status": "classic",
-    "lore": "Peer reviews your snacks."
-  },
-  {
-    "id": "cat-156",
-    "title": "The password saga",
-    "top": "incorrect password",
-    "bottom": "it was the same password",
-    "mood": "relatable",
-    "tags": [
-      "tech",
-      "fail"
-    ],
-    "image": "/assets/memes/p0a19.jpg",
-    "template": "Crying cat",
-    "source": "https://imgflip.com/meme/42003405/Crying-cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2014,
-    "status": "classic",
-    "lore": "Crying professionally for a decade."
-  },
-  {
-    "id": "cat-157",
-    "title": "The lunch thief suspect",
-    "top": "someone ate my yogurt",
-    "bottom": "trust exercises cancelled",
-    "mood": "relatable",
-    "tags": [
-      "work",
-      "lunch"
-    ],
-    "image": "/assets/memes/1bh7.jpg",
-    "template": "Business Cat",
-    "source": "https://imgflip.com/meme/Business-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2011,
-    "status": "immortal",
-    "lore": "Climbed the corporate ladder. Knocked it over."
-  },
-  {
-    "id": "cat-158",
-    "title": "The snooze loop",
-    "top": "alarm at 7. 7:09. 7:18.",
-    "bottom": "up at 7:47 somehow",
-    "mood": "relatable",
-    "tags": [
-      "morning",
-      "sleep"
-    ],
-    "image": "/assets/memes/3e5sun.jpg",
-    "template": "I'm awake, but at what cost?",
-    "source": "https://imgflip.com/meme/205183823/Im-awake-but-at-what-cost",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2021,
-    "status": "alive",
-    "lore": "Awake. At what cost."
-  },
-  {
-    "id": "cat-159",
-    "title": "The compliment dodge",
-    "top": "“you look nice today”",
-    "bottom": "this? old thing. thanks though",
-    "mood": "relatable",
-    "tags": [
-      "social",
-      "friends"
-    ],
-    "image": "/assets/memes/amuvy.jpg",
-    "template": "Smiling Cat",
-    "source": "https://imgflip.com/meme/Smiling-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2022,
-    "status": "alive",
-    "lore": "Smiling through the chaos."
-  },
-  {
-    "id": "cat-160",
+    "id": "meme-027",
     "title": "The friday save",
     "top": "email at 4:59pm",
     "bottom": "see you never",
@@ -3038,67 +562,12 @@
     "added": "2026-09-14",
     "origin": 2021,
     "status": "alive",
-    "lore": "Excitement levels: unsafe."
+    "lore": "Excitement levels: unsafe.",
+    "legacyId": "cat-160",
+    "category": "cat"
   },
   {
-    "id": "cat-161",
-    "title": "The self-checkout",
-    "top": "unexpected item",
-    "bottom": "it’s me. i’m the item.",
-    "mood": "relatable",
-    "tags": [
-      "shopping",
-      "fail"
-    ],
-    "image": "/assets/memes/39binw.jpg",
-    "template": "Smudge the cat",
-    "source": "https://imgflip.com/meme/197052476/Smudge-the-cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2018,
-    "status": "immortal",
-    "lore": "Yells back at dinner since 2018."
-  },
-  {
-    "id": "cat-162",
-    "title": "The autocorrect apology",
-    "top": "meant “love you”",
-    "bottom": "sent “live you”. standing by it.",
-    "mood": "relatable",
-    "tags": [
-      "texting",
-      "fail"
-    ],
-    "image": "/assets/memes/4p3h78.jpg",
-    "template": "Pop Cat",
-    "source": "https://imgflip.com/meme/284017364/Pop-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2020,
-    "status": "classic",
-    "lore": "Two frames. Infinite volume."
-  },
-  {
-    "id": "cat-163",
-    "title": "The small talk",
-    "top": "“crazy weather, huh”",
-    "bottom": "performed flawlessly. retiring.",
-    "mood": "relatable",
-    "tags": [
-      "social",
-      "win"
-    ],
-    "image": "/assets/memes/5do96.jpg",
-    "template": "Grumpy Cat Not Amused",
-    "source": "https://imgflip.com/meme/Grumpy-Cat-Not-Amused",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2013,
-    "status": "classic",
-    "lore": "The gold standard of not-amused."
-  },
-  {
-    "id": "cat-164",
+    "id": "meme-028",
     "title": "The ‘k’ text",
     "top": "replies “k”",
     "bottom": "war has begun",
@@ -3114,67 +583,12 @@
     "added": "2026-09-14",
     "origin": 2012,
     "status": "immortal",
-    "lore": "Grumpy since 2012. Forever unimpressed."
+    "lore": "Grumpy since 2012. Forever unimpressed.",
+    "legacyId": "cat-164",
+    "category": "cat"
   },
   {
-    "id": "cat-165",
-    "title": "The horoscope",
-    "top": "“today you’ll thrive”",
-    "bottom": "naps aggressively to comply",
-    "mood": "relatable",
-    "tags": [
-      "nap",
-      "stars"
-    ],
-    "image": "/assets/memes/bgsvd.jpg",
-    "template": "Cat newspaper",
-    "source": "https://imgflip.com/meme/19259689/Cat-newspaper",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2015,
-    "status": "classic",
-    "lore": "Reports the news. Is the news."
-  },
-  {
-    "id": "cat-166",
-    "title": "The monday outfit",
-    "top": "dressed for success",
-    "bottom": "success is sweatpants",
-    "mood": "relatable",
-    "tags": [
-      "work",
-      "monday"
-    ],
-    "image": "/assets/memes/lp2ba.jpg",
-    "template": "Sleepy Cat",
-    "source": "https://imgflip.com/meme/36441334/Sleepy-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2012,
-    "status": "classic",
-    "lore": "Horizontal since forever."
-  },
-  {
-    "id": "cat-167",
-    "title": "The pep talk",
-    "top": "“you got this”",
-    "bottom": "source: me, crying too",
-    "mood": "relatable",
-    "tags": [
-      "support",
-      "friends"
-    ],
-    "image": "/assets/memes/3ex8oy.jpg",
-    "template": "Sad Cat Holding Dog",
-    "source": "https://imgflip.com/meme/206464066/Sad-Cat-Holding-Dog",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2022,
-    "status": "alive",
-    "lore": "Emotional support, holding."
-  },
-  {
-    "id": "cat-168",
+    "id": "meme-029",
     "title": "The cartwheel",
     "top": "nobody: ...",
     "bottom": "absolutely nobody: ...",
@@ -3190,29 +604,12 @@
     "added": "2026-09-14",
     "origin": 2020,
     "status": "alive",
-    "lore": "Struts like rent is due."
+    "lore": "Struts like rent is due.",
+    "legacyId": "cat-168",
+    "category": "cat"
   },
   {
-    "id": "cat-169",
-    "title": "The plot armor",
-    "top": "trips on nothing",
-    "bottom": "in front of everyone",
-    "mood": "chaos",
-    "tags": [
-      "fail",
-      "public"
-    ],
-    "image": "/assets/memes/2hgfw.jpg",
-    "template": "Scared Cat",
-    "source": "https://imgflip.com/meme/Scared-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2019,
-    "status": "classic",
-    "lore": "Startled since 2019."
-  },
-  {
-    "id": "cat-170",
+    "id": "meme-030",
     "title": "The banana phone",
     "top": "ring ring",
     "bottom": "potassium calling",
@@ -3228,10 +625,12 @@
     "added": "2026-09-14",
     "origin": 2023,
     "status": "alive",
-    "lore": "Potassium with a fanbase."
+    "lore": "Potassium with a fanbase.",
+    "legacyId": "cat-170",
+    "category": "cat"
   },
   {
-    "id": "cat-171",
+    "id": "meme-031",
     "title": "The echo",
     "top": "says “hello?” in tunnel",
     "bottom": "tunnel says it better",
@@ -3247,10 +646,12 @@
     "added": "2026-09-14",
     "origin": 2020,
     "status": "classic",
-    "lore": "Two frames. Infinite volume."
+    "lore": "Two frames. Infinite volume.",
+    "legacyId": "cat-171",
+    "category": "cat"
   },
   {
-    "id": "cat-172",
+    "id": "meme-032",
     "title": "The hold music",
     "top": "on hold 40 minutes",
     "bottom": "vibing unironically now",
@@ -3266,181 +667,12 @@
     "added": "2026-09-14",
     "origin": 2020,
     "status": "classic",
-    "lore": "Headphones on. World off."
+    "lore": "Headphones on. World off.",
+    "legacyId": "cat-172",
+    "category": "cat"
   },
   {
-    "id": "cat-173",
-    "title": "The junk drawer",
-    "top": "contains: 3 batteries",
-    "bottom": "0 working pens. 1 mystery key.",
-    "mood": "chaos",
-    "tags": [
-      "home",
-      "mystery"
-    ],
-    "image": "/assets/memes/tau4.jpg",
-    "template": "I Should Buy A Boat Cat",
-    "source": "https://imgflip.com/meme/I-Should-Buy-A-Boat-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2012,
-    "status": "immortal",
-    "lore": "Boat questionable. Box undeniable."
-  },
-  {
-    "id": "cat-174",
-    "title": "The captcha",
-    "top": "select all traffic lights",
-    "bottom": "fails. am robot now.",
-    "mood": "chaos",
-    "tags": [
-      "tech",
-      "fail"
-    ],
-    "image": "/assets/memes/8338y8.jpg",
-    "template": "Huh Cat",
-    "source": "https://imgflip.com/meme/488919824/Huh-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2024,
-    "status": "alive",
-    "lore": "Confused in high definition."
-  },
-  {
-    "id": "cat-175",
-    "title": "The dramatic exit",
-    "top": "storms out",
-    "bottom": "forgets keys. returns.",
-    "mood": "chaos",
-    "tags": [
-      "drama",
-      "fail"
-    ],
-    "image": "/assets/memes/39binw.jpg",
-    "template": "Smudge the cat",
-    "source": "https://imgflip.com/meme/197052476/Smudge-the-cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2018,
-    "status": "immortal",
-    "lore": "Yells back at dinner since 2018."
-  },
-  {
-    "id": "cat-176",
-    "title": "The elevator performance",
-    "top": "alone in elevator",
-    "bottom": "grammy-worthy mirror check",
-    "mood": "chaos",
-    "tags": [
-      "music",
-      "alone"
-    ],
-    "image": "/assets/memes/11wis1.jpg",
-    "template": "Sleepy Kitten",
-    "source": "https://imgflip.com/meme/63663121/Sleepy-Kitten",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2013,
-    "status": "classic",
-    "lore": "Eepy before eepy was a word."
-  },
-  {
-    "id": "cat-177",
-    "title": "The reply guy",
-    "top": "first to reply-all",
-    "bottom": "“adding myself to this thread”",
-    "mood": "chaos",
-    "tags": [
-      "work",
-      "email"
-    ],
-    "image": "/assets/memes/1bh7.jpg",
-    "template": "Business Cat",
-    "source": "https://imgflip.com/meme/Business-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2011,
-    "status": "immortal",
-    "lore": "Climbed the corporate ladder. Knocked it over."
-  },
-  {
-    "id": "cat-178",
-    "title": "The update",
-    "top": "“update tonight?”",
-    "bottom": "phone is now a brick",
-    "mood": "chaos",
-    "tags": [
-      "tech",
-      "phone"
-    ],
-    "image": "/assets/memes/3u04h5.jpg",
-    "template": "sad thumbs up cat",
-    "source": "https://imgflip.com/meme/231792809/sad-thumbs-up-cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2023,
-    "status": "alive",
-    "lore": "Thumbs up. Spirits down."
-  },
-  {
-    "id": "cat-179",
-    "title": "The group photo",
-    "top": "“one more!”",
-    "bottom": "47 photos later",
-    "mood": "chaos",
-    "tags": [
-      "photo",
-      "friends"
-    ],
-    "image": "/assets/memes/8p0a.jpg",
-    "template": "Grumpy Cat",
-    "source": "https://imgflip.com/meme/Grumpy-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2012,
-    "status": "immortal",
-    "lore": "Grumpy since 2012. Forever unimpressed."
-  },
-  {
-    "id": "cat-180",
-    "title": "The wave back",
-    "top": "waves at someone",
-    "bottom": "behind me. always behind me.",
-    "mood": "chaos",
-    "tags": [
-      "social",
-      "fail"
-    ],
-    "image": "/assets/memes/amuvy.jpg",
-    "template": "Smiling Cat",
-    "source": "https://imgflip.com/meme/Smiling-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2022,
-    "status": "alive",
-    "lore": "Smiling through the chaos."
-  },
-  {
-    "id": "cat-181",
-    "title": "The plot hole",
-    "top": "“it was all a dream”",
-    "bottom": "worst. trope. ever.",
-    "mood": "chaos",
-    "tags": [
-      "movies",
-      "opinion"
-    ],
-    "image": "/assets/memes/5do96.jpg",
-    "template": "Grumpy Cat Not Amused",
-    "source": "https://imgflip.com/meme/Grumpy-Cat-Not-Amused",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2013,
-    "status": "classic",
-    "lore": "The gold standard of not-amused."
-  },
-  {
-    "id": "cat-182",
+    "id": "meme-033",
     "title": "The jump scare",
     "top": "own reflection",
     "bottom": "in a dark hallway",
@@ -3456,10 +688,12 @@
     "added": "2026-09-14",
     "origin": 2019,
     "status": "classic",
-    "lore": "Startled since 2019."
+    "lore": "Startled since 2019.",
+    "legacyId": "cat-182",
+    "category": "cat"
   },
   {
-    "id": "cat-183",
+    "id": "meme-034",
     "title": "The breaking news",
     "top": "local cat naps",
     "bottom": "through entire eclipse",
@@ -3475,86 +709,12 @@
     "added": "2026-09-14",
     "origin": 2015,
     "status": "classic",
-    "lore": "Reports the news. Is the news."
+    "lore": "Reports the news. Is the news.",
+    "legacyId": "cat-183",
+    "category": "cat"
   },
   {
-    "id": "cat-184",
-    "title": "The hype man",
-    "top": "friend got a haircut",
-    "bottom": "screaming like it’s a wedding",
-    "mood": "chaos",
-    "tags": [
-      "friends",
-      "hair"
-    ],
-    "image": "/assets/memes/72k5g.jpg",
-    "template": "Excited Cat",
-    "source": "https://imgflip.com/meme/Excited-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2021,
-    "status": "alive",
-    "lore": "Excitement levels: unsafe."
-  },
-  {
-    "id": "cat-185",
-    "title": "The chip hierarchy",
-    "top": "big chip for me",
-    "bottom": "broken one for… also me",
-    "mood": "snacks",
-    "tags": [
-      "chips",
-      "snack"
-    ],
-    "image": "/assets/memes/39binw.jpg",
-    "template": "Smudge the cat",
-    "source": "https://imgflip.com/meme/197052476/Smudge-the-cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2018,
-    "status": "immortal",
-    "lore": "Yells back at dinner since 2018."
-  },
-  {
-    "id": "cat-186",
-    "title": "The popcorn protocol",
-    "top": "movie starts in 5",
-    "bottom": "already half the bowl",
-    "mood": "snacks",
-    "tags": [
-      "movies",
-      "popcorn"
-    ],
-    "image": "/assets/memes/4p3h78.jpg",
-    "template": "Pop Cat",
-    "source": "https://imgflip.com/meme/284017364/Pop-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2020,
-    "status": "classic",
-    "lore": "Two frames. Infinite volume."
-  },
-  {
-    "id": "cat-187",
-    "title": "The toast theorem",
-    "top": "butter side always down",
-    "bottom": "peer reviewed. devastating.",
-    "mood": "snacks",
-    "tags": [
-      "science",
-      "breakfast"
-    ],
-    "image": "/assets/memes/1bif.jpg",
-    "template": "Chemistry Cat",
-    "source": "https://imgflip.com/meme/Chemistry-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2011,
-    "status": "classic",
-    "lore": "Peer reviews your snacks."
-  },
-  {
-    "id": "cat-188",
+    "id": "meme-035",
     "title": "The menu investigation",
     "top": "reads entire menu",
     "bottom": "orders the usual",
@@ -3570,219 +730,12 @@
     "added": "2026-09-14",
     "origin": 2015,
     "status": "classic",
-    "lore": "Reports the news. Is the news."
+    "lore": "Reports the news. Is the news.",
+    "legacyId": "cat-188",
+    "category": "cat"
   },
   {
-    "id": "cat-189",
-    "title": "The office cake",
-    "top": "“help yourself!”",
-    "bottom": "takes the corner piece. power move.",
-    "mood": "snacks",
-    "tags": [
-      "work",
-      "cake"
-    ],
-    "image": "/assets/memes/1bh7.jpg",
-    "template": "Business Cat",
-    "source": "https://imgflip.com/meme/Business-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2011,
-    "status": "immortal",
-    "lore": "Climbed the corporate ladder. Knocked it over."
-  },
-  {
-    "id": "cat-190",
-    "title": "The cookie swap",
-    "top": "one cookie each",
-    "bottom": "mine had more chips. justice.",
-    "mood": "snacks",
-    "tags": [
-      "cookies",
-      "justice"
-    ],
-    "image": "/assets/memes/4xgqu.jpg",
-    "template": "Cute Cat",
-    "source": "https://imgflip.com/meme/Cute-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2015,
-    "status": "classic",
-    "lore": "Certified cute. No notes."
-  },
-  {
-    "id": "cat-191",
-    "title": "The smoothie regret",
-    "top": "added spinach",
-    "bottom": "tastes like lawn. healthy lawn.",
-    "mood": "snacks",
-    "tags": [
-      "health",
-      "regret"
-    ],
-    "image": "/assets/memes/7s8bhl.jpg",
-    "template": "Banana cat",
-    "source": "https://imgflip.com/meme/470680617/Banana-cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2023,
-    "status": "alive",
-    "lore": "Potassium with a fanbase."
-  },
-  {
-    "id": "cat-192",
-    "title": "The taco balance",
-    "top": "eating tacos gracefully",
-    "bottom": "a myth. delicious myth.",
-    "mood": "snacks",
-    "tags": [
-      "tacos",
-      "dinner"
-    ],
-    "image": "/assets/memes/24uu.jpg",
-    "template": "Cool Cat Stroll",
-    "source": "https://imgflip.com/meme/Cool-Cat-Stroll",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2020,
-    "status": "alive",
-    "lore": "Struts like rent is due."
-  },
-  {
-    "id": "cat-193",
-    "title": "The diet starts",
-    "top": "monday. definitely monday.",
-    "bottom": "orders fries. it’s sunday.",
-    "mood": "snacks",
-    "tags": [
-      "diet",
-      "fries"
-    ],
-    "image": "/assets/memes/3u04h5.jpg",
-    "template": "sad thumbs up cat",
-    "source": "https://imgflip.com/meme/231792809/sad-thumbs-up-cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2023,
-    "status": "alive",
-    "lore": "Thumbs up. Spirits down."
-  },
-  {
-    "id": "cat-194",
-    "title": "The waiter watch",
-    "top": "sees waiter coming",
-    "bottom": "suddenly mid-sentence",
-    "mood": "snacks",
-    "tags": [
-      "dinner",
-      "social"
-    ],
-    "image": "/assets/memes/8p0a.jpg",
-    "template": "Grumpy Cat",
-    "source": "https://imgflip.com/meme/Grumpy-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2012,
-    "status": "immortal",
-    "lore": "Grumpy since 2012. Forever unimpressed."
-  },
-  {
-    "id": "cat-195",
-    "title": "The delivery tracker",
-    "top": "driver is 2 stops away",
-    "bottom": "staring out window like a dog",
-    "mood": "snacks",
-    "tags": [
-      "delivery",
-      "hungry"
-    ],
-    "image": "/assets/memes/3vnurc.jpg",
-    "template": "Crying cat on phone",
-    "source": "https://imgflip.com/meme/234579576/Crying-cat-on-phone",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2021,
-    "status": "alive",
-    "lore": "Doomscrolling before it was cool."
-  },
-  {
-    "id": "cat-196",
-    "title": "The secret stash",
-    "top": "hiding chocolate",
-    "bottom": "from myself. forgot where.",
-    "mood": "snacks",
-    "tags": [
-      "chocolate",
-      "fail"
-    ],
-    "image": "/assets/memes/amuvy.jpg",
-    "template": "Smiling Cat",
-    "source": "https://imgflip.com/meme/Smiling-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2022,
-    "status": "alive",
-    "lore": "Smiling through the chaos."
-  },
-  {
-    "id": "cat-197",
-    "title": "The brunch rush",
-    "top": "table for brunch",
-    "bottom": "45 min wait. worth it.",
-    "mood": "snacks",
-    "tags": [
-      "brunch",
-      "weekend"
-    ],
-    "image": "/assets/memes/72k5g.jpg",
-    "template": "Excited Cat",
-    "source": "https://imgflip.com/meme/Excited-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2021,
-    "status": "alive",
-    "lore": "Excitement levels: unsafe."
-  },
-  {
-    "id": "cat-198",
-    "title": "The recipe review",
-    "top": "“i swapped everything”",
-    "bottom": "one star. recipe’s fault.",
-    "mood": "snacks",
-    "tags": [
-      "cooking",
-      "review"
-    ],
-    "image": "/assets/memes/5do96.jpg",
-    "template": "Grumpy Cat Not Amused",
-    "source": "https://imgflip.com/meme/Grumpy-Cat-Not-Amused",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2013,
-    "status": "classic",
-    "lore": "The gold standard of not-amused."
-  },
-  {
-    "id": "cat-199",
-    "title": "The fancy dinner",
-    "top": "tiny portions",
-    "bottom": "stops for tacos after",
-    "mood": "snacks",
-    "tags": [
-      "dinner",
-      "tacos"
-    ],
-    "image": "/assets/memes/35v1lq.jpg",
-    "template": "white cat table",
-    "source": "https://imgflip.com/meme/191245022/white-cat-table",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2019,
-    "status": "classic",
-    "lore": "Sits at tables. Judges at tables."
-  },
-  {
-    "id": "cat-200",
+    "id": "meme-036",
     "title": "The ice cream",
     "top": "“just one scoop”",
     "bottom": "the tub is gone",
@@ -3798,143 +751,12 @@
     "added": "2026-09-14",
     "origin": 2014,
     "status": "classic",
-    "lore": "Crying professionally for a decade."
+    "lore": "Crying professionally for a decade.",
+    "legacyId": "cat-200",
+    "category": "cat"
   },
   {
-    "id": "cat-201",
-    "title": "The midnight cereal",
-    "top": "bowl at 1am",
-    "bottom": "hits different. scientifically.",
-    "mood": "snacks",
-    "tags": [
-      "cereal",
-      "night"
-    ],
-    "image": "/assets/memes/lp2ba.jpg",
-    "template": "Sleepy Cat",
-    "source": "https://imgflip.com/meme/36441334/Sleepy-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2012,
-    "status": "classic",
-    "lore": "Horizontal since forever."
-  },
-  {
-    "id": "cat-202",
-    "title": "The loud typer",
-    "top": "mechanical keyboard",
-    "bottom": "in a quiet café",
-    "mood": "judgment",
-    "tags": [
-      "noise",
-      "laptop"
-    ],
-    "image": "/assets/memes/8p0a.jpg",
-    "template": "Grumpy Cat",
-    "source": "https://imgflip.com/meme/Grumpy-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2012,
-    "status": "immortal",
-    "lore": "Grumpy since 2012. Forever unimpressed."
-  },
-  {
-    "id": "cat-203",
-    "title": "The spoiler, part II",
-    "top": "“you finished it, right?”",
-    "bottom": "hadn’t. have now. thanks.",
-    "mood": "judgment",
-    "tags": [
-      "movies",
-      "spoiler"
-    ],
-    "image": "/assets/memes/5do96.jpg",
-    "template": "Grumpy Cat Not Amused",
-    "source": "https://imgflip.com/meme/Grumpy-Cat-Not-Amused",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2013,
-    "status": "classic",
-    "lore": "The gold standard of not-amused."
-  },
-  {
-    "id": "cat-204",
-    "title": "The meeting monologue",
-    "top": "“i’ll keep it brief”",
-    "bottom": "narrates entire quarter",
-    "mood": "judgment",
-    "tags": [
-      "work",
-      "meeting"
-    ],
-    "image": "/assets/memes/35v1lq.jpg",
-    "template": "white cat table",
-    "source": "https://imgflip.com/meme/191245022/white-cat-table",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2019,
-    "status": "classic",
-    "lore": "Sits at tables. Judges at tables."
-  },
-  {
-    "id": "cat-205",
-    "title": "The restaurant critic",
-    "top": "“the vibe is off”",
-    "bottom": "it’s a tuesday, kevin",
-    "mood": "judgment",
-    "tags": [
-      "dinner",
-      "attitude"
-    ],
-    "image": "/assets/memes/39binw.jpg",
-    "template": "Smudge the cat",
-    "source": "https://imgflip.com/meme/197052476/Smudge-the-cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2018,
-    "status": "immortal",
-    "lore": "Yells back at dinner since 2018."
-  },
-  {
-    "id": "cat-206",
-    "title": "The slow walkers",
-    "top": "group of five",
-    "bottom": "entire sidewalk. all of it.",
-    "mood": "judgment",
-    "tags": [
-      "walking",
-      "city"
-    ],
-    "image": "/assets/memes/24uu.jpg",
-    "template": "Cool Cat Stroll",
-    "source": "https://imgflip.com/meme/Cool-Cat-Stroll",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2020,
-    "status": "alive",
-    "lore": "Struts like rent is due."
-  },
-  {
-    "id": "cat-207",
-    "title": "The software license",
-    "top": "“accept all cookies”",
-    "bottom": "sells soul for 10% off",
-    "mood": "judgment",
-    "tags": [
-      "tech",
-      "cookies"
-    ],
-    "image": "/assets/memes/3u04h5.jpg",
-    "template": "sad thumbs up cat",
-    "source": "https://imgflip.com/meme/231792809/sad-thumbs-up-cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2023,
-    "status": "alive",
-    "lore": "Thumbs up. Spirits down."
-  },
-  {
-    "id": "cat-208",
+    "id": "meme-037",
     "title": "The gym selfie",
     "top": "posts leg day",
     "bottom": "skipped legs",
@@ -3950,29 +772,12 @@
     "added": "2026-09-14",
     "origin": 2012,
     "status": "immortal",
-    "lore": "Grumpy since 2012. Forever unimpressed."
+    "lore": "Grumpy since 2012. Forever unimpressed.",
+    "legacyId": "cat-208",
+    "category": "cat"
   },
   {
-    "id": "cat-209",
-    "title": "The phone call",
-    "top": "calls instead of texting",
-    "bottom": "a bold, hostile choice",
-    "mood": "judgment",
-    "tags": [
-      "phone",
-      "social"
-    ],
-    "image": "/assets/memes/5do96.jpg",
-    "template": "Grumpy Cat Not Amused",
-    "source": "https://imgflip.com/meme/Grumpy-Cat-Not-Amused",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2013,
-    "status": "classic",
-    "lore": "The gold standard of not-amused."
-  },
-  {
-    "id": "cat-210",
+    "id": "meme-038",
     "title": "The desk neighbor",
     "top": "eats tuna at desk",
     "bottom": "hr has been notified",
@@ -3988,67 +793,12 @@
     "added": "2026-09-14",
     "origin": 2011,
     "status": "immortal",
-    "lore": "Climbed the corporate ladder. Knocked it over."
+    "lore": "Climbed the corporate ladder. Knocked it over.",
+    "legacyId": "cat-210",
+    "category": "cat"
   },
   {
-    "id": "cat-211",
-    "title": "The early bird",
-    "top": "“morning people win”",
-    "bottom": "win what. exactly.",
-    "mood": "judgment",
-    "tags": [
-      "morning",
-      "debate"
-    ],
-    "image": "/assets/memes/3e5sun.jpg",
-    "template": "I'm awake, but at what cost?",
-    "source": "https://imgflip.com/meme/205183823/Im-awake-but-at-what-cost",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2021,
-    "status": "alive",
-    "lore": "Awake. At what cost."
-  },
-  {
-    "id": "cat-212",
-    "title": "The horror movie",
-    "top": "“don’t go in there!”",
-    "bottom": "goes in there",
-    "mood": "judgment",
-    "tags": [
-      "movies",
-      "logic"
-    ],
-    "image": "/assets/memes/2hgfw.jpg",
-    "template": "Scared Cat",
-    "source": "https://imgflip.com/meme/Scared-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2019,
-    "status": "classic",
-    "lore": "Startled since 2019."
-  },
-  {
-    "id": "cat-213",
-    "title": "The opinion column",
-    "top": "“unpopular opinion:”",
-    "bottom": "extremely popular opinion",
-    "mood": "judgment",
-    "tags": [
-      "opinion",
-      "social"
-    ],
-    "image": "/assets/memes/bgsvd.jpg",
-    "template": "Cat newspaper",
-    "source": "https://imgflip.com/meme/19259689/Cat-newspaper",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2015,
-    "status": "classic",
-    "lore": "Reports the news. Is the news."
-  },
-  {
-    "id": "cat-214",
+    "id": "meme-039",
     "title": "The playlist thief",
     "top": "steals my playlist",
     "bottom": "gets more likes",
@@ -4064,143 +814,12 @@
     "added": "2026-09-14",
     "origin": 2020,
     "status": "classic",
-    "lore": "Headphones on. World off."
+    "lore": "Headphones on. World off.",
+    "legacyId": "cat-214",
+    "category": "cat"
   },
   {
-    "id": "cat-215",
-    "title": "The compliment fish",
-    "top": "“new haircut, don’t care”",
-    "bottom": "posted 4 angles",
-    "mood": "judgment",
-    "tags": [
-      "hair",
-      "social"
-    ],
-    "image": "/assets/memes/amuvy.jpg",
-    "template": "Smiling Cat",
-    "source": "https://imgflip.com/meme/Smiling-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2022,
-    "status": "alive",
-    "lore": "Smiling through the chaos."
-  },
-  {
-    "id": "cat-216",
-    "title": "The over-packer",
-    "top": "weekend trip",
-    "bottom": "3 suitcases. 2 outfits.",
-    "mood": "judgment",
-    "tags": [
-      "travel",
-      "packing"
-    ],
-    "image": "/assets/memes/72k5g.jpg",
-    "template": "Excited Cat",
-    "source": "https://imgflip.com/meme/Excited-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2021,
-    "status": "alive",
-    "lore": "Excitement levels: unsafe."
-  },
-  {
-    "id": "cat-217",
-    "title": "The baby voice",
-    "top": "talks to dog like baby",
-    "bottom": "in public. no shame.",
-    "mood": "judgment",
-    "tags": [
-      "dogs",
-      "public"
-    ],
-    "image": "/assets/memes/4xgqu.jpg",
-    "template": "Cute Cat",
-    "source": "https://imgflip.com/meme/Cute-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2015,
-    "status": "classic",
-    "lore": "Certified cute. No notes."
-  },
-  {
-    "id": "cat-218",
-    "title": "The advice",
-    "top": "“just be yourself”",
-    "bottom": "myself is the problem",
-    "mood": "judgment",
-    "tags": [
-      "advice",
-      "truth"
-    ],
-    "image": "/assets/memes/3ex8oy.jpg",
-    "template": "Sad Cat Holding Dog",
-    "source": "https://imgflip.com/meme/206464066/Sad-Cat-Holding-Dog",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2022,
-    "status": "alive",
-    "lore": "Emotional support, holding."
-  },
-  {
-    "id": "cat-219",
-    "title": "The blink",
-    "top": "rests eyes for a sec",
-    "bottom": "2 hours. drool.",
-    "mood": "sleepy",
-    "tags": [
-      "nap",
-      "oops"
-    ],
-    "image": "/assets/memes/11wis1.jpg",
-    "template": "Sleepy Kitten",
-    "source": "https://imgflip.com/meme/63663121/Sleepy-Kitten",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2013,
-    "status": "classic",
-    "lore": "Eepy before eepy was a word."
-  },
-  {
-    "id": "cat-220",
-    "title": "The snooze math",
-    "top": "9 more minutes × 6",
-    "bottom": "still tired. shocking.",
-    "mood": "sleepy",
-    "tags": [
-      "morning",
-      "math"
-    ],
-    "image": "/assets/memes/lp2ba.jpg",
-    "template": "Sleepy Cat",
-    "source": "https://imgflip.com/meme/36441334/Sleepy-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2012,
-    "status": "classic",
-    "lore": "Horizontal since forever."
-  },
-  {
-    "id": "cat-221",
-    "title": "The 3pm wall",
-    "top": "hits like a truck",
-    "bottom": "truck full of pillows",
-    "mood": "sleepy",
-    "tags": [
-      "afternoon",
-      "tired"
-    ],
-    "image": "/assets/memes/3e5sun.jpg",
-    "template": "I'm awake, but at what cost?",
-    "source": "https://imgflip.com/meme/205183823/Im-awake-but-at-what-cost",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2021,
-    "status": "alive",
-    "lore": "Awake. At what cost."
-  },
-  {
-    "id": "cat-222",
+    "id": "meme-040",
     "title": "The scroll hole",
     "top": "“last video”",
     "bottom": "sunrise. birds.",
@@ -4216,48 +835,12 @@
     "added": "2026-09-14",
     "origin": 2021,
     "status": "alive",
-    "lore": "Doomscrolling before it was cool."
+    "lore": "Doomscrolling before it was cool.",
+    "legacyId": "cat-222",
+    "category": "cat"
   },
   {
-    "id": "cat-223",
-    "title": "The cozy trap",
-    "top": "blanket + rain sounds",
-    "bottom": "plans: cancelled",
-    "mood": "sleepy",
-    "tags": [
-      "cozy",
-      "rain"
-    ],
-    "image": "/assets/memes/11wis1.jpg",
-    "template": "Sleepy Kitten",
-    "source": "https://imgflip.com/meme/63663121/Sleepy-Kitten",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2013,
-    "status": "classic",
-    "lore": "Eepy before eepy was a word."
-  },
-  {
-    "id": "cat-224",
-    "title": "The conference coma",
-    "top": "camera on. brain off.",
-    "bottom": "nodding professionally",
-    "mood": "sleepy",
-    "tags": [
-      "work",
-      "meeting"
-    ],
-    "image": "/assets/memes/1bh7.jpg",
-    "template": "Business Cat",
-    "source": "https://imgflip.com/meme/Business-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2011,
-    "status": "immortal",
-    "lore": "Climbed the corporate ladder. Knocked it over."
-  },
-  {
-    "id": "cat-225",
+    "id": "meme-041",
     "title": "The nap math",
     "top": "20 min power nap",
     "bottom": "4 hours. oops.",
@@ -4273,257 +856,12 @@
     "added": "2026-09-14",
     "origin": 2012,
     "status": "classic",
-    "lore": "Horizontal since forever."
+    "lore": "Horizontal since forever.",
+    "legacyId": "cat-225",
+    "category": "cat"
   },
   {
-    "id": "cat-226",
-    "title": "The timezone",
-    "top": "flies 3 hours",
-    "bottom": "jet lagged for a month",
-    "mood": "sleepy",
-    "tags": [
-      "travel",
-      "tired"
-    ],
-    "image": "/assets/memes/3e5sun.jpg",
-    "template": "I'm awake, but at what cost?",
-    "source": "https://imgflip.com/meme/205183823/Im-awake-but-at-what-cost",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2021,
-    "status": "alive",
-    "lore": "Awake. At what cost."
-  },
-  {
-    "id": "cat-227",
-    "title": "The low battery",
-    "top": "phone at 4%",
-    "bottom": "no charger. this is the end.",
-    "mood": "sleepy",
-    "tags": [
-      "phone",
-      "battery"
-    ],
-    "image": "/assets/memes/3vnurc.jpg",
-    "template": "Crying cat on phone",
-    "source": "https://imgflip.com/meme/234579576/Crying-cat-on-phone",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2021,
-    "status": "alive",
-    "lore": "Doomscrolling before it was cool."
-  },
-  {
-    "id": "cat-228",
-    "title": "The good stretch",
-    "top": "morning stretch",
-    "bottom": "cracks like glow sticks",
-    "mood": "sleepy",
-    "tags": [
-      "morning",
-      "stretch"
-    ],
-    "image": "/assets/memes/amuvy.jpg",
-    "template": "Smiling Cat",
-    "source": "https://imgflip.com/meme/Smiling-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2022,
-    "status": "alive",
-    "lore": "Smiling through the chaos."
-  },
-  {
-    "id": "cat-229",
-    "title": "The warm laundry",
-    "top": "hugs fresh laundry",
-    "bottom": "becomes laundry",
-    "mood": "sleepy",
-    "tags": [
-      "laundry",
-      "cozy"
-    ],
-    "image": "/assets/memes/4xgqu.jpg",
-    "template": "Cute Cat",
-    "source": "https://imgflip.com/meme/Cute-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2015,
-    "status": "classic",
-    "lore": "Certified cute. No notes."
-  },
-  {
-    "id": "cat-230",
-    "title": "The friday nap",
-    "top": "“quick nap before dinner”",
-    "bottom": "wakes up saturday",
-    "mood": "sleepy",
-    "tags": [
-      "weekend",
-      "nap"
-    ],
-    "image": "/assets/memes/72k5g.jpg",
-    "template": "Excited Cat",
-    "source": "https://imgflip.com/meme/Excited-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2021,
-    "status": "alive",
-    "lore": "Excitement levels: unsafe."
-  },
-  {
-    "id": "cat-231",
-    "title": "The snorer",
-    "top": "“i don’t snore”",
-    "bottom": "recorded evidence attached",
-    "mood": "sleepy",
-    "tags": [
-      "sleep",
-      "evidence"
-    ],
-    "image": "/assets/memes/5do96.jpg",
-    "template": "Grumpy Cat Not Amused",
-    "source": "https://imgflip.com/meme/Grumpy-Cat-Not-Amused",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2013,
-    "status": "classic",
-    "lore": "The gold standard of not-amused."
-  },
-  {
-    "id": "cat-232",
-    "title": "The monday alarm",
-    "top": "5 alarms set",
-    "bottom": "sleeps through all 5",
-    "mood": "sleepy",
-    "tags": [
-      "morning",
-      "monday"
-    ],
-    "image": "/assets/memes/8p0a.jpg",
-    "template": "Grumpy Cat",
-    "source": "https://imgflip.com/meme/Grumpy-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2012,
-    "status": "immortal",
-    "lore": "Grumpy since 2012. Forever unimpressed."
-  },
-  {
-    "id": "cat-233",
-    "title": "The night owl",
-    "top": "“so productive at night”",
-    "bottom": "produces: anxiety",
-    "mood": "sleepy",
-    "tags": [
-      "night",
-      "truth"
-    ],
-    "image": "/assets/memes/35v1lq.jpg",
-    "template": "white cat table",
-    "source": "https://imgflip.com/meme/191245022/white-cat-table",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2019,
-    "status": "classic",
-    "lore": "Sits at tables. Judges at tables."
-  },
-  {
-    "id": "cat-234",
-    "title": "The pillow war",
-    "top": "steals all pillows",
-    "bottom": "denies everything",
-    "mood": "sleepy",
-    "tags": [
-      "sleep",
-      "denial"
-    ],
-    "image": "/assets/memes/39binw.jpg",
-    "template": "Smudge the cat",
-    "source": "https://imgflip.com/meme/197052476/Smudge-the-cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2018,
-    "status": "immortal",
-    "lore": "Yells back at dinner since 2018."
-  },
-  {
-    "id": "cat-235",
-    "title": "The proud parent",
-    "top": "kid drew a potato",
-    "bottom": "framing it. obviously.",
-    "mood": "wholesome",
-    "tags": [
-      "kids",
-      "love"
-    ],
-    "image": "/assets/memes/amuvy.jpg",
-    "template": "Smiling Cat",
-    "source": "https://imgflip.com/meme/Smiling-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2022,
-    "status": "alive",
-    "lore": "Smiling through the chaos."
-  },
-  {
-    "id": "cat-236",
-    "title": "The lost tourist",
-    "top": "looks lost",
-    "bottom": "walks them there anyway",
-    "mood": "wholesome",
-    "tags": [
-      "kindness",
-      "city"
-    ],
-    "image": "/assets/memes/3ex8oy.jpg",
-    "template": "Sad Cat Holding Dog",
-    "source": "https://imgflip.com/meme/206464066/Sad-Cat-Holding-Dog",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2022,
-    "status": "alive",
-    "lore": "Emotional support, holding."
-  },
-  {
-    "id": "cat-237",
-    "title": "The promotion",
-    "top": "friend got promoted",
-    "bottom": "louder than the promotion",
-    "mood": "wholesome",
-    "tags": [
-      "friends",
-      "win"
-    ],
-    "image": "/assets/memes/72k5g.jpg",
-    "template": "Excited Cat",
-    "source": "https://imgflip.com/meme/Excited-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2021,
-    "status": "alive",
-    "lore": "Excitement levels: unsafe."
-  },
-  {
-    "id": "cat-238",
-    "title": "The first snow",
-    "top": "first snowflake",
-    "bottom": "acts like it’s magic. it is.",
-    "mood": "wholesome",
-    "tags": [
-      "winter",
-      "wonder"
-    ],
-    "image": "/assets/memes/4xgqu.jpg",
-    "template": "Cute Cat",
-    "source": "https://imgflip.com/meme/Cute-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2015,
-    "status": "classic",
-    "lore": "Certified cute. No notes."
-  },
-  {
-    "id": "cat-239",
+    "id": "meme-042",
     "title": "The grandma call",
     "top": "calls grandma",
     "bottom": "stays on for an hour",
@@ -4539,29 +877,12 @@
     "added": "2026-09-14",
     "origin": 2022,
     "status": "alive",
-    "lore": "Smiling through the chaos."
+    "lore": "Smiling through the chaos.",
+    "legacyId": "cat-239",
+    "category": "cat"
   },
   {
-    "id": "cat-240",
-    "title": "The shelter visit",
-    "top": "“just looking”",
-    "bottom": "leaves with a cat",
-    "mood": "wholesome",
-    "tags": [
-      "cats",
-      "love"
-    ],
-    "image": "/assets/memes/3ex8oy.jpg",
-    "template": "Sad Cat Holding Dog",
-    "source": "https://imgflip.com/meme/206464066/Sad-Cat-Holding-Dog",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2022,
-    "status": "alive",
-    "lore": "Emotional support, holding."
-  },
-  {
-    "id": "cat-241",
+    "id": "meme-043",
     "title": "The home run",
     "top": "kid’s first goal",
     "bottom": "entire stands erupt",
@@ -4577,29 +898,12 @@
     "added": "2026-09-14",
     "origin": 2021,
     "status": "alive",
-    "lore": "Excitement levels: unsafe."
+    "lore": "Excitement levels: unsafe.",
+    "legacyId": "cat-241",
+    "category": "cat"
   },
   {
-    "id": "cat-242",
-    "title": "The thank-you wave",
-    "top": "lets car merge",
-    "bottom": "gets the wave. best feeling.",
-    "mood": "wholesome",
-    "tags": [
-      "driving",
-      "kindness"
-    ],
-    "image": "/assets/memes/4xgqu.jpg",
-    "template": "Cute Cat",
-    "source": "https://imgflip.com/meme/Cute-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2015,
-    "status": "classic",
-    "lore": "Certified cute. No notes."
-  },
-  {
-    "id": "cat-243",
+    "id": "meme-044",
     "title": "The birthday song",
     "top": "off-key singing",
     "bottom": "loudest in the room",
@@ -4615,48 +919,12 @@
     "added": "2026-09-14",
     "origin": 2022,
     "status": "alive",
-    "lore": "Smiling through the chaos."
+    "lore": "Smiling through the chaos.",
+    "legacyId": "cat-243",
+    "category": "cat"
   },
   {
-    "id": "cat-244",
-    "title": "The study buddy",
-    "top": "brings snacks",
-    "bottom": "to the library grind",
-    "mood": "wholesome",
-    "tags": [
-      "friends",
-      "snacks"
-    ],
-    "image": "/assets/memes/3ex8oy.jpg",
-    "template": "Sad Cat Holding Dog",
-    "source": "https://imgflip.com/meme/206464066/Sad-Cat-Holding-Dog",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2022,
-    "status": "alive",
-    "lore": "Emotional support, holding."
-  },
-  {
-    "id": "cat-245",
-    "title": "The finish line",
-    "top": "cheers strangers",
-    "bottom": "at mile 20. all of them.",
-    "mood": "wholesome",
-    "tags": [
-      "sports",
-      "kindness"
-    ],
-    "image": "/assets/memes/72k5g.jpg",
-    "template": "Excited Cat",
-    "source": "https://imgflip.com/meme/Excited-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2021,
-    "status": "alive",
-    "lore": "Excitement levels: unsafe."
-  },
-  {
-    "id": "cat-246",
+    "id": "meme-045",
     "title": "The lucky penny",
     "top": "finds a penny",
     "bottom": "day = made",
@@ -4672,29 +940,12 @@
     "added": "2026-09-14",
     "origin": 2015,
     "status": "classic",
-    "lore": "Certified cute. No notes."
+    "lore": "Certified cute. No notes.",
+    "legacyId": "cat-246",
+    "category": "cat"
   },
   {
-    "id": "cat-247",
-    "title": "The neighbor cookies",
-    "top": "bakes too much",
-    "bottom": "doorbell ditch with love",
-    "mood": "wholesome",
-    "tags": [
-      "neighbors",
-      "baking"
-    ],
-    "image": "/assets/memes/amuvy.jpg",
-    "template": "Smiling Cat",
-    "source": "https://imgflip.com/meme/Smiling-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2022,
-    "status": "alive",
-    "lore": "Smiling through the chaos."
-  },
-  {
-    "id": "cat-248",
+    "id": "meme-046",
     "title": "The old dog",
     "top": "slow on walks",
     "bottom": "we go slow. gladly.",
@@ -4710,67 +961,12 @@
     "added": "2026-09-14",
     "origin": 2022,
     "status": "alive",
-    "lore": "Emotional support, holding."
+    "lore": "Emotional support, holding.",
+    "legacyId": "cat-248",
+    "category": "cat"
   },
   {
-    "id": "cat-249",
-    "title": "The standing ovation",
-    "top": "school play",
-    "bottom": "front row. tears.",
-    "mood": "wholesome",
-    "tags": [
-      "kids",
-      "proud"
-    ],
-    "image": "/assets/memes/72k5g.jpg",
-    "template": "Excited Cat",
-    "source": "https://imgflip.com/meme/Excited-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2021,
-    "status": "alive",
-    "lore": "Excitement levels: unsafe."
-  },
-  {
-    "id": "cat-250",
-    "title": "The 250th cat",
-    "top": "you made it here",
-    "bottom": "the cats are proud of you",
-    "mood": "wholesome",
-    "tags": [
-      "milestone",
-      "love"
-    ],
-    "image": "/assets/memes/amuvy.jpg",
-    "template": "Smiling Cat",
-    "source": "https://imgflip.com/meme/Smiling-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2022,
-    "status": "alive",
-    "lore": "Smiling through the chaos."
-  },
-  {
-    "id": "cat-251",
-    "title": "The deadline approaches",
-    "top": "heavy breathing intensifies",
-    "bottom": "it’s due in 20 minutes",
-    "mood": "relatable",
-    "tags": [
-      "deadline",
-      "work"
-    ],
-    "image": "/assets/memes/7rf5z.jpg",
-    "template": "Heavy Breathing Cat",
-    "source": "https://imgflip.com/meme/Heavy-Breathing-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2013,
-    "status": "classic",
-    "lore": "Inhales deadlines. Exhales panic."
-  },
-  {
-    "id": "cat-252",
+    "id": "meme-047",
     "title": "The gossip arrives",
     "top": "WAIT. tell me",
     "bottom": "EVERYTHING. now.",
@@ -4786,48 +982,12 @@
     "added": "2026-09-14",
     "origin": 2013,
     "status": "classic",
-    "lore": "Inhales deadlines. Exhales panic."
+    "lore": "Inhales deadlines. Exhales panic.",
+    "legacyId": "cat-252",
+    "category": "cat"
   },
   {
-    "id": "cat-253",
-    "title": "The oven timer",
-    "top": "2 minutes left",
-    "bottom": "watching like a hawk",
-    "mood": "snacks",
-    "tags": [
-      "dinner",
-      "hungry"
-    ],
-    "image": "/assets/memes/7rf5z.jpg",
-    "template": "Heavy Breathing Cat",
-    "source": "https://imgflip.com/meme/Heavy-Breathing-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2013,
-    "status": "classic",
-    "lore": "Inhales deadlines. Exhales panic."
-  },
-  {
-    "id": "cat-254",
-    "title": "The plot twist episode",
-    "top": "don’t you dare end here",
-    "bottom": "TO BE CONTINUED",
-    "mood": "relatable",
-    "tags": [
-      "tv",
-      "drama"
-    ],
-    "image": "/assets/memes/7rf5z.jpg",
-    "template": "Heavy Breathing Cat",
-    "source": "https://imgflip.com/meme/Heavy-Breathing-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2013,
-    "status": "classic",
-    "lore": "Inhales deadlines. Exhales panic."
-  },
-  {
-    "id": "cat-255",
+    "id": "meme-048",
     "title": "The excuse",
     "top": "“traffic was crazy”",
     "bottom": "you work from home",
@@ -4843,29 +1003,12 @@
     "added": "2026-09-14",
     "origin": 2013,
     "status": "classic",
-    "lore": "Inhales deadlines. Exhales panic."
+    "lore": "Inhales deadlines. Exhales panic.",
+    "legacyId": "cat-255",
+    "category": "cat"
   },
   {
-    "id": "cat-256",
-    "title": "The bedroom door",
-    "top": "you shall not nap",
-    "bottom": "without the tribute (treats)",
-    "mood": "judgment",
-    "tags": [
-      "door",
-      "treats"
-    ],
-    "image": "/assets/memes/zl7we.jpg",
-    "template": "Persian Cat Room Guardian",
-    "source": "https://imgflip.com/meme/Persian-Cat-Room-Guardian",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2019,
-    "status": "classic",
-    "lore": "You shall not pass. Without snacks."
-  },
-  {
-    "id": "cat-257",
+    "id": "meme-049",
     "title": "The monday guardian",
     "top": "none shall pass",
     "bottom": "back to bed, all of you",
@@ -4881,67 +1024,12 @@
     "added": "2026-09-14",
     "origin": 2019,
     "status": "classic",
-    "lore": "You shall not pass. Without snacks."
+    "lore": "You shall not pass. Without snacks.",
+    "legacyId": "cat-257",
+    "category": "cat"
   },
   {
-    "id": "cat-258",
-    "title": "The wifi guardian",
-    "top": "password, mortal",
-    "bottom": "it’s on the fridge. as always.",
-    "mood": "chaos",
-    "tags": [
-      "tech",
-      "wifi"
-    ],
-    "image": "/assets/memes/zl7we.jpg",
-    "template": "Persian Cat Room Guardian",
-    "source": "https://imgflip.com/meme/Persian-Cat-Room-Guardian",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2019,
-    "status": "classic",
-    "lore": "You shall not pass. Without snacks."
-  },
-  {
-    "id": "cat-259",
-    "title": "The fridge guardian",
-    "top": "state your business",
-    "bottom": "it’s 3am. same business.",
-    "mood": "snacks",
-    "tags": [
-      "fridge",
-      "night"
-    ],
-    "image": "/assets/memes/zl7we.jpg",
-    "template": "Persian Cat Room Guardian",
-    "source": "https://imgflip.com/meme/Persian-Cat-Room-Guardian",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2019,
-    "status": "classic",
-    "lore": "You shall not pass. Without snacks."
-  },
-  {
-    "id": "cat-260",
-    "title": "The hallway guardian",
-    "top": "escorts you at night",
-    "bottom": "charges one head pat",
-    "mood": "wholesome",
-    "tags": [
-      "night",
-      "love"
-    ],
-    "image": "/assets/memes/zl7we.jpg",
-    "template": "Persian Cat Room Guardian",
-    "source": "https://imgflip.com/meme/Persian-Cat-Room-Guardian",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2019,
-    "status": "classic",
-    "lore": "You shall not pass. Without snacks."
-  },
-  {
-    "id": "cat-261",
+    "id": "meme-050",
     "title": "The browser history",
     "top": "ceiling cat sees",
     "bottom": "all 47 tabs",
@@ -4957,86 +1045,12 @@
     "added": "2026-09-14",
     "origin": 2006,
     "status": "immortal",
-    "lore": "Watching you since 2006."
+    "lore": "Watching you since 2006.",
+    "legacyId": "cat-261",
+    "category": "cat"
   },
   {
-    "id": "cat-262",
-    "title": "The diet witness",
-    "top": "saw the midnight snack",
-    "bottom": "tells no one. judges plenty.",
-    "mood": "relatable",
-    "tags": [
-      "diet",
-      "night"
-    ],
-    "image": "/assets/memes/22vtk.jpg",
-    "template": "Ceiling Cat",
-    "source": "https://imgflip.com/meme/Ceiling-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2006,
-    "status": "immortal",
-    "lore": "Watching you since 2006."
-  },
-  {
-    "id": "cat-263",
-    "title": "The ceiling fan",
-    "top": "staring contest",
-    "bottom": "loser blinks first. it’s you.",
-    "mood": "chaos",
-    "tags": [
-      "stare",
-      "duel"
-    ],
-    "image": "/assets/memes/22vtk.jpg",
-    "template": "Ceiling Cat",
-    "source": "https://imgflip.com/meme/Ceiling-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2006,
-    "status": "immortal",
-    "lore": "Watching you since 2006."
-  },
-  {
-    "id": "cat-264",
-    "title": "The 3am ceiling",
-    "top": "can’t sleep either, huh",
-    "bottom": "let’s both pretend",
-    "mood": "sleepy",
-    "tags": [
-      "night",
-      "insomnia"
-    ],
-    "image": "/assets/memes/22vtk.jpg",
-    "template": "Ceiling Cat",
-    "source": "https://imgflip.com/meme/Ceiling-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2006,
-    "status": "immortal",
-    "lore": "Watching you since 2006."
-  },
-  {
-    "id": "cat-265",
-    "title": "The guardian above",
-    "top": "watches over naps",
-    "bottom": "overtime, unpaid",
-    "mood": "wholesome",
-    "tags": [
-      "nap",
-      "care"
-    ],
-    "image": "/assets/memes/22vtk.jpg",
-    "template": "Ceiling Cat",
-    "source": "https://imgflip.com/meme/Ceiling-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2006,
-    "status": "immortal",
-    "lore": "Watching you since 2006."
-  },
-  {
-    "id": "cat-266",
+    "id": "meme-051",
     "title": "The swamp era",
     "top": "out of my swamp",
     "bottom": "into my box",
@@ -5052,86 +1066,12 @@
     "added": "2026-09-14",
     "origin": 2023,
     "status": "alive",
-    "lore": "Ogres have layers. Cats have everything."
+    "lore": "Ogres have layers. Cats have everything.",
+    "legacyId": "cat-266",
+    "category": "cat"
   },
   {
-    "id": "cat-267",
-    "title": "The layers",
-    "top": "ogres have layers",
-    "bottom": "i have blankets",
-    "mood": "relatable",
-    "tags": [
-      "cozy",
-      "layers"
-    ],
-    "image": "/assets/memes/3m5mp.jpg",
-    "template": "Shrek Cat",
-    "source": "https://imgflip.com/meme/Shrek-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2023,
-    "status": "alive",
-    "lore": "Ogres have layers. Cats have everything."
-  },
-  {
-    "id": "cat-268",
-    "title": "The onion verdict",
-    "top": "tastes like an onion",
-    "bottom": "crying anyway",
-    "mood": "snacks",
-    "tags": [
-      "onion",
-      "dinner"
-    ],
-    "image": "/assets/memes/3m5mp.jpg",
-    "template": "Shrek Cat",
-    "source": "https://imgflip.com/meme/Shrek-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2023,
-    "status": "alive",
-    "lore": "Ogres have layers. Cats have everything."
-  },
-  {
-    "id": "cat-269",
-    "title": "The fairy tale",
-    "top": "“happily ever after”",
-    "bottom": "nap first. then ever after.",
-    "mood": "judgment",
-    "tags": [
-      "tales",
-      "nap"
-    ],
-    "image": "/assets/memes/3m5mp.jpg",
-    "template": "Shrek Cat",
-    "source": "https://imgflip.com/meme/Shrek-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2023,
-    "status": "alive",
-    "lore": "Ogres have layers. Cats have everything."
-  },
-  {
-    "id": "cat-270",
-    "title": "The donkey energy",
-    "top": "annoying but loyal",
-    "bottom": "that’s friendship",
-    "mood": "wholesome",
-    "tags": [
-      "friends",
-      "love"
-    ],
-    "image": "/assets/memes/3m5mp.jpg",
-    "template": "Shrek Cat",
-    "source": "https://imgflip.com/meme/Shrek-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2023,
-    "status": "alive",
-    "lore": "Ogres have layers. Cats have everything."
-  },
-  {
-    "id": "cat-271",
+    "id": "meme-052",
     "title": "The founding father",
     "top": "i can has",
     "bottom": "a place in history",
@@ -5147,86 +1087,12 @@
     "added": "2026-09-14",
     "origin": 2007,
     "status": "immortal",
-    "lore": "The one that started it all."
+    "lore": "The one that started it all.",
+    "legacyId": "cat-271",
+    "category": "cat"
   },
   {
-    "id": "cat-272",
-    "title": "The ancient text",
-    "top": "2007. simpler times.",
-    "bottom": "cheezburger was enough",
-    "mood": "relatable",
-    "tags": [
-      "nostalgia",
-      "classic"
-    ],
-    "image": "/assets/memes/jru7x.jpg",
-    "template": "I can has cheezburger cat",
-    "source": "https://imgflip.com/meme/33211581/I-can-has-cheezburger-cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2007,
-    "status": "immortal",
-    "lore": "The one that started it all."
-  },
-  {
-    "id": "cat-273",
-    "title": "The original order",
-    "top": "i can has",
-    "bottom": "cheezburger. still correct.",
-    "mood": "snacks",
-    "tags": [
-      "classic",
-      "dinner"
-    ],
-    "image": "/assets/memes/jru7x.jpg",
-    "template": "I can has cheezburger cat",
-    "source": "https://imgflip.com/meme/33211581/I-can-has-cheezburger-cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2007,
-    "status": "immortal",
-    "lore": "The one that started it all."
-  },
-  {
-    "id": "cat-274",
-    "title": "The prophecy",
-    "top": "it began with burger",
-    "bottom": "it ends with burger",
-    "mood": "chaos",
-    "tags": [
-      "destiny",
-      "classic"
-    ],
-    "image": "/assets/memes/jru7x.jpg",
-    "template": "I can has cheezburger cat",
-    "source": "https://imgflip.com/meme/33211581/I-can-has-cheezburger-cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2007,
-    "status": "immortal",
-    "lore": "The one that started it all."
-  },
-  {
-    "id": "cat-275",
-    "title": "The grammar",
-    "top": "“i can has”",
-    "bottom": "grammatically perfect, actually",
-    "mood": "judgment",
-    "tags": [
-      "grammar",
-      "attitude"
-    ],
-    "image": "/assets/memes/jru7x.jpg",
-    "template": "I can has cheezburger cat",
-    "source": "https://imgflip.com/meme/33211581/I-can-has-cheezburger-cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2007,
-    "status": "immortal",
-    "lore": "The one that started it all."
-  },
-  {
-    "id": "cat-276",
+    "id": "meme-053",
     "title": "The group chat trial",
     "top": "“EXPLAIN YOURSELF”",
     "bottom": "seen 9:41pm",
@@ -5242,67 +1108,12 @@
     "added": "2026-09-14",
     "origin": 2019,
     "status": "immortal",
-    "lore": "Dinner theater in two panels."
+    "lore": "Dinner theater in two panels.",
+    "legacyId": "cat-276",
+    "category": "cat"
   },
   {
-    "id": "cat-277",
-    "title": "The dinner trial",
-    "top": "“YOU ATE MY FRIES”",
-    "bottom": "no further questions",
-    "mood": "snacks",
-    "tags": [
-      "fries",
-      "drama"
-    ],
-    "image": "/assets/memes/345v97.jpg",
-    "template": "Woman Yelling At Cat",
-    "source": "https://imgflip.com/meme/Woman-Yelling-At-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2019,
-    "status": "immortal",
-    "lore": "Dinner theater in two panels."
-  },
-  {
-    "id": "cat-278",
-    "title": "The thermostat trial",
-    "top": "“IT’S 74 IN HERE”",
-    "bottom": "wearing a sweater. unbothered.",
-    "mood": "judgment",
-    "tags": [
-      "home",
-      "thermostat"
-    ],
-    "image": "/assets/memes/345v97.jpg",
-    "template": "Woman Yelling At Cat",
-    "source": "https://imgflip.com/meme/Woman-Yelling-At-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2019,
-    "status": "immortal",
-    "lore": "Dinner theater in two panels."
-  },
-  {
-    "id": "cat-279",
-    "title": "The 3am trial",
-    "top": "“WHY ARE YOU AWAKE”",
-    "bottom": "why are YOU awake",
-    "mood": "chaos",
-    "tags": [
-      "night",
-      "comeback"
-    ],
-    "image": "/assets/memes/345v97.jpg",
-    "template": "Woman Yelling At Cat",
-    "source": "https://imgflip.com/meme/Woman-Yelling-At-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2019,
-    "status": "immortal",
-    "lore": "Dinner theater in two panels."
-  },
-  {
-    "id": "cat-280",
+    "id": "meme-054",
     "title": "The verdict",
     "top": "case dismissed",
     "bottom": "cuddle sentence issued",
@@ -5318,29 +1129,12 @@
     "added": "2026-09-14",
     "origin": 2019,
     "status": "immortal",
-    "lore": "Dinner theater in two panels."
+    "lore": "Dinner theater in two panels.",
+    "legacyId": "cat-280",
+    "category": "cat"
   },
   {
-    "id": "cat-281",
-    "title": "The yawn approaches",
-    "top": "inhales deeply",
-    "bottom": "asleep mid-breath",
-    "mood": "sleepy",
-    "tags": [
-      "nap",
-      "yawn"
-    ],
-    "image": "/assets/memes/7rf5z.jpg",
-    "template": "Heavy Breathing Cat",
-    "source": "https://imgflip.com/meme/Heavy-Breathing-Cat",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2013,
-    "status": "classic",
-    "lore": "Inhales deadlines. Exhales panic."
-  },
-  {
-    "id": "cat-282",
+    "id": "meme-055",
     "title": "The dream guardian",
     "top": "protects your naps",
     "bottom": "snores on duty",
@@ -5356,10 +1150,12 @@
     "added": "2026-09-14",
     "origin": 2019,
     "status": "classic",
-    "lore": "You shall not pass. Without snacks."
+    "lore": "You shall not pass. Without snacks.",
+    "legacyId": "cat-282",
+    "category": "cat"
   },
   {
-    "id": "cat-283",
+    "id": "meme-056",
     "title": "The lullaby",
     "top": "ceiling fan hums",
     "bottom": "both asleep now",
@@ -5375,10 +1171,12 @@
     "added": "2026-09-14",
     "origin": 2006,
     "status": "immortal",
-    "lore": "Watching you since 2006."
+    "lore": "Watching you since 2006.",
+    "legacyId": "cat-283",
+    "category": "cat"
   },
   {
-    "id": "cat-284",
+    "id": "meme-057",
     "title": "The swamp nap",
     "top": "do not disturb",
     "bottom": "ogre sleeping",
@@ -5394,10 +1192,12 @@
     "added": "2026-09-14",
     "origin": 2023,
     "status": "alive",
-    "lore": "Ogres have layers. Cats have everything."
+    "lore": "Ogres have layers. Cats have everything.",
+    "legacyId": "cat-284",
+    "category": "cat"
   },
   {
-    "id": "cat-285",
+    "id": "meme-058",
     "title": "The food coma",
     "top": "i can has nap",
     "bottom": "after burger. obviously.",
@@ -5413,10 +1213,12 @@
     "added": "2026-09-14",
     "origin": 2007,
     "status": "immortal",
-    "lore": "The one that started it all."
+    "lore": "The one that started it all.",
+    "legacyId": "cat-285",
+    "category": "cat"
   },
   {
-    "id": "cat-286",
+    "id": "meme-059",
     "title": "The group chat fire",
     "top": "brought popcorn",
     "bottom": "to your drama",
@@ -5432,67 +1234,12 @@
     "added": "2026-09-14",
     "origin": 2021,
     "status": "alive",
-    "lore": "Likes the fire. Is the fire."
+    "lore": "Likes the fire. Is the fire.",
+    "legacyId": "cat-286",
+    "category": "cat"
   },
   {
-    "id": "cat-287",
-    "title": "The chaos enjoyer",
-    "top": "“this is fine”",
-    "bottom": "narrator: it was not fine",
-    "mood": "judgment",
-    "tags": [
-      "fire",
-      "denial"
-    ],
-    "image": "/assets/memes/8tlh.jpg",
-    "template": "Burn Kitty",
-    "source": "https://imgflip.com/meme/Burn-Kitty",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2021,
-    "status": "alive",
-    "lore": "Likes the fire. Is the fire."
-  },
-  {
-    "id": "cat-288",
-    "title": "The monday fire",
-    "top": "everything’s burning",
-    "bottom": "anyway, coffee?",
-    "mood": "relatable",
-    "tags": [
-      "monday",
-      "coffee"
-    ],
-    "image": "/assets/memes/8tlh.jpg",
-    "template": "Burn Kitty",
-    "source": "https://imgflip.com/meme/Burn-Kitty",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2021,
-    "status": "alive",
-    "lore": "Likes the fire. Is the fire."
-  },
-  {
-    "id": "cat-289",
-    "title": "The marshmallow plan",
-    "top": "everything’s on fire",
-    "bottom": "s’mores o’clock",
-    "mood": "snacks",
-    "tags": [
-      "fire",
-      "smores"
-    ],
-    "image": "/assets/memes/8tlh.jpg",
-    "template": "Burn Kitty",
-    "source": "https://imgflip.com/meme/Burn-Kitty",
-    "kind": "remix",
-    "added": "2026-09-14",
-    "origin": 2021,
-    "status": "alive",
-    "lore": "Likes the fire. Is the fire."
-  },
-  {
-    "id": "cat-290",
+    "id": "meme-060",
     "title": "The campfire",
     "top": "stories and sparks",
     "bottom": "stay for one more",
@@ -5508,6 +1255,8 @@
     "added": "2026-09-14",
     "origin": 2021,
     "status": "alive",
-    "lore": "Likes the fire. Is the fire."
+    "lore": "Likes the fire. Is the fire.",
+    "legacyId": "cat-290",
+    "category": "cat"
   }
 ]

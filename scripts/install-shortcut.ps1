@@ -1,12 +1,12 @@
-$catmemeRoot = Split-Path -Parent $PSScriptRoot
-$catmemeDesktop = [Environment]::GetFolderPath('Desktop')
-$catmemeShortcutPath = Join-Path $catmemeDesktop 'CATMEMECHIMP.lnk'
-$catmemeShell = New-Object -ComObject WScript.Shell
-$catmemeShortcut = $catmemeShell.CreateShortcut($catmemeShortcutPath)
-$catmemeShortcut.TargetPath = Join-Path $env:WINDIR 'System32\wscript.exe'
-$catmemeShortcut.Arguments = '"' + (Join-Path $catmemeRoot 'start.vbs') + '"'
-$catmemeShortcut.WorkingDirectory = $catmemeRoot
-$catmemeShortcut.IconLocation = (Join-Path $catmemeRoot 'public\assets\chimp.ico') + ',0'
-$catmemeShortcut.Description = 'Good cats. Questionable behavior. Your CATMEMECHIMP archive.'
-$catmemeShortcut.Save()
-Write-Output ('Desktop shortcut installed: ' + $catmemeShortcutPath)
+$memeRoot = Split-Path -Parent $PSScriptRoot
+$memeDesktop = [Environment]::GetFolderPath('Desktop')
+$memeShortcutPath = Join-Path $memeDesktop 'MEMECHIMP.lnk'
+$memeShell = New-Object -ComObject WScript.Shell
+$memeShortcut = $memeShell.CreateShortcut($memeShortcutPath)
+$memeShortcut.TargetPath = Join-Path $env:WINDIR 'System32\wscript.exe'
+$memeShortcut.Arguments = '"' + (Join-Path $memeRoot 'start.vbs') + '"'
+$memeShortcut.WorkingDirectory = $memeRoot
+$memeShortcut.IconLocation = (Join-Path $memeRoot 'public\assets\chimp.ico') + ',0'
+$memeShortcut.Description = 'Good memes. Questionable behavior. Your MEMECHIMP archive.'
+$memeShortcut.Save()
+Write-Output ('Desktop shortcut installed: ' + $memeShortcutPath)

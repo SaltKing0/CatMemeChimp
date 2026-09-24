@@ -14,9 +14,11 @@ const moods = new Set(['relatable', 'chaos', 'wholesome', 'judgment', 'sleepy', 
 const seen = new Set();
 for (const [i, m] of lib.entries()) {
   const where = `library[${i}] (${m.id || 'no-id'})`;
-  for (const f of ['id', 'title', 'mood', 'tags', 'image', 'template', 'kind', 'added']) {
+  for (const f of ['id', 'title', 'mood', 'tags', 'image', 'template', 'kind', 'added', 'category']) {
     if (m[f] === undefined || m[f] === null || m[f] === '') fail(`${where} missing ${f}`);
   }
+  if (typeof m.id !== 'string' || !m.id.startsWith('meme-')) fail(`${where} bad id ${m.id} (expected meme-xxx)`);
+  if (!['cat', 'general'].includes(m.category)) fail(`${where} bad category ${m.category}`);
   if (seen.has(m.id)) fail(`duplicate id ${m.id}`);
   seen.add(m.id);
   if (!moods.has(m.mood)) fail(`${where} bad mood ${m.mood}`);

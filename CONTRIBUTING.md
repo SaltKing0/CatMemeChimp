@@ -1,6 +1,6 @@
-# Contributing to CATMEMECHIMP
+# Contributing to MEMECHIMP
 
-Thanks for helping the cat archive become a nicer little corner of the internet.
+Thanks for helping the meme archive become a nicer little corner of the internet.
 
 1. Fork the repository and create a focused branch.
 2. Keep runtime code dependency-free unless a dependency solves a clear, documented problem.
