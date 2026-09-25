@@ -6,18 +6,7 @@ MEMECHIMP is open-source software. The MIT license in this repository covers the
 
 The 31 JPG files in `public/assets/memes/` are community meme templates obtained from Imgflip. Each cat item in `public/library.json` records the template name and its individual Imgflip source page. The application also exposes that source link in the focused viewer.
 
-The 10 `gen-*.jpg` files in `public/assets/memes/` are photographs from Wikimedia Commons, each under its stated Creative Commons license (all allow reuse with attribution; none are NonCommercial/NoDerivatives). Each general item in `public/library.json` records its Commons source page, also linked in the viewer. They are expressly excluded from the repository's MIT license:
-
-- `gen-01.jpg` — "Frustrated man at a desk (cropped)" by LaurMG, CC BY-SA 3.0. Source: https://commons.wikimedia.org/wiki/File:Frustrated_man_at_a_desk_(cropped).jpg
-- `gen-02.jpg` — "Man Feeling Stressed In The Workplace" by CIPHR Connect, CC BY 2.0. Source: https://commons.wikimedia.org/wiki/File:Man_Feeling_Stressed_In_The_Workplace.jpg
-- `gen-03.jpg` — "Man Being Shouted At In The Office" by CIPHR Connect, CC BY 2.0. Source: https://commons.wikimedia.org/wiki/File:Man_Being_Shouted_At_In_The_Office.jpg
-- `gen-04.jpg` — "Coffee cup in woman's hands (Unsplash)", CC0. Source: https://commons.wikimedia.org/wiki/File:Coffee_cup_in_woman%27s_hands_(Unsplash).jpg
-- `gen-05.jpg` — "Hands-coffee-smartphone-technology (23698591814)", CC0. Source: https://commons.wikimedia.org/wiki/File:Hands-coffee-smartphone-technology_(23698591814).jpg
-- `gen-06.jpg` — "The Empty Wallet", CC BY 4.0. Source: https://commons.wikimedia.org/wiki/File:The_Empty_Wallet.jpg
-- `gen-07.jpg` — "Piggy-bank-968302", CC0. Source: https://commons.wikimedia.org/wiki/File:Piggy-bank-968302.jpg
-- `gen-08.jpg` — "Driving Cars in a Traffic Jam", CC BY 2.0. Source: https://commons.wikimedia.org/wiki/File:Driving_Cars_in_a_Traffic_Jam.jpg
-- `gen-09.jpg` — "Colorful pile of dumbbells at the gym", CC BY-SA 4.0. Source: https://commons.wikimedia.org/wiki/File:Colorful_pile_of_dumbbells_at_the_gym.jpg
-- `gen-10.jpg` — "Dirty Laundry in a Laundry Basket", CC BY-SA 4.0. Source: https://commons.wikimedia.org/wiki/File:Dirty_Laundry_in_a_Laundry_Basket.jpg
+The 10 `gen-*.jpg` files in `public/assets/memes/` are blank classic meme templates obtained from Imgflip (same provenance as the cat templates): Drake Hotline Bling, Distracted Boyfriend, Two Buttons, Change My Mind, This Is Fine, Surprised Pikachu, One Does Not Simply, Roll Safe, Left Exit 12 Off Ramp, and Spider-Man Pointing. Each general item in `public/library.json` records its Imgflip meme page, also linked in the viewer.
 
 Imgflip is a user-generated-content platform and may not own every image uploaded to it. The inclusion of a source link is attribution and provenance, not a claim that Imgflip or this project can relicense the underlying image. These images are bundled to support the project's caption remixes and offline experience. They are expressly excluded from the repository's MIT license.
 
