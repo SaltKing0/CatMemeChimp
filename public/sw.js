@@ -1,4 +1,4 @@
-const VERSION = 'memechimp-v2';
+const VERSION = 'memechimp-v3';
 const CORE = ['/', '/index.html', '/app.js', '/style.css', '/fonts.css', '/library.json', '/manifest.webmanifest', '/assets/chimp.svg'];
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(VERSION).then((c) => c.addAll(CORE)).then(() => self.skipWaiting()));
