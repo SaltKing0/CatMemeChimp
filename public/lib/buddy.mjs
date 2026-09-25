@@ -94,3 +94,23 @@ export const pickQuipLine = (lines, last = 0, bond = 0, rng = Math.random) => {
   const pick = pool[Math.min(pool.length - 1, Math.floor(rng() * pool.length))];
   return { text: typeof pick.entry === 'string' ? pick.entry : pick.entry.t, index: pick.i };
 };
+
+export const WALK_SPEED = 0.28;
+
+export const walkTowards = (x, targetX, speed = WALK_SPEED, dt = 16) => {
+  const dx = targetX - x;
+  if (Math.abs(dx) <= speed * dt) return { x: targetX, done: true, dir: 0, moved: 0 };
+  const dir = Math.sign(dx);
+  return { x: x + dir * speed * dt, done: false, dir, moved: Math.abs(dir * speed * dt) };
+};
+
+export const behaviourBudget = (times, now, span = 300000, max = 3) =>
+  !Array.isArray(times) || times.filter((t) => now - t < span).length < max;
+
+export const pointerSpeed = (a, b) => {
+  if (!a || !b) return 0;
+  const dt = Math.max(8, b.t - a.t);
+  return Math.hypot(b.x - a.x, b.y - a.y) / dt;
+};
+
+export const settled = (lastInteraction, now, cooldown = 8000) => now - lastInteraction >= cooldown;

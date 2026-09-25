@@ -100,6 +100,10 @@ Biscuit is the small animated cat in the corner. She is not a mascot wallpaper; 
 - be dragged anywhere on screen and **stay there**, even after a reload
 - leap onto the sidebar, a nav item, or the top of a meme card, and drop back to the floor whenever the page re-renders underneath her
 - wander to a new perch now and then, and grumble about it
+- walk along a surface to reach it, turning to face where she is going, with a soft footstep every step
+- scratch, yawn, stretch, wash her face, flick her tail, sprawl out, and stare at you when she has nothing better to do
+- bolt after a fast-moving cursor, change her mind, and grumble about it
+- hold still whenever you are typing, tabbing through the page, reading something, resizing the window, or scrolling — she is a companion, not a distraction
 - purr with her eyes closed, chew a treat, knead, and go cross-eyed with delight
 - shrink away while you scroll, then quietly return
 
@@ -120,7 +124,7 @@ Treats are the exception: she starts with two, one refills every twenty minutes,
 
 Biscuit is one painted sprite, [`public/assets/biscuit.png`](public/assets/biscuit.png), drawn to a canvas each frame. Her expressions are layered on top of it rather than redrawn: heart eyes, squinting lids, closed-eye arcs, dizzy spirals, a question mark, an anger mark, chewing crumbs, and motion arcs when she waves. The engine positions the sprite and everything else is an overlay, so swapping the artwork means updating the handful of coordinates in `BUDDY_ART`.
 
-The physics, particles, ground shadow, and the CSS tilt and glow are all still procedural. If the artwork ever fails to load she falls back to a drawn shape rather than disappearing.
+Walking and idle behaviours are a small state machine: a weighted behaviour is picked every 25–60 seconds, at most three per five minutes, and never while you are mid-gesture. The physics, particles, ground shadow, and the CSS tilt and glow are all still procedural. If the artwork ever fails to load she falls back to a drawn shape rather than disappearing.
 
 She is also considerate: with `prefers-reduced-motion` she draws one still frame per expression and never animates, and she stops drawing entirely when nothing is happening.
 
