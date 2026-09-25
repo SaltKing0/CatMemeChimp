@@ -1,48 +1,179 @@
+<div align="center">
+
 # MEMECHIMP
 
-Good memes. Questionable behavior. A complete local meme app, created with creative direction and code by GPT-6 Astra.
+### Good memes. Questionable behavior.
 
-[MIT licensed](LICENSE) · zero runtime dependencies · private by design · works offline after download
+A local-first meme archive with a very serious color palette and one small cat who has opinions.
 
-Open the **MEMECHIMP** desktop shortcut, double-click **start.vbs**, or visit **http://127.0.0.1:8197/** while the server is running. The desktop launcher starts the server when needed and opens a dedicated Chrome/Edge app window. It keeps its own browser profile so favorites and creations persist independently of other apps.
+`140 memes` · `51 templates` · `0 runtime dependencies` · `offline-ready`
 
-## What is inside
+</div>
 
-- 140 curated caption remixes (60 cat + 80 general) using 31 community cat templates plus 20 classic general templates, with individual source links. Entries carry `category: cat` or `general`.
-- Six mood filters, multiword search, curated/A–Z/unseen sorting, shuffle, comfortable/compact grids, and incremental browsing.
-- Saved favorites and three curated collections: office survival, low battery, and serotonin.
-- A focused viewer: arrow keys, swipe navigation, save, remix, six-second autoplay, PNG download, and local deep links.
-- A caption studio with live preview, template selection, personal image uploads (up to 12 MB), persistent creations, and PNG export.
-- Responsive desktop, tablet, and phone layouts; reduced-motion support; keyboard focus and native accessible dialogs.
-- No runtime package dependencies, paid APIs, analytics, remote fonts, or external image requests.
+---
 
-## Run and verify
+## What is this?
 
-Requires Node.js 22 or newer. No install step is needed.
+MEMECHIMP is a private, desktop-friendly meme playground:
 
-    npm start
-    npm run check
+- browse a curated archive by mood, search, sort, or shuffle
+- save favorites and build personal sets
+- rip a daily pack, chase streaks, and fill the meme dex
+- remix templates or upload your own image in the Studio
+- watch memes on Meme TV, including personal clips
+- let **Biscuit**, the animated companion, judge your browsing habits
 
-The server binds only to 127.0.0.1, port 8197. The PORT environment variable can override it for development; the desktop launcher uses 8197. A local URL is reachable on this computer, not automatically on another device.
+No account. No feed algorithm. No analytics. Your archive stays on your machine.
 
-Install or repair the shortcut: run **scripts/install-shortcut.ps1**.
+---
 
-## Identity and source provenance
+## Start here
 
-Chimp body: canonical 4275-cell Chimp facekit, happy face, exact #4A412A body, locked opaque #FBF4EE face plate. The browser color is a screen approximation of Pantone 448 C, not a print color specification. Palette: olive #4A412A, deeper olive #332E20, periwinkle #B9C5F3, blue #424F82, cream #F7F5EE, plus muted mood tints. The mark is shipped as SVG, PNG, and ICO.
+Requires **Node.js 22+**. There is no install step.
 
-The 140 captions were written for MEMECHIMP. All images are community meme templates sourced from Imgflip; every record in **public/library.json** retains its source page. No license or ownership of third-party source imagery is asserted. Collection date: September 8, 2026; general set added September 25, 2026. This is a curated collection, not a live feed. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) before redistributing media.
+```bash
+npm start
+```
 
-Running the app needs no external internet connection. All final assets are bundled.
+Open [http://127.0.0.1:8197/](http://127.0.0.1:8197/) in a browser.
+
+On Windows, use the included launcher instead:
+
+```text
+start.vbs
+```
+
+It starts the local server and opens MEMECHIMP in a dedicated Chrome/Edge app window.
+
+### Verify everything
+
+```bash
+npm run check
+```
+
+This runs syntax checks, the unit tests, and the asset/content smoke test.
+
+---
+
+## The archive
+
+| | |
+|---|---|
+| **140** | curated caption remixes |
+| **60** | cat memes |
+| **80** | general memes |
+| **51** | unique image templates |
+| **6** | mood filters |
+| **0** | required runtime packages |
+
+The archive includes individual source links for every meme. Uploaded GIFs become still images. Your own creations stay in browser storage until you download them.
+
+### The good stuff
+
+- **Discover** — search, mood filters, curated/trending/A–Z/unseen sorting, shuffle, and compact or comfortable grids.
+- **Daily Drop** — one sealed pack every 24 hours, rarity pulls, duplicates, scrap, bonus forges, and streaks.
+- **Meme Dex** — track every discovered meme and fill the 140-tile archive.
+- **Studio** — remix built-in templates, upload an image, add captions, choose a style, and export PNG or animated WebM.
+- **Sets** — save favorites, build collections, and import or export your own sets.
+- **Meme TV** — autoplay channels, sleep timer, volume and speed controls, bundled clips, and your own clips.
+
+---
+
+## Meet Biscuit
+
+Biscuit is the small animated cat in the corner. She is not a mascot wallpaper; she is a tiny desktop personality.
+
+### She can
+
+- follow your cursor with her eyes
+- blink, breathe, wag her tail, and twitch her ears
+- react with curious, smug, judging, grumpy, excited, happy, and sleepy expressions
+- bounce, wave, shake, and throw off stars and hearts
+- speak in contextual quips
+- react to saves, rare pulls, streaks, creations, and late-night browsing
+- be poked, dragged, and released into a tiny bounce
+- shrink away while you scroll, then quietly return
+
+Long-press Biscuit to mute her. The setting persists locally.
+
+---
+
+## Shortcuts
+
+| Key | Action |
+|---|---|
+| `/` | Search |
+| `R` | Random meme |
+| `?` | Show shortcuts |
+| `←` / `→` | Browse in the viewer |
+| `S` | Save the current meme |
+| `Space` | Toggle autoplay |
+| `Esc` | Close a dialog |
+
+Autoplay pauses when the tab is hidden.
+
+---
 
 ## Your data
 
-Favorites, seen-state, and density preferences use localStorage. Creations (including resized uploaded images) use IndexedDB. Uploaded GIFs become still images. Browser data is local to the selected profile; clearing it removes favorites and creations. Download PNGs for independent copies. Nothing is uploaded to a server or published by this app.
+MEMECHIMP is designed to stay local.
 
-Keyboard: `/` search, `R` random meme, `?` shortcuts, `←`/`→` browse in viewer, `S` save in viewer, `Space` toggle autoplay, `Esc` close. Autoplay pauses when the tab is hidden.
+- Favorites, seen state, preferences, and Biscuit’s mute setting use `localStorage`.
+- Creations and uploaded TV clips use `IndexedDB`.
+- Nothing is uploaded by the app.
+- Clearing browser data removes local favorites and creations.
+- Download your creations if you want an independent copy.
+
+The local server binds to `127.0.0.1` on port `8197` by default. Override it with `PORT` for development.
+
+---
+
+## Design direction
+
+MEMECHIMP uses a warm archive palette:
+
+```text
+olive       #4A412A
+deep olive  #332E20
+periwinkle  #B9C5F3
+blue        #424F82
+cream       #F7F5EE
+paper       #FFFEF9
+```
+
+The Chimp identity is based on the canonical 4275-cell Chimp facekit and is shipped as SVG, PNG, and ICO assets. The browser palette is a screen approximation, not a print color specification.
+
+---
+
+## Content and licensing
+
+The MEMECHIMP captions were written for this project. The bundled meme images are third-party community templates sourced from Imgflip; each record in [`public/library.json`](public/library.json) retains its source page.
+
+No ownership or license of third-party source imagery is asserted by this project. Review [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md) before redistributing media or fonts.
+
+The original source code and MEMECHIMP branding are MIT licensed. Third-party templates and fonts retain their own terms.
+
+---
 
 ## Contributing
 
-Issues and pull requests are welcome. Please keep the app dependency-free at runtime, preserve keyboard and mobile behavior, and include source/rights information for any proposed media. Run `npm run check` before opening a pull request.
+Issues and pull requests are welcome.
 
-The MIT license applies to the original source code and MEMECHIMP branding in this repository. It does not relicense third-party meme templates or fonts; see the third-party notices.
+Please keep:
+
+- the runtime dependency-free
+- keyboard and mobile behavior intact
+- Biscuit charming but not obnoxious
+- source and rights information attached to new media
+
+Run the full check before opening a pull request:
+
+```bash
+npm run check
+```
+
+<div align="center">
+
+**A little less doom. A little more meme.**
+
+</div>
