@@ -45,10 +45,12 @@
    <div class="ticker" id="ticker" aria-hidden="true"><div class="ticker-inner" id="ticker-inner"></div></div>
    <section id="library" class="library" aria-labelledby="library-title">
    <div class="library-heading"><div><div class="eyebrow section-eyebrow" id="section-eyebrow">THE GOOD STUFF</div><h2 id="library-title">Find your meme frequency<span>.</span></h2><p class="page-description" id="page-description" hidden></p></div><button class="text-button" id="shuffle"><span data-icon="shuffle"></span>Shuffle the memes</button></div>
-    <div id="packs" hidden><div class="pack-panel" id="pack-panel"></div><div class="arena-stats" id="pack-stats" role="status"></div><div class="forge" id="forge"></div></div>
-    <div id="album" hidden></div>
+     <div id="packs" hidden><div class="drop-overview" id="drop-overview"></div><div class="pack-panel" id="pack-panel"></div><div class="arena-stats" id="pack-stats" role="status"></div><div class="forge" id="forge"></div></div>
+     <div id="album" hidden></div>
+     <div id="studio-overview" hidden></div>
     <div id="stash" hidden><div class="pack-tabs" id="keep-tabs"></div><div id="collection-grid" class="collection-grid"></div><div class="sets-panel" id="sets-panel"></div><div id="keep-haul" class="meme-grid"></div><div id="keep-loved" class="meme-grid"></div><div class="trophies" id="trophies"></div></div>
-   <div class="filter-row" id="filter-row"><div class="mood-filters" id="mood-filters" aria-label="Filter by mood"></div></div>
+    <div class="discover-tabs" id="discover-tabs" role="tablist" aria-label="Discover views"></div>
+    <div class="filter-row" id="filter-row"><div class="mood-filters" id="mood-filters" aria-label="Filter by mood"></div></div>
    <div class="results-bar"><span id="result-count" role="status">Rounding up the memes…</span><div class="result-controls"><label class="sort-label">Sort by <select id="sort" aria-label="Sort memes"><option value="curated">Chimp’s picks</option><option value="hot">Trending</option><option value="az">A–Z</option><option value="unseen">Unseen first</option></select></label><div class="view-toggle" aria-label="Card size"><button id="view-comfy" class="selected" aria-label="Comfortable grid" aria-pressed="true"><span data-icon="grid"></span></button><button id="view-dense" aria-label="Compact grid" aria-pressed="false"><span data-icon="dense"></span></button></div></div></div>
    <div id="meme-grid" class="meme-grid" aria-live="polite"></div>
    <div id="empty" class="empty-state" hidden><span class="empty-face">ᓚᘏᗢ</span><h3 id="empty-title">No memes in this corner.</h3><p id="empty-copy">Try another mood or a different search.</p><button id="empty-action" class="primary-button">Show all memes</button></div>

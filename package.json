@@ -6,5 +6,5 @@
   "bugs": {"url": "https://github.com/SaltKing0/MemeChimp/issues"},
   "homepage": "https://github.com/SaltKing0/MemeChimp#readme",
   "engines": {"node": ">=22"},
-  "scripts": {"start": "node server.mjs", "smoke": "node scripts/smoke.mjs", "check": "node --check server.mjs && node --check public/app.js && node scripts/smoke.mjs"}
+  "scripts": {"start": "node server.mjs", "smoke": "node scripts/smoke.mjs", "test": "node --test", "check": "node --check server.mjs && node --check public/app.js && node --check public/lib/state.mjs && node --check public/lib/pack.mjs && npm test && node scripts/smoke.mjs"}
 }

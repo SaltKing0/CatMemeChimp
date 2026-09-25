@@ -1,5 +1,5 @@
 const VERSION = 'memechimp-v4';
-const CORE = ['/', '/index.html', '/app.js', '/style.css', '/fonts.css', '/library.json', '/manifest.webmanifest', '/assets/chimp.svg'];
+const CORE = ['/', '/index.html', '/app.js', '/lib/state.mjs', '/lib/pack.mjs', '/style.css', '/fonts.css', '/library.json', '/manifest.webmanifest', '/assets/chimp.svg'];
 const isAsset = (path) => CORE.includes(path) || path.startsWith('/assets/');
 const isDocument = (path) => path === '/' || /\.(?:html|css|js|json|webmanifest)$/.test(path);
 async function cachedResponse(request) {
