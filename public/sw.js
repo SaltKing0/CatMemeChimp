@@ -1,4 +1,4 @@
-const VERSION = 'memechimp-v4';
+const VERSION = 'memechimp-v7';
 const CORE = ['/', '/index.html', '/app.js', '/lib/state.mjs', '/lib/pack.mjs', '/style.css', '/fonts.css', '/library.json', '/manifest.webmanifest', '/assets/chimp.svg'];
 const isAsset = (path) => CORE.includes(path) || path.startsWith('/assets/');
 const isDocument = (path) => path === '/' || /\.(?:html|css|js|json|webmanifest)$/.test(path);
