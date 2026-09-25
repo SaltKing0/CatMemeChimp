@@ -1261,13 +1261,13 @@
   },
   {
     "id": "meme-061",
-    "title": "The monday void",
-    "top": "me: weekend was restorative",
-    "bottom": "monday 8:59am:",
+    "title": "The Sunday Scaries Finale",
+    "top": "spent all sunday dreading monday",
+    "bottom": "congrats, now it's monday AND you're tired",
     "mood": "relatable",
     "tags": [
       "monday",
-      "work"
+      "dread"
     ],
     "image": "/assets/memes/general-01.svg",
     "template": "Monday Void",
@@ -1276,18 +1276,18 @@
     "added": "2026-09-25",
     "origin": 2026,
     "status": "alive",
-    "lore": "The void stares back. It has standup.",
+    "lore": "Rest is a rumor.",
     "category": "general"
   },
   {
     "id": "meme-062",
-    "title": "Circular logic",
-    "top": "i love my job",
-    "bottom": "said no one on a monday",
+    "title": "Unpaid Enthusiasm",
+    "top": "'we're like family here'",
+    "bottom": "then why does dad (HR) watch me clock in",
     "mood": "judgment",
     "tags": [
-      "monday",
-      "work"
+      "work",
+      "hr"
     ],
     "image": "/assets/memes/general-01.svg",
     "template": "Monday Void",
@@ -1301,9 +1301,9 @@
   },
   {
     "id": "meme-063",
-    "title": "Snooze math",
-    "top": "5 more minutes",
-    "bottom": "now i live here",
+    "title": "Snooze Button Landlord",
+    "top": "alarm: time to conquer the day",
+    "bottom": "me, paying rent to snooze until 8:40",
     "mood": "sleepy",
     "tags": [
       "sleep",
@@ -1321,9 +1321,9 @@
   },
   {
     "id": "meme-064",
-    "title": "Weekend speedrun",
-    "top": "friday: 5pm freedom",
-    "bottom": "monday: speedrun any% back to bed",
+    "title": "Weekend Speedrun WR",
+    "top": "friday 5pm: 48 hours of freedom",
+    "bottom": "blinked. it's sunday 9pm and the laundry is still wet",
     "mood": "chaos",
     "tags": [
       "weekend",
@@ -1341,9 +1341,9 @@
   },
   {
     "id": "meme-065",
-    "title": "The wifi seance",
-    "top": "can you hear me?",
-    "bottom": "you froze on the good part",
+    "title": "Frozen Mid-Sentence",
+    "top": "'sorry, you're frozen —'",
+    "bottom": "no wait, YOU'RE frozen saying I'M frozen",
     "mood": "relatable",
     "tags": [
       "wifi",
@@ -1356,14 +1356,14 @@
     "added": "2026-09-25",
     "origin": 2026,
     "status": "alive",
-    "lore": "Have you tried turning yourself off?",
+    "lore": "We are all frozen inside.",
     "category": "general"
   },
   {
     "id": "meme-066",
-    "title": "Buffering personality",
-    "top": "my camera is off",
-    "bottom": "for spiritual reasons",
+    "title": "Camera Off Mystique",
+    "top": "camera off, mic muted",
+    "bottom": "eating cereal like it's classified intel",
     "mood": "chaos",
     "tags": [
       "meeting",
@@ -1381,9 +1381,9 @@
   },
   {
     "id": "meme-067",
-    "title": "Bars of lies",
-    "top": "full wifi bars",
-    "bottom": "zero actual internet",
+    "title": "Five Bars of Fiction",
+    "top": "router: full signal, best life",
+    "bottom": "also router: drops you mid 'as I was saying'",
     "mood": "judgment",
     "tags": [
       "wifi",
@@ -1401,9 +1401,9 @@
   },
   {
     "id": "meme-068",
-    "title": "Reconnection arc",
-    "top": "sorry i dropped",
-    "bottom": "i am back and worse",
+    "title": "Welcome Back Lag",
+    "top": "dropped for 4 minutes",
+    "bottom": "returned to 6 people mouthing 'we can't hear you'",
     "mood": "wholesome",
     "tags": [
       "meeting",
@@ -1421,9 +1421,9 @@
   },
   {
     "id": "meme-069",
-    "title": "The two buttons",
-    "top": "ship it friday 5pm",
-    "bottom": "test it like an adult",
+    "title": "Friday Deploy Daredevil",
+    "top": "merge at 4:55pm friday",
+    "bottom": "weekend spent refreshing error logs from a tent",
     "mood": "chaos",
     "tags": [
       "work",
@@ -1441,9 +1441,9 @@
   },
   {
     "id": "meme-070",
-    "title": "Code review roulette",
-    "top": "looks good to me",
-    "bottom": "did not look",
+    "title": "LGTM Speedrun",
+    "top": "'left a few comments'",
+    "bottom": "approved in 11 seconds without opening the diff",
     "mood": "relatable",
     "tags": [
       "code",
@@ -1461,9 +1461,9 @@
   },
   {
     "id": "meme-071",
-    "title": "QA prophecy",
-    "top": "works on my machine",
-    "bottom": "famous last words",
+    "title": "Works On My Machine Court",
+    "top": "the bug is not reproducible",
+    "bottom": "because you never pulled main, brad",
     "mood": "judgment",
     "tags": [
       "code",
@@ -1481,9 +1481,9 @@
   },
   {
     "id": "meme-072",
-    "title": "Hotfix hours",
-    "top": "quick fix, no review",
-    "bottom": "monday: 14 new bugs",
+    "title": "Hotfix Hangover",
+    "top": "'tiny change, no tests needed'",
+    "bottom": "woke up to 47 slack threads and a rollback",
     "mood": "sleepy",
     "tags": [
       "code",
@@ -1501,13 +1501,13 @@
   },
   {
     "id": "meme-073",
-    "title": "Portfolio of feelings",
-    "top": "invested in naps",
-    "bottom": "returns are emotional",
+    "title": "Napfolio",
+    "top": "invested everything in a 20-minute nap",
+    "bottom": "woke up a new person with the same problems",
     "mood": "wholesome",
     "tags": [
       "money",
-      "feelings"
+      "nap"
     ],
     "image": "/assets/memes/general-04.svg",
     "template": "Emotional Stonks",
@@ -1521,9 +1521,9 @@
   },
   {
     "id": "meme-074",
-    "title": "Rent due arc",
-    "top": "payday: main character",
-    "bottom": "rent due: npc",
+    "title": "Payday Protagonist",
+    "top": "payday friday: ordering appetizers",
+    "bottom": "tuesday: calculating if ice cubes count as dinner",
     "mood": "relatable",
     "tags": [
       "money",
@@ -1541,9 +1541,9 @@
   },
   {
     "id": "meme-075",
-    "title": "Budget lore",
-    "top": "i have a budget",
-    "bottom": "it is called vibes",
+    "title": "Vibes-Based Budgeting",
+    "top": "my budget has categories",
+    "bottom": "they are 'oops', 'yolo', and 'do not open'",
     "mood": "chaos",
     "tags": [
       "money",
@@ -1561,9 +1561,9 @@
   },
   {
     "id": "meme-076",
-    "title": "Savings speedrun",
-    "top": "saving money",
-    "bottom": "by not checking the balance",
+    "title": "Ostrich Savings Plan",
+    "top": "haven't checked my balance in 9 days",
+    "bottom": "if I can't see it, the overdraft can't see me",
     "mood": "judgment",
     "tags": [
       "money",
@@ -1581,9 +1581,9 @@
   },
   {
     "id": "meme-077",
-    "title": "Midweek entity",
-    "top": "it is wednesday",
-    "bottom": "act accordingly",
+    "title": "Wednesday Ritual",
+    "top": "midweek check: still a blob",
+    "bottom": "but a blob with weekend reservations",
     "mood": "wholesome",
     "tags": [
       "wednesday",
@@ -1601,9 +1601,9 @@
   },
   {
     "id": "meme-078",
-    "title": "Hump day math",
-    "top": "halfway through the week",
-    "bottom": "fully out of patience",
+    "title": "Hump Day Audit",
+    "top": "we're halfway there",
+    "bottom": "halfway to what. be specific",
     "mood": "relatable",
     "tags": [
       "week",
@@ -1621,9 +1621,9 @@
   },
   {
     "id": "meme-079",
-    "title": "Blob wisdom",
-    "top": "no thoughts",
-    "bottom": "only wednesday",
+    "title": "Thoughts: Pending",
+    "top": "brain: loading...",
+    "bottom": "estimated wait: until friday",
     "mood": "sleepy",
     "tags": [
       "wednesday",
@@ -1641,9 +1641,9 @@
   },
   {
     "id": "meme-080",
-    "title": "Meeting blob",
-    "top": "this could have been an email",
-    "bottom": "it is now a blob staring contest",
+    "title": "Meeting That Emailed",
+    "top": "'let's circle back on this'",
+    "bottom": "we've been circling since march. we're dizzy",
     "mood": "judgment",
     "tags": [
       "meeting",
@@ -1661,9 +1661,9 @@
   },
   {
     "id": "meme-081",
-    "title": "The email jumpscare",
-    "top": "quick sync?",
-    "bottom": "plot twist: it was a layoff bingo",
+    "title": "'Quick Sync' Horror",
+    "top": "calendar invite: '15 min chat'",
+    "bottom": "agenda: your entire personality",
     "mood": "chaos",
     "tags": [
       "email",
@@ -1681,9 +1681,9 @@
   },
   {
     "id": "meme-082",
-    "title": "Reply-all horror",
-    "top": "just replying all",
-    "bottom": "to 400 people. about lunch.",
+    "title": "Reply-All Apocalypse",
+    "top": "meant to reply to sarah",
+    "bottom": "replied-all to 400 people about my dentist",
     "mood": "relatable",
     "tags": [
       "email",
@@ -1701,9 +1701,9 @@
   },
   {
     "id": "meme-083",
-    "title": "Per my last email",
-    "top": "per my last email",
-    "bottom": "translation: read it, kevin",
+    "title": "Per My Last Email: The Sequel",
+    "top": "'per my last email'",
+    "bottom": "which you ignored, so here's the same email but forwarded",
     "mood": "judgment",
     "tags": [
       "email",
@@ -1721,9 +1721,9 @@
   },
   {
     "id": "meme-084",
-    "title": "Inbox zero lore",
-    "top": "inbox zero",
-    "bottom": "achieved by deleting everything",
+    "title": "Inbox Zero (Cheat Code)",
+    "top": "select all, archive",
+    "bottom": "inbox zero. emotional baggage: also zero (lying)",
     "mood": "wholesome",
     "tags": [
       "email",
@@ -1741,9 +1741,9 @@
   },
   {
     "id": "meme-085",
-    "title": "Tier 1 wisdom",
-    "top": "have you tried",
-    "bottom": "turning it off and on again",
+    "title": "Tier 1 Haiku",
+    "top": "turned it off",
+    "bottom": "turned it on. I am the IT department now",
     "mood": "relatable",
     "tags": [
       "tech",
@@ -1761,9 +1761,9 @@
   },
   {
     "id": "meme-086",
-    "title": "Password arc",
-    "top": "incorrect password",
-    "bottom": "correct password also incorrect",
+    "title": "Password Gaslighting",
+    "top": "password needs a haiku and a blood oath",
+    "bottom": "enters everything right. still incorrect",
     "mood": "chaos",
     "tags": [
       "password",
@@ -1776,14 +1776,14 @@
     "added": "2026-09-25",
     "origin": 2026,
     "status": "alive",
-    "lore": "The system has chosen violence.",
+    "lore": "The system chose violence.",
     "category": "general"
   },
   {
     "id": "meme-087",
-    "title": "Update lore",
-    "top": "update required",
-    "bottom": "restart in 3...2... during your demo",
+    "title": "Update Assassin",
+    "top": "'restart now or in 4 hours'",
+    "bottom": "update chose violence during the demo",
     "mood": "judgment",
     "tags": [
       "update",
@@ -1801,9 +1801,9 @@
   },
   {
     "id": "meme-088",
-    "title": "Charger peace",
-    "top": "1% battery",
-    "bottom": "suddenly very zen about priorities",
+    "title": "One Percent Enlightenment",
+    "top": "phone at 1%",
+    "bottom": "suddenly at peace with all unread messages",
     "mood": "sleepy",
     "tags": [
       "battery",
@@ -1821,9 +1821,9 @@
   },
   {
     "id": "meme-089",
-    "title": "Bean economics",
-    "top": "decaf?",
-    "bottom": "in THIS economy?",
+    "title": "Decaf Discourse",
+    "top": "'I'll have a decaf'",
+    "bottom": "the table goes silent. someone calls security",
     "mood": "snacks",
     "tags": [
       "coffee",
@@ -1841,9 +1841,9 @@
   },
   {
     "id": "meme-090",
-    "title": "Cup one lore",
-    "top": "before coffee: npc",
-    "bottom": "after coffee: slightly faster npc",
+    "title": "NPC Patch Notes",
+    "top": "before coffee: background character",
+    "bottom": "after one cup: faster background character",
     "mood": "sleepy",
     "tags": [
       "coffee",
@@ -1861,9 +1861,9 @@
   },
   {
     "id": "meme-091",
-    "title": "Espresso math",
-    "top": "one more cup",
-    "bottom": "will fix my sleep schedule (it wont)",
+    "title": "Sleep Debt Refinancing",
+    "top": "'coffee at 9pm will be fine'",
+    "bottom": "it's 3am and I'm alphabetizing the spice rack",
     "mood": "relatable",
     "tags": [
       "coffee",
@@ -1881,9 +1881,9 @@
   },
   {
     "id": "meme-092",
-    "title": "Barista blessing",
-    "top": "your name for the order?",
-    "bottom": "definitely not my real name",
+    "title": "Starbucks Alias",
+    "top": "'name for the cup?'",
+    "bottom": "'...Batman.' spelled out loud",
     "mood": "wholesome",
     "tags": [
       "coffee",
@@ -1901,9 +1901,9 @@
   },
   {
     "id": "meme-093",
-    "title": "Error 404",
-    "top": "motivation not found",
-    "bottom": "retry monday never works",
+    "title": "Motivation: File Not Found",
+    "top": "opened the to-do app",
+    "bottom": "closed it. too many tasks. need a nap about it",
     "mood": "sleepy",
     "tags": [
       "monday",
@@ -1921,9 +1921,9 @@
   },
   {
     "id": "meme-094",
-    "title": "Gym membership lore",
-    "top": "paying for the gym",
-    "bottom": "is my cardio",
+    "title": "Gym Donor",
+    "top": "$60/month for 14 months",
+    "bottom": "visited twice. funding other people's abs",
     "mood": "judgment",
     "tags": [
       "gym",
@@ -1941,9 +1941,9 @@
   },
   {
     "id": "meme-095",
-    "title": "To-do list speedrun",
-    "top": "wrote 10 tasks",
-    "bottom": "did the easiest, felt great",
+    "title": "Productivity (Easy Mode)",
+    "top": "wrote 'shower' on the to-do list",
+    "bottom": "crossed it off. momentum is momentum",
     "mood": "wholesome",
     "tags": [
       "todo",
@@ -1961,9 +1961,9 @@
   },
   {
     "id": "meme-096",
-    "title": "Monday patch notes",
-    "top": "new week, new me",
-    "bottom": "same bugs, new build",
+    "title": "New Build, Same Bugs",
+    "top": "'new week, new me'",
+    "bottom": "me v2.0.1: patch notes just say 'oops'",
     "mood": "chaos",
     "tags": [
       "monday",
@@ -1981,9 +1981,9 @@
   },
   {
     "id": "meme-097",
-    "title": "Unsubscribed",
-    "top": "adulting?",
-    "bottom": "unsubscribed, still charged",
+    "title": "Subscription Hell",
+    "top": "free trial ended",
+    "bottom": "now paying $14/month to forget I'm paying",
     "mood": "relatable",
     "tags": [
       "adult",
@@ -2001,9 +2001,9 @@
   },
   {
     "id": "meme-098",
-    "title": "Fridge lore",
-    "top": "nothing to eat",
-    "bottom": "fridge full of ingredients and regret",
+    "title": "Fridge of Lies",
+    "top": "fridge: eggs, mustard, hope",
+    "bottom": "doordash: 'say less'",
     "mood": "snacks",
     "tags": [
       "food",
@@ -2021,9 +2021,9 @@
   },
   {
     "id": "meme-099",
-    "title": "Laundry final boss",
-    "top": "clean laundry",
-    "bottom": "lives in the basket now",
+    "title": "Laundry Tenancy",
+    "top": "folded laundry: 3 weeks ago",
+    "bottom": "the chair legally owns those clothes now",
     "mood": "sleepy",
     "tags": [
       "laundry",
@@ -2041,9 +2041,9 @@
   },
   {
     "id": "meme-100",
-    "title": "Appointment arc",
+    "title": "Doctor Quest Failed",
     "top": "remembered the appointment",
-    "bottom": "forgot why i walked in",
+    "bottom": "showed up a week early, confidently",
     "mood": "chaos",
     "tags": [
       "brain",
