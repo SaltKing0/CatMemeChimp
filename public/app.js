@@ -7,8 +7,21 @@ hydrateIcons();
 const moods=[['all','✳','All memes'],['relatable','☁','Too relatable'],['chaos','⚡','Pure chaos'],['wholesome','♡','Wholesome'],['judgment','◉','Judging you'],['sleepy','☾','Very eepy'],['snacks','◒','Snack time']];
 const moodInfo=m=>moods.find(x=>x[0]===m)||moods[1];
 const moodTag=m=>`<span class="mood-label" data-mood="${esc(m)}">${moodInfo(m)[1]} ${moodInfo(m)[2]}</span>`;
-const readState=(k,d)=>{try{return JSON.parse(localStorage.getItem('mmc-'+k))??d}catch{return d}};
+const readState=(k,d)=>{try{const v=JSON.parse(localStorage.getItem('mmc-'+k));return v??d}catch{return d}};
 const asIds=v=>new Set(Array.isArray(v)?v.filter(x=>typeof x==='string'):[]);
+const safeInt=(v,fallback=0,max=Number.MAX_SAFE_INTEGER)=>Number.isSafeInteger(v)&&v>=0&&v<=max?v:fallback;
+const validRarity=v=>['common','rare','legendary'].includes(v)?v:null;
+const validMeme=m=>{
+  if(!m||typeof m!=='object'||Array.isArray(m))return false;
+  if(typeof m.id!=='string'||!m.id||typeof m.title!=='string'||typeof m.template!=='string'||typeof m.image!=='string')return false;
+  if(!['cat','general','creation'].includes(m.category)||!['relatable','chaos','wholesome','judgment','sleepy','snacks'].includes(m.mood))return false;
+  if(!Array.isArray(m.tags)||!m.tags.every(x=>typeof x==='string'))return false;
+  if(m.kind!=='remix'&&m.kind!=='creation')return false;
+  if(m.top!==undefined&&typeof m.top!=='string'||m.bottom!==undefined&&typeof m.bottom!=='string')return false;
+  if(m.source!==null&&m.source!==undefined&&typeof m.source!=='string')return false;
+  if(m.sticker!==null&&m.sticker!==undefined&&(!m.sticker||typeof m.sticker.emoji!=='string'||!['tr','tl','br','bl'].includes(m.sticker.corner)))return false;
+  return true;
+};
 let saved=asIds(readState('saved',[])),seen=asIds(readState('seen',[])),created=[],library=[],page='discover',mood='all',query='',collection='',limit=18,order=[];
 function readSets(){const d=readState('sets',[]);return Array.isArray(d)?d.filter(s=>s&&typeof s.id==='string'&&typeof s.name==='string'&&Array.isArray(s.ids)):[]}
 let userSets=readSets();
@@ -20,32 +33,37 @@ function toggleInSet(setId,memeId){const s=setById(setId);if(!s)return false;con
 function renderSets(){const p=$('#sets-panel');if(!p)return;
   p.innerHTML=`<h3>Your sets</h3><p class="leader-sub">Hoard with purpose. Sets live in this browser — or in a file, if you export them.</p><form id="new-set-form"><input id="new-set-name" maxlength="40" placeholder="Name a set… e.g. send to mom" aria-label="New set name"><button class="primary-button" type="submit">Create set</button></form><div class="lab-row"><button type="button" class="outline-button" data-exportsets>⤓ Export sets</button><label class="outline-button upload-label">⤒ Import sets<input type="file" id="import-sets" accept="application/json,.json" hidden></label></div>${userSets.length?userSets.map(s=>`<div class="set-row"><button class="set-open ${collection===s.id?'active':''}" data-collection="${esc(s.id)}" aria-pressed="${collection===s.id}"><strong>${esc(s.name)}</strong><span>${s.ids.length} ${s.ids.length===1?'meme':'memes'}</span></button><button class="set-delete" data-delset="${esc(s.id)}" aria-label="Delete ${esc(s.name)}">Delete</button></div>`).join(''):'<p class="leader-empty">No sets yet. Name one above — future you says thanks.</p>'}`}
 function exportSets(){if(!userSets.length){toast('No sets to export. Hoard first.');return}const blob=new Blob([JSON.stringify({app:'MEMECHIMP-sets',version:1,exported:new Date().toISOString(),sets:userSets.map(s=>({name:s.name,ids:s.ids}))},null,2)],{type:'application/json'});const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='meme-sets.json';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),5000);toast(`Exported ${userSets.length} ${userSets.length===1?'set':'sets'}. Send it to a friend.`)}
-async function importSets(file){if(!file)return;try{const data=JSON.parse(await file.text());const arr=Array.isArray(data)?data:data.sets;if(!Array.isArray(arr))throw new Error('bad file');const known=new Set(allMemes().map(m=>m.id));let added=0;
-  for(const s of arr){if(!s||typeof s.name!=='string'||!Array.isArray(s.ids))continue;const ids=[...new Set(s.ids.filter(id=>typeof id==='string'&&known.has(id)))];let name=s.name.trim().slice(0,40)||'Untitled set';if(userSets.some(u=>u.name===name))name=`${name} (imported)`;userSets.push({id:'set-'+crypto.randomUUID(),name,ids});added++}
-  if(!added)throw new Error('bad file');saveSets();if(page==='collections')render();toast(`Imported ${added} ${added===1?'set':'sets'}. Sharing is caring.`)}catch{toast('That file isn’t a MemeChimp set export.')}}
+async function importSets(file){if(!file)return;try{if(file.size>2*1024*1024)throw new Error('too large');const data=JSON.parse(await file.text());const arr=Array.isArray(data)?data:data?.sets;if(!Array.isArray(arr)||arr.length>1000)throw new Error('bad file');const known=new Set(allMemes().map(m=>m.id));let added=0,totalIds=0;
+  for(const s of arr){if(!s||typeof s.name!=='string'||!Array.isArray(s.ids)||s.ids.length>500)continue;const ids=[...new Set(s.ids.filter(id=>typeof id==='string'&&known.has(id)))];totalIds+=ids.length;if(totalIds>10000)throw new Error('too many ids');let name=s.name.trim().slice(0,40)||'Untitled set';if(userSets.some(u=>u.name===name))name=`${name} (imported)`;userSets.push({id:'set-'+crypto.randomUUID(),name,ids});added++}
+  if(!added)throw new Error('bad file');saveSets();if(page==='collections')render();toast(`Imported ${added} ${added===1?'set':'sets'}. Sharing is caring.`)}catch{toast('That file isn’t a valid small MemeChimp set export.')}}
 function renderCollect(){const m=currentMeme();const box=$('#collect-list');if(!box||!m)return;
   box.innerHTML=userSets.length?userSets.map(s=>`<button class="collect-row ${s.ids.includes(m.id)?'in':''}" data-collect="${esc(s.id)}" aria-pressed="${s.ids.includes(m.id)}"><span>${s.ids.includes(m.id)?'✓':'＋'} ${esc(s.name)}</span><span class="leader-score">${s.ids.length}</span></button>`).join(''):'<p class="leader-empty">No sets yet — create one below.</p>'}
 const PACK_MS=24*60*60*1000;
-function readPack(){const d=readState('pack',{lastOpened:0,streak:0,best:0,haul:{},lastPull:null,scrap:0});return {lastOpened:d.lastOpened|0,streak:d.streak|0,best:d.best|0,haul:{...d.haul||{}},lastPull:d.lastPull||null,scrap:d.scrap|0}}
+function readPack(){
+  const raw=readState('pack',{}),d=raw&&typeof raw==='object'&&!Array.isArray(raw)?raw:{},haul=Object.create(null);
+  if(d.haul&&typeof d.haul==='object'&&!Array.isArray(d.haul))for(const [id,count] of Object.entries(d.haul))if(typeof id==='string'&&Number.isSafeInteger(count)&&count>0)haul[id]=Math.min(count,Number.MAX_SAFE_INTEGER);
+  const pull=d.lastPull&&typeof d.lastPull==='object'&&!Array.isArray(d.lastPull)&&typeof d.lastPull.id==='string'&&validRarity(d.lastPull.rarity)&&Number.isFinite(d.lastPull.at)?{id:d.lastPull.id,rarity:d.lastPull.rarity,shiny:d.lastPull.shiny===true,at:d.lastPull.at,bonus:d.lastPull.bonus===true}:null;
+  return {lastOpened:safeInt(d.lastOpened),streak:safeInt(d.streak),best:safeInt(d.best),haul,lastPull:pull,scrap:safeInt(d.scrap)};
+}
 let pack=readPack(),packStage='sealed',packReveal=null,keepTab='sets';
 const savePack=()=>setLocal('pack',pack);
-const haulSize=()=>Object.values(pack.haul).reduce((a,b)=>a+(b|0),0);
+const haulSize=()=>Object.values(pack.haul).reduce((a,b)=>a+safeInt(b),0);
 const canOpenPack=()=>Date.now()-(pack.lastOpened||0)>=PACK_MS;
 function packCountdown(){const left=PACK_MS-(Date.now()-(pack.lastOpened||0));if(left<=0)return 'Ready!';const h=Math.floor(left/3600000),m=Math.floor(left%3600000/60000),s=Math.floor(left%60000/1000);return `${h}h ${String(m).padStart(2,'0')}m ${String(s).padStart(2,'0')}s`}
 function rollRarity(){const r=Math.random();return r<0.08?'legendary':r<0.3?'rare':'common'}
 function openPack(){if(!canOpenPack()){toast(`Next pack in ${packCountdown()}. Patience, goblin.`);return}doPull(false)}
-function forgePack(){if((pack.scrap|0)<3){toast('Need 3 scrap. Melt spare copies below.');return}pack.scrap-=3;doPull(true)}
-function meltDupe(id){if((pack.haul[id]|0)<2){toast('Only spare copies can be melted. The original stays.');return}pack.haul[id]--;pack.scrap=(pack.scrap|0)+1;savePack();renderPacks();sfx('blip');toast('+1 scrap. The furnace hungers.')}
+function forgePack(){if(safeInt(pack.scrap)<3){toast('Need 3 scrap. Melt spare copies below.');return}pack.scrap-=3;doPull(true)}
+function meltDupe(id){if(safeInt(pack.haul[id])<2){toast('Only spare copies can be melted. The original stays.');return}pack.haul[id]--;pack.scrap=safeInt(pack.scrap)+1;savePack();renderPacks();sfx('blip');toast('+1 scrap. The furnace hungers.')}
 function doPull(bonus){
   const pool=allMemes();if(!pool.length)return;
   const unseen=pool.filter(m=>!pack.haul[m.id]&&!seen.has(m.id));
   const lucky=Math.random()<0.7&&unseen.length?unseen[Math.floor(Math.random()*unseen.length)]:pool[Math.floor(Math.random()*pool.length)];
-  const rarity=rollRarity(),wasOwned=(pack.haul[lucky.id]|0)>0;
-  pack.haul[lucky.id]=(pack.haul[lucky.id]|0)+1;
+  const rarity=rollRarity(),wasOwned=safeInt(pack.haul[lucky.id])>0;
+  pack.haul[lucky.id]=safeInt(pack.haul[lucky.id])+1;
   if(!bonus){const gap=Date.now()-(pack.lastOpened||0);pack.streak=pack.lastOpened&&gap<2*PACK_MS?pack.streak+1:1;pack.best=Math.max(pack.best,pack.streak);pack.lastOpened=Date.now()}
   pack.lastPull={id:lucky.id,rarity,shiny:wasOwned,at:Date.now(),bonus:!!bonus};
   savePack();packStage='opening';packReveal=pack.lastPull;renderPacks();sfx('chaos');
-  setTimeout(()=>{if(page!=='packs')return;packStage='revealed';renderPacks();
+   setTimeout(()=>{packStage='revealed';if(page==='packs')renderPacks();
     if(rarity==='legendary'){sfx('fanfare');confetti();biscuitExcited()}else if(rarity==='rare'){sfx('save');biscuitHappy()}else sfx('save');
     checkAwards();if(!bonus&&pack.streak>=2)buddySay('streak');
     toast(wasOwned?`✨ SHINY ${lucky.title}! A duplicate, but make it fashion.`:`${bonus?'Forged pull! ':rarity==='legendary'?'🌟 LEGENDARY PULL! ':rarity==='rare'?'💎 Rare pull! ':''}“${lucky.title}” joins your haul.`)}
@@ -69,9 +87,9 @@ function renderKeep(){const tabs=$('#keep-tabs');if(!tabs)return;const loved=all
   if(keepTab==='haul'){const list=allMemes().filter(m=>pack.haul[m.id]).slice(0,60);$('#keep-haul').innerHTML=list.length?list.map((m,i)=>packCard(m,i)).join(''):'<p class="leader-empty">No pulls yet. Rip a pack on the Daily Drop page.</p>'}
   if(keepTab==='loved'){const list=allMemes().filter(m=>saved.has(m.id)).slice(0,60);$('#keep-loved').innerHTML=list.length?list.map(card).join(''):'<p class="leader-empty">No loved memes yet — tap ♥ on any meme.</p>'}
   if(keepTab==='trophies')renderTrophies()}
-function renderForge(){const f=$('#forge');if(!f)return;const dupes=allMemes().filter(m=>(pack.haul[m.id]|0)>1);
-  f.innerHTML=`<h3>The Forge</h3><p class="leader-sub">Melt spare copies into scrap. <strong>3 scrap = 1 bonus pack</strong>, no waiting.</p><div class="forge-top"><span class="scrap-count">🪙 ${pack.scrap|0} scrap</span><button class="primary-button" data-forge ${((pack.scrap|0)<3)?'disabled':''}>Forge bonus pack · 3 🪙</button></div>${dupes.length?dupes.map(m=>`<div class="leader-row"><img src="${esc(m.image)}" alt="" loading="lazy"><span class="leader-name">${esc(m.title)}</span><span class="leader-score">×${pack.haul[m.id]} owned</span><button class="leader-open" data-melt="${esc(m.id)}" aria-label="Melt a spare copy of ${esc(m.title)}">Melt +1</button></div>`).join(''):'<p class="leader-empty">No spares yet. Duplicates you pull become meltable here.</p>'}`}
-function packMini(m,pull,fresh){if(!m)return '';return `<button class="pack-mini ${pull.rarity}${pull.shiny?' shiny':''}${fresh?' fresh':''}" data-open="${esc(m.id)}" aria-label="View ${esc(m.title)}"><img src="${esc(m.image)}" alt="" loading="lazy"><span><strong>${pull.shiny?'✨ SHINY ':''}${esc(m.title)}</strong><small>${pull.rarity}${pull.shiny?' · dupe upgrade':''}</small></span></button>`}
+function renderForge(){const f=$('#forge');if(!f)return;const dupes=allMemes().filter(m=>safeInt(pack.haul[m.id])>1);
+   f.innerHTML=`<h3>The Forge</h3><p class="leader-sub">Melt spare copies into scrap. <strong>3 scrap = 1 bonus pack</strong>, no waiting.</p><div class="forge-top"><span class="scrap-count">🪙 ${safeInt(pack.scrap)} scrap</span><button class="primary-button" data-forge ${(safeInt(pack.scrap)<3)?'disabled':''}>Forge bonus pack · 3 🪙</button></div>${dupes.length?dupes.map(m=>`<div class="leader-row"><img src="${esc(m.image)}" alt="" loading="lazy"><span class="leader-name">${esc(m.title)}</span><span class="leader-score">×${safeInt(pack.haul[m.id])} owned</span><button class="leader-open" data-melt="${esc(m.id)}" aria-label="Melt a spare copy of ${esc(m.title)}">Melt +1</button></div>`).join(''):'<p class="leader-empty">No spares yet. Duplicates you pull become meltable here.</p>'}`}
+function packMini(m,pull,fresh){if(!m)return '';const rarity=validRarity(pull.rarity)||'common';return `<button class="pack-mini ${esc(rarity)}${pull.shiny?' shiny':''}${fresh?' fresh':''}" data-open="${esc(m.id)}" aria-label="View ${esc(m.title)}"><img src="${esc(m.image)}" alt="" loading="lazy"><span><strong>${pull.shiny?'✨ SHINY ':''}${esc(m.title)}</strong><small>${esc(rarity)}${pull.shiny?' · dupe upgrade':''}</small></span></button>`}
 async function sharePull(id){const m=allMemes().find(m=>m.id===id);if(!m)return;
   await document.fonts.ready;let img;try{img=await loadImage(m.image)}catch{toast('That meme refuses to travel.');return}
   const width=1000,pad=48,fontSize=44,lineHeight=56,headH=150,footH=120;
@@ -97,7 +115,7 @@ async function sharePull(id){const m=allMemes().find(m=>m.id===id);if(!m)return;
   const file=new File([blob],'meme-drop.png',{type:'image/png'});
   try{if(navigator.canShare&&navigator.canShare({files:[file]})){await navigator.share({files:[file],title:'My daily meme'});toast('Shared! Go forth and convert friends.');return}}catch(e){if(e&&e.name==='AbortError')return}
   const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=`meme-drop-${m.id}.png`;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),5000);toast('Card downloaded. Spread the gospel.')}
-function packCard(m,i){const n=pack.haul[m.id]|0;return `<article class="meme-card${n>1?' is-shiny':''}" style="animation-delay:${Math.min(i,8)*22}ms"><button class="meme-open" data-open="${esc(m.id)}" aria-label="Open ${esc(m.title)}">${n>1?'<span class="shiny-badge">✨ SHINY</span>':''}${visual(m,i<6?'eager':'lazy')}</button><div class="card-meta"><div class="card-topline">${moodTag(m.mood)}<span class="card-source">${n>1?`PULLED ×${n}`:'PACK PULL'}</span></div><div class="card-bottomline"><h3 class="card-title">${esc(m.title)}</h3><button class="save-button" data-share="${esc(m.id)}" aria-label="Share ${esc(m.title)}">${icon('upload')}</button><button class="save-button ${saved.has(m.id)?'saved':''}" data-save="${esc(m.id)}" aria-label="Save ${esc(m.title)}" aria-pressed="${saved.has(m.id)}">${icon('heart')}</button></div></div></article>`}
+function packCard(m,i){const n=safeInt(pack.haul[m.id]);return `<article class="meme-card${n>1?' is-shiny':''}" style="animation-delay:${Math.min(i,8)*22}ms"><button class="meme-open" data-open="${esc(m.id)}" aria-label="Open ${esc(m.title)}">${n>1?'<span class="shiny-badge">✨ SHINY</span>':''}${visual(m,i<6?'eager':'lazy')}</button><div class="card-meta"><div class="card-topline">${moodTag(m.mood)}<span class="card-source">${n>1?`PULLED ×${n}`:'PACK PULL'}</span></div><div class="card-bottomline"><h3 class="card-title">${esc(m.title)}</h3><button class="save-button" data-share="${esc(m.id)}" aria-label="Share ${esc(m.title)}">${icon('upload')}</button><button class="save-button ${saved.has(m.id)?'saved':''}" data-save="${esc(m.id)}" aria-label="Save ${esc(m.title)}" aria-pressed="${saved.has(m.id)}">${icon('heart')}</button></div></div></article>`}
 setInterval(()=>{const el=$('#pack-timer');if(el&&page==='packs'&&!canOpenPack())el.textContent=packCountdown();if(el&&page==='packs'&&canOpenPack()&&packStage!=='opening')renderPacks()},1000);
 const ACH=[
  {id:'collector',icon:'💾',name:'Hoarder',desc:'Save 10 memes'},
@@ -108,7 +126,7 @@ const ACH=[
  {id:'week-streak',icon:'📅',name:'Regular',desc:'Open packs 7 days in a row'},
  {id:'dex-half',icon:'📖',name:'Halfway there',desc:'Discover half the archive'},
  {id:'dex-full',icon:'🌟',name:'Living dex',desc:'Discover all 140 memes'}];
-let awards=readState('awards',[]);
+let awards=asIds(readState('awards',[])).intersection(new Set(ACH.map(a=>a.id)));
 function checkAwards(){const earned=[];
   const need=(id,ok)=>{if(ok&&!awards.includes(id)&&!earned.includes(id))earned.push(id)};
   need('collector',allMemes().filter(m=>saved.has(m.id)).length>=10);need('creator',created.length>=1);need('prolific',created.length>=5);
@@ -130,7 +148,7 @@ async function dbPutClip(value){const db=await database();return new Promise((re
 async function dbRead(){const db=await database();return new Promise((res,rej)=>{const r=db.transaction('creations').objectStore('creations').getAll();r.onsuccess=()=>res(r.result);r.onerror=()=>rej(r.error)})}
 async function dbPut(value){const db=await database();return new Promise((res,rej)=>{const tx=db.transaction('creations','readwrite');tx.objectStore('creations').put(value);tx.oncomplete=res;tx.onerror=()=>rej(tx.error);tx.onabort=()=>rej(tx.error)})}
 const allMemes=()=>[...library,...created];
-const hotScore=id=>(pack.haul[id]|0)*3+(saved.has(id)?2:0)+(seen.has(id)?1:0);
+const hotScore=id=>safeInt(pack.haul[id])*3+(saved.has(id)?2:0)+(seen.has(id)?1:0);
 function hotIds(){return new Set([...allMemes()].filter(m=>hotScore(m.id)>=2).sort((a,b)=>hotScore(b.id)-hotScore(a.id)).slice(0,12).map(m=>m.id))}
 let templateFilter=null,hotCache=new Set();
 function showTemplate(image){navigate('discover');templateFilter=image;limit=18;render();const m=library.find(m=>m.image===image);toast(m?`Every “${m.template}” in the house.`:'Template view.')}
@@ -179,7 +197,7 @@ const BUDDY_QUIPS={
  night:['Past midnight, huh? The forbidden browsing hours. Respect.','Shh. The day-people must never know about this.'],
  packReady:['Your daily pack is RIPE. Go rip it.','Psst — fresh pack upstairs. Don’t let it age.'],
  streak:['Streak looking tasty. Don’t fumble it.','One more day keeps the streak dream alive.']};
-let buddyMuted=readState('buddy',{muted:false}).muted===true,buddyLast=0,buddyHideT=null,buddyPressT=null,buddyTypeT=null;
+const buddyState=readState('buddy',{});let buddyMuted=buddyState&&typeof buddyState==='object'&&buddyState.muted===true,buddyLast=0,buddyHideT=null,buddyPressT=null,buddyTypeT=null;
 function buddySay(kind){if(buddyMuted&&kind!=='force')return;const now=Date.now();if(kind!=='force'&&now-buddyLast<25000)return;buddyLast=now;
   const lines=BUDDY_QUIPS[kind]||BUDDY_QUIPS.idle;const b=$('#buddy-bubble');if(!b)return;
   const msg=lines[Math.floor(Math.random()*lines.length)];b.hidden=false;clearTimeout(buddyHideT);clearInterval(buddyTypeT);b.classList.remove('typing');
@@ -343,7 +361,7 @@ const ADS=[
  {brand:'Zoomies Energy',line:'3AM. No destination.',img:'/assets/memes/24uu.jpg',cta:'FEEL THE RUSH'},
  {brand:'Smug™',line:'The absence of vegetables.',img:'/assets/memes/39binw.jpg',cta:'ORDER ANYWAY'}];
 function showAd(){const ad=ADS[Math.floor(Math.random()*ADS.length)];$('#viewer-image-wrap').innerHTML=`<div class="ad-break"><span class="ad-bug">AD</span><div class="ad-brand">${esc(ad.brand)}</div><img src="${esc(ad.img)}" alt="${esc(ad.brand)}" loading="eager"><div class="ad-line">${esc(ad.line)}</div><span class="ad-cta">${esc(ad.cta)}</span></div>`;$('#tv-name').textContent='📢 '+ad.brand;$('#tv-next').textContent='Your show resumes shortly · click to skip';sfx('save')}
-function tvTick(){if(tvSleep>0){tvSleep--;const m=currentMeme();if(m)updateTVOverlay(m);if(tvSleep<=0){signOff();return}}tvPlays++;const clips=[...BUNDLED_CLIPS,...userClips];if(clips.length&&tvPlays%8===0){showClip(clips[Math.floor(Math.random()*clips.length)])}else if(tvPlays%5===0){showAd()}else{browse(1)}}
+function tvTick(){if(tvSleep>0){tvSleep--;const m=currentMeme();if(m)updateTVOverlay(m);if(tvSleep<=0){signOff();return}return}tvPlays++;const clips=[...BUNDLED_CLIPS,...userClips];if(clips.length&&tvPlays%8===0){showClip(clips[Math.floor(Math.random()*clips.length)])}else if(tvPlays%5===0){showAd()}else{browse(1)}}
 const BUNDLED_CLIPS=[
  {src:'/assets/clips/calico.mp4',title:'Calico Cam',credit:'CC BY-SA · Wikimedia Commons'},
  {src:'/assets/clips/tokyo.mp4',title:'Tokyo Kitten',credit:'CC BY · Wikimedia Commons'},
@@ -352,7 +370,7 @@ let userClips=[],tvClip=false,clipT=null;
 function showClip(clip){if(!clip)return;tvClip=true;stopAutoplay();$('#viewer-image-wrap').innerHTML=`<video class="clip-player" src="${esc(clip.src)}" autoplay muted loop playsinline></video>`;$('#tv-name').textContent='🎥 '+clip.title;$('#tv-next').textContent='Back to the show shortly · click to skip';sfx('blip');clearTimeout(clipT);clipT=setTimeout(()=>{if(tvMode&&$('#viewer').open){tvClip=false;browse(1);restartAutoplay()}},5500)}
 function skipClip(){clearTimeout(clipT);tvClip=false;browse(1);restartAutoplay()}
 async function importClip(file){if(!file)return;if(!['video/mp4','video/webm'].includes(file.type)){toast('MP4 or WebM only, please.');return}if(file.size>15*1024*1024){toast('That’s a big clip. Under 15 MB, please.');return}if(userClips.length>=10){toast('Ten personal clips max. The schedule is full.');return}
- try{const rec={id:'clip-'+crypto.randomUUID(),name:file.name,blob:file,added:new Date().toISOString()};await dbPutClip(rec);userClips.push({id:rec.id,title:file.name.replace(/\.[^.]+$/,''),src:URL.createObjectURL(file)});toast('Your clip joins the rotation. Stardom awaits.')}catch{toast('Could not store that clip in this browser.')}}
+ const url=URL.createObjectURL(file);try{const meta=await new Promise((resolve,reject)=>{const v=document.createElement('video');v.preload='metadata';v.onloadedmetadata=()=>resolve({width:v.videoWidth,height:v.videoHeight,duration:v.duration});v.onerror=()=>reject(new Error('bad video'));v.src=url});if(!Number.isFinite(meta.duration)||meta.duration<=0||meta.duration>120||meta.width<1||meta.height<1||meta.width>4096||meta.height>4096||meta.width*meta.height>2000000)throw new Error('bad video');const rec={id:'clip-'+crypto.randomUUID(),name:file.name.slice(0,120),blob:file,added:new Date().toISOString()};await dbPutClip(rec);userClips.push({id:rec.id,title:rec.name.replace(/\.[^.]+$/,''),src:URL.createObjectURL(file)});toast('Your clip joins the rotation. Stardom awaits.')}catch{toast('That clip is too large, long, or unsupported.')}finally{URL.revokeObjectURL(url)}}
 function cycleVol(){volIdx=(volIdx+1)%VOLS.length;masterVol=VOLS[volIdx];setLocal('vol',masterVol);applySoundIcon();updateTVOverlay(currentMeme());sfx('blip')}
 function zap(){if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;const z=$('#zap');if(!z)return;z.classList.remove('on');void z.offsetWidth;z.classList.add('on')}
 function setTVChannel(d){const i=(moods.findIndex(m=>m[0]===tvChannel)+d+moods.length)%moods.length;tvChannel=moods[i][0];tvPrime=false;const pool=tvChannel==='all'?[...allMemes()]:allMemes().filter(m=>m.mood===tvChannel);if(!pool.length)return;viewerQueue=shuffle(pool);viewerIndex=0;showViewer();zap();sfx('blip');ident(`CH${i+1} · ${moods[i][1]} ${moods[i][2]}`,tvChannel==='all'?`${library.length} MEMES · NO MERCY`:`${pool.length} MEMES · ALL ${moods[i][2].toUpperCase()}`)}
@@ -370,7 +388,7 @@ function openEditor(m){if($('#viewer').open)closeViewer();inspired=false;editing
 }
 const loadImage=src=>new Promise((resolve,reject)=>{const img=new Image();img.onload=()=>resolve(img);img.onerror=()=>reject(new Error('This image could not be loaded.'));img.src=src});
 async function uploadCat(file){if(!file)return;if(!['image/jpeg','image/png','image/webp','image/gif'].includes(file.type)){toast('Please choose a JPG, PNG, WebP, or GIF.');return}if(file.size>12*1024*1024){toast('That’s a big image. Choose an image under 12 MB.');return}
- const url=URL.createObjectURL(file);try{const img=await loadImage(url);const scale=Math.min(1,1400/Math.max(img.width,img.height));const c=document.createElement('canvas');c.width=Math.round(img.width*scale);c.height=Math.round(img.height*scale);const ctx=c.getContext('2d');ctx.fillStyle='#fff';ctx.fillRect(0,0,c.width,c.height);ctx.drawImage(img,0,0,c.width,c.height);uploadedTemplate={image:c.toDataURL('image/jpeg',.9),template:file.name,source:null};editing={...editing,...uploadedTemplate};if(!$('#template-select option[value="custom"]'))$('#template-select').insertAdjacentHTML('afterbegin','<option value="custom">Your uploaded image</option>');$('#template-select').value='custom';preview();toast(file.type==='image/gif'?'Your meme is in. GIFs use a still frame.':'Your meme has entered the chat.')}catch(e){toast(e.message)}finally{URL.revokeObjectURL(url)}
+  const url=URL.createObjectURL(file);try{const img=await loadImage(url);if(!img.width||!img.height||img.width>12000||img.height>12000||img.width*img.height>40000000)throw new Error('That image has unsafe dimensions.');const scale=Math.min(1,1400/Math.max(img.width,img.height));const c=document.createElement('canvas');c.width=Math.round(img.width*scale);c.height=Math.round(img.height*scale);const ctx=c.getContext('2d');ctx.fillStyle='#fff';ctx.fillRect(0,0,c.width,c.height);ctx.drawImage(img,0,0,c.width,c.height);uploadedTemplate={image:c.toDataURL('image/jpeg',.9),template:file.name.slice(0,120),source:null};editing={...editing,...uploadedTemplate};if(!$('#template-select option[value="custom"]'))$('#template-select').insertAdjacentHTML('afterbegin','<option value="custom">Your uploaded image</option>');$('#template-select').value='custom';preview();toast(file.type==='image/gif'?'Your meme is in. GIFs use a still frame.':'Your meme has entered the chat.')}catch(e){toast(e.message)}finally{URL.revokeObjectURL(url)}
 }
 function wrapText(ctx,text,width){const lines=[];for(const paragraph of text.split('\n')){let line='';for(const word of paragraph.split(/\s+/)){const next=line?line+' '+word:word;if(ctx.measureText(next).width<=width){line=next;continue}if(line)lines.push(line);line='';for(const char of word){if(ctx.measureText(line+char).width>width){lines.push(line);line=char}else line+=char}}lines.push(line)}return lines}
 function chainFrom(lines){const starts=[],map=new Map(),known=new Set();
@@ -458,7 +476,7 @@ document.addEventListener('keydown',e=>{if(e.ctrlKey||e.altKey||e.metaKey||/INPU
   if($('dialog[open]'))return;if(e.key==='/'){e.preventDefault();$('#search').focus()}else if(e.key.toLowerCase()==='r'){e.preventDefault();randomCat()}else if(e.key==='?'){e.preventDefault();shortcuts()}else if(page==='packs'&&e.key.toLowerCase()==='o'){e.preventDefault();openPack()}else if(e.key.toLowerCase()==='m'){e.preventDefault();toggleSound()}});
 document.addEventListener('visibilitychange',()=>{if(document.hidden&&autoTimer)stopAutoplay()});
 let swipe=null;$('#viewer-image-wrap').addEventListener('touchstart',e=>{swipe={x:e.changedTouches[0].clientX,y:e.changedTouches[0].clientY}},{passive:true});$('#viewer-image-wrap').addEventListener('touchend',e=>{if(!swipe)return;const dx=e.changedTouches[0].clientX-swipe.x,dy=e.changedTouches[0].clientY-swipe.y;if(Math.abs(dx)>55&&Math.abs(dx)>Math.abs(dy)*1.5)browse(dx<0?1:-1);swipe=null},{passive:true});
-async function init(){if('serviceWorker' in navigator){try{await navigator.serviceWorker.register('/sw.js')}catch{}}try{const response=await fetch('/library.json');if(!response.ok)throw new Error('The archive could not load.');library=await response.json();try{created=await dbRead()}catch{toast('Creations storage is unavailable; PNG downloads still work.')}try{for(const c of await dbReadClips())userClips.push({id:c.id,title:(c.name||'clip').replace(/\.[^.]+$/,''),src:URL.createObjectURL(c.blob)})}catch{}render();buddyInit();fillTicker();heroParallax();const deepId=new URLSearchParams(location.hash.slice(1)).get('meme');if(deepId){const m=library.find(m=>m.id===deepId);if(m)openViewer(m.id,library);else toast('That meme link is not in this archive.')}
+async function init(){if('serviceWorker' in navigator){try{await navigator.serviceWorker.register('/sw.js')}catch{}}try{const response=await fetch('/library.json');if(!response.ok)throw new Error('The archive could not load.');const rawLibrary=await response.json();if(!Array.isArray(rawLibrary)||!rawLibrary.every(validMeme))throw new Error('The archive data is invalid.');library=rawLibrary;try{created=(await dbRead()).filter(validMeme)}catch{toast('Creations storage is unavailable; PNG downloads still work.')}try{for(const c of await dbReadClips())if(c&&typeof c.id==='string'&&typeof c.name==='string'&&c.blob instanceof Blob)userClips.push({id:c.id,title:c.name.slice(0,120).replace(/\.[^.]+$/,''),src:URL.createObjectURL(c.blob)})}catch{}render();buddyInit();fillTicker();heroParallax();const deepId=new URLSearchParams(location.hash.slice(1)).get('meme');if(deepId){const m=library.find(m=>m.id===deepId);if(m)openViewer(m.id,library);else toast('That meme link is not in this archive.')}
   if(!deepId&&!readState('welcomed',false)){setLocal('welcomed',true);setTimeout(()=>info('Welcome to the meme archive.',`<p>Follow the thread: <strong>🔍 Find → 📦 Rip → 🧪 Stitch → 📦 Keep.</strong></p><p><strong>140 memes.</strong> Rip a daily pack, make your own memes, fill the album dex.</p><p><strong>/</strong> search · <strong>R</strong> random meme · <strong>O</strong> open pack · <strong>?</strong> everything else. All local, all yours.</p>`),450)}
  }catch(e){$('#result-count').textContent='The memes couldn’t arrive.';$('#empty').hidden=false;$('#empty-title').textContent='A small meme-astrophe.';$('#empty-copy').textContent='The local library could not load. Reload to try again.';$('#empty-action').textContent='Try again';$('#empty-action').onclick=()=>location.reload();console.error(e)}}
 window.addEventListener('hashchange',()=>{const id=new URLSearchParams(location.hash.slice(1)).get('meme');if(!id){if($('#viewer').open)closeViewer();return}const m=library.find(m=>m.id===id);if(!m){toast('That meme link is not in this archive.');return}if($('#viewer').open){viewerQueue=[...library];viewerIndex=viewerQueue.findIndex(m=>m.id===id);showViewer()}else openViewer(id,library)});

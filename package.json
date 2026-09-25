@@ -1,5 +1,5 @@
 {
-  "name": "memechimp", "version": "1.0.0", "private": false, "type": "module",
+  "name": "memechimp", "version": "1.0.0", "private": true, "type": "module",
   "description": "An unserious meme archive in a very serious color.",
   "license": "MIT",
   "repository": {"type": "git", "url": "git+https://github.com/SaltKing0/MemeChimp.git"},

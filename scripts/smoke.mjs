@@ -1,5 +1,5 @@
 import { readFileSync, existsSync } from 'node:fs';
-import { join, dirname } from 'node:path';
+import { join, dirname, resolve, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
@@ -22,9 +22,13 @@ for (const [i, m] of lib.entries()) {
   if (seen.has(m.id)) fail(`duplicate id ${m.id}`);
   seen.add(m.id);
   if (!moods.has(m.mood)) fail(`${where} bad mood ${m.mood}`);
-  if (!Array.isArray(m.tags) || !m.tags.length) fail(`${where} tags must be non-empty`);
+  if (!Array.isArray(m.tags) || !m.tags.length || !m.tags.every((tag) => typeof tag === 'string')) fail(`${where} tags must be non-empty strings`);
+  if (typeof m.title !== 'string' || typeof m.template !== 'string' || typeof m.added !== 'string') fail(`${where} text fields must be strings`);
   if (typeof m.image !== 'string' || !m.image.startsWith('/assets/memes/')) fail(`${where} bad image path`);
-  else   if (!existsSync(join(pub, m.image.slice(1)))) fail(`${where} missing file ${m.image}`);
+  else {
+    const imagePath = resolve(pub, m.image.slice(1));
+    if (!imagePath.startsWith(pub + sep) || !existsSync(imagePath)) fail(`${where} missing or unsafe file ${m.image}`);
+  }
   if (typeof m.origin !== 'number') fail(`${where} missing origin year`);
   if (!['immortal', 'classic', 'alive'].includes(m.status)) fail(`${where} bad status ${m.status}`);
   if (typeof m.lore !== 'string' || !m.lore) fail(`${where} missing lore`);

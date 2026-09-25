@@ -1,5 +1,7 @@
 $ErrorActionPreference = 'Stop'
 $memeRoot = $PSScriptRoot
+$memeLog = Join-Path $memeRoot 'out'
+New-Item -ItemType Directory -Force -Path $memeLog | Out-Null
 $memeUrl = 'http://127.0.0.1:8197/'
 function Test-Meme {
     try { $memeHealth = Invoke-RestMethod -Uri ($memeUrl + 'api/health') -TimeoutSec 2; return ($memeHealth.app -eq 'MEMECHIMP') } catch { return $false }
