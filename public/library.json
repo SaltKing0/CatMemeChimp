@@ -2058,5 +2058,405 @@
     "status": "alive",
     "lore": "Kevin knew. I knew. Everyone knew.",
     "category": "general"
+  },
+  {
+    "id": "meme-101",
+    "title": "Drake Declines Gas Sushi",
+    "top": "gas station sushi",
+    "bottom": "meal prepped like an adult",
+    "mood": "snacks",
+    "tags": [
+      "food",
+      "mealprep"
+    ],
+    "image": "/assets/memes/gen-01.jpg",
+    "template": "Drake Hotline Bling",
+    "source": "https://imgflip.com/meme/Drake-Hotline-Bling",
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "No. Yes. (leftovers edition).",
+    "category": "general"
+  },
+  {
+    "id": "meme-102",
+    "title": "Drake Calls Mom Back",
+    "top": "doomscrolling at midnight",
+    "bottom": "calling mom back the same day",
+    "mood": "wholesome",
+    "tags": [
+      "family",
+      "phone"
+    ],
+    "image": "/assets/memes/gen-01.jpg",
+    "template": "Drake Hotline Bling",
+    "source": "https://imgflip.com/meme/Drake-Hotline-Bling",
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "Growth, one call at a time.",
+    "category": "general"
+  },
+  {
+    "id": "meme-103",
+    "title": "Distracted by Bakery",
+    "top": "my grocery list",
+    "bottom": "the bakery smell ambushing me",
+    "mood": "snacks",
+    "tags": [
+      "food",
+      "bakery"
+    ],
+    "image": "/assets/memes/gen-02.jpg",
+    "template": "Distracted Boyfriend",
+    "source": "https://imgflip.com/meme/Distracted-Boyfriend",
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "The list never stood a chance.",
+    "category": "general"
+  },
+  {
+    "id": "meme-104",
+    "title": "Distracted by Comfort Show",
+    "top": "my watchlist (87 titles)",
+    "bottom": "rewatching the comfort show again",
+    "mood": "wholesome",
+    "tags": [
+      "tv",
+      "comfort"
+    ],
+    "image": "/assets/memes/gen-02.jpg",
+    "template": "Distracted Boyfriend",
+    "source": "https://imgflip.com/meme/Distracted-Boyfriend",
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "Episode 1. Again.",
+    "category": "general"
+  },
+  {
+    "id": "meme-105",
+    "title": "Two Buttons: Bread Basket",
+    "top": "save room for dinner",
+    "bottom": "eat the bread basket in 4 minutes",
+    "mood": "snacks",
+    "tags": [
+      "food",
+      "dinner"
+    ],
+    "image": "/assets/memes/gen-03.jpg",
+    "template": "Two Buttons",
+    "source": "https://imgflip.com/meme/Two-Buttons",
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "No correct answer.",
+    "category": "general"
+  },
+  {
+    "id": "meme-106",
+    "title": "Two Buttons: Log Off",
+    "top": "log off on time",
+    "bottom": "one quick thing (2 hours)",
+    "mood": "relatable",
+    "tags": [
+      "work",
+      "overtime"
+    ],
+    "image": "/assets/memes/gen-03.jpg",
+    "template": "Two Buttons",
+    "source": "https://imgflip.com/meme/Two-Buttons",
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "Both buttons are red.",
+    "category": "general"
+  },
+  {
+    "id": "meme-107",
+    "title": "Cereal Is Soup",
+    "top": "cereal is soup",
+    "bottom": "change my mind (spoon is ready)",
+    "mood": "relatable",
+    "tags": [
+      "food",
+      "take"
+    ],
+    "image": "/assets/memes/gen-04.jpg",
+    "template": "Change My Mind",
+    "source": "https://imgflip.com/meme/Change-My-Mind",
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "Table reserved for truth.",
+    "category": "general"
+  },
+  {
+    "id": "meme-108",
+    "title": "No Agenda, No Meeting",
+    "top": "if it has no agenda it is a podcast",
+    "bottom": "change my mind (mic is on)",
+    "mood": "judgment",
+    "tags": [
+      "meeting",
+      "take"
+    ],
+    "image": "/assets/memes/gen-04.jpg",
+    "template": "Change My Mind",
+    "source": "https://imgflip.com/meme/Change-My-Mind",
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "Blocked by management.",
+    "category": "general"
+  },
+  {
+    "id": "meme-109",
+    "title": "This Is Fine: 4 Hours",
+    "top": "running on 4 hours of sleep",
+    "bottom": "this is fine. (fourth cup loading)",
+    "mood": "sleepy",
+    "tags": [
+      "sleep",
+      "denial"
+    ],
+    "image": "/assets/memes/gen-05.jpg",
+    "template": "This Is Fine",
+    "source": "https://imgflip.com/meme/This-Is-Fine",
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "Flames: ambient.",
+    "category": "general"
+  },
+  {
+    "id": "meme-110",
+    "title": "This Is Fine: Due Today",
+    "top": "everything is due today",
+    "bottom": "this is fine. (everything is on fire)",
+    "mood": "chaos",
+    "tags": [
+      "deadline",
+      "denial"
+    ],
+    "image": "/assets/memes/gen-05.jpg",
+    "template": "This Is Fine",
+    "source": "https://imgflip.com/meme/This-Is-Fine",
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "The fire is load-balanced.",
+    "category": "general"
+  },
+  {
+    "id": "meme-111",
+    "title": "Shocked: Skipped Tutorial",
+    "top": "skipped the 10-minute tutorial",
+    "bottom": "shocked the software is confusing",
+    "mood": "judgment",
+    "tags": [
+      "tech",
+      "consequences"
+    ],
+    "image": "/assets/memes/gen-06.jpg",
+    "template": "Surprised Pikachu",
+    "source": "https://imgflip.com/meme/Surprised-Pikachu",
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "Who could have known.",
+    "category": "general"
+  },
+  {
+    "id": "meme-112",
+    "title": "Shocked: Shared Fries",
+    "top": "shared my fries “for the table”",
+    "bottom": "shocked the table ate them",
+    "mood": "wholesome",
+    "tags": [
+      "food",
+      "sharing"
+    ],
+    "image": "/assets/memes/gen-06.jpg",
+    "template": "Surprised Pikachu",
+    "source": "https://imgflip.com/meme/Surprised-Pikachu",
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "Generosity, punished.",
+    "category": "general"
+  },
+  {
+    "id": "meme-113",
+    "title": "One Does Not Simply Sleep Early",
+    "top": "one does not simply",
+    "bottom": "fall asleep before midnight (fails nightly)",
+    "mood": "sleepy",
+    "tags": [
+      "sleep",
+      "night"
+    ],
+    "image": "/assets/memes/gen-07.jpg",
+    "template": "One Does Not Simply",
+    "source": "https://imgflip.com/meme/One-Does-Not-Simply",
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "Time is a flat blanket.",
+    "category": "general"
+  },
+  {
+    "id": "meme-114",
+    "title": "One Does Not Simply Hardware Store",
+    "top": "one does not simply",
+    "bottom": "buy one thing at the hardware store",
+    "mood": "relatable",
+    "tags": [
+      "shopping",
+      "diy"
+    ],
+    "image": "/assets/memes/gen-07.jpg",
+    "template": "One Does Not Simply",
+    "source": "https://imgflip.com/meme/One-Does-Not-Simply",
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "Went in for screws. Left with a lifestyle.",
+    "category": "general"
+  },
+  {
+    "id": "meme-115",
+    "title": "Roll Safe: Confirm Nothing",
+    "top": "you can't be late",
+    "bottom": "if you never confirm a time (taps head)",
+    "mood": "judgment",
+    "tags": [
+      "time",
+      "advice"
+    ],
+    "image": "/assets/memes/gen-08.jpg",
+    "template": "Roll Safe",
+    "source": "https://imgflip.com/meme/Roll-Safe-Think-About-It",
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "Galaxy brain. Uninvited.",
+    "category": "general"
+  },
+  {
+    "id": "meme-116",
+    "title": "Roll Safe: Mute First",
+    "top": "you can't lose the group chat argument",
+    "bottom": "if you mute it first (taps head)",
+    "mood": "relatable",
+    "tags": [
+      "chat",
+      "advice"
+    ],
+    "image": "/assets/memes/gen-08.jpg",
+    "template": "Roll Safe",
+    "source": "https://imgflip.com/meme/Roll-Safe-Think-About-It",
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "Undefeated. Unread.",
+    "category": "general"
+  },
+  {
+    "id": "meme-117",
+    "title": "Exit: Early Night",
+    "top": "staying on “early night” highway",
+    "bottom": "swerving off at “just one episode” exit",
+    "mood": "wholesome",
+    "tags": [
+      "sleep",
+      "tv"
+    ],
+    "image": "/assets/memes/gen-09.jpg",
+    "template": "Left Exit 12",
+    "source": "https://imgflip.com/meme/Left-Exit-12-Off-Ramp",
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "See you at 2am.",
+    "category": "general"
+  },
+  {
+    "id": "meme-118",
+    "title": "Exit: Treat Yourself",
+    "top": "staying on “budget” highway",
+    "bottom": "swerving off at “treat yourself” exit",
+    "mood": "chaos",
+    "tags": [
+      "money",
+      "choices"
+    ],
+    "image": "/assets/memes/gen-09.jpg",
+    "template": "Left Exit 12",
+    "source": "https://imgflip.com/meme/Left-Exit-12-Off-Ramp",
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "Missed it. Again.",
+    "category": "general"
+  },
+  {
+    "id": "meme-119",
+    "title": "Pointing: Monday Blame",
+    "top": "me, blaming monday",
+    "bottom": "monday, blaming me right back",
+    "mood": "sleepy",
+    "tags": [
+      "monday",
+      "blame"
+    ],
+    "image": "/assets/memes/gen-10.jpg",
+    "template": "Spider-Man Pointing",
+    "source": "https://imgflip.com/meme/Spiderman-Pointing-at-Spiderman",
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "Mutually assured drowsiness.",
+    "category": "general"
+  },
+  {
+    "id": "meme-120",
+    "title": "Pointing: Wifi Blame",
+    "top": "me, pointing at the wifi",
+    "bottom": "the wifi, pointing at my 14 devices",
+    "mood": "chaos",
+    "tags": [
+      "wifi",
+      "blame"
+    ],
+    "image": "/assets/memes/gen-10.jpg",
+    "template": "Spider-Man Pointing",
+    "source": "https://imgflip.com/meme/Spiderman-Pointing-at-Spiderman",
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "It was the smart fridge.",
+    "category": "general"
   }
 ]
