@@ -8,7 +8,7 @@ Open the **MEMECHIMP** desktop shortcut, double-click **start.vbs**, or visit **
 
 ## What is inside
 
-- 120 curated caption remixes (60 cat + 60 general) using 31 community cat templates plus 15 classic general templates, with individual source links. Entries carry `category: cat` or `general`.
+- 140 curated caption remixes (60 cat + 80 general) using 31 community cat templates plus 20 classic general templates, with individual source links. Entries carry `category: cat` or `general`.
 - Six mood filters, multiword search, curated/A–Z/unseen sorting, shuffle, comfortable/compact grids, and incremental browsing.
 - Saved favorites and three curated collections: office survival, low battery, and serotonin.
 - A focused viewer: arrow keys, swipe navigation, save, remix, six-second autoplay, PNG download, and local deep links.
@@ -31,7 +31,7 @@ Install or repair the shortcut: run **scripts/install-shortcut.ps1**.
 
 Chimp body: canonical 4275-cell Chimp facekit, happy face, exact #4A412A body, locked opaque #FBF4EE face plate. The browser color is a screen approximation of Pantone 448 C, not a print color specification. Palette: olive #4A412A, deeper olive #332E20, periwinkle #B9C5F3, blue #424F82, cream #F7F5EE, plus muted mood tints. The mark is shipped as SVG, PNG, and ICO.
 
-The 120 captions were written for MEMECHIMP. All images are community meme templates sourced from Imgflip; every record in **public/library.json** retains its source page. No license or ownership of third-party source imagery is asserted. Collection date: September 8, 2026; general set added September 25, 2026. This is a curated collection, not a live feed. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) before redistributing media.
+The 140 captions were written for MEMECHIMP. All images are community meme templates sourced from Imgflip; every record in **public/library.json** retains its source page. No license or ownership of third-party source imagery is asserted. Collection date: September 8, 2026; general set added September 25, 2026. This is a curated collection, not a live feed. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) before redistributing media.
 
 Running the app needs no external internet connection. All final assets are bundled.
 
