@@ -125,11 +125,16 @@ footer{color:#6e6957}
 .hero-footnote{color:#c6bfa9}
 #chimp-buddy{position:fixed;right:18px;bottom:18px;z-index:150;display:flex;flex-direction:column;align-items:end;gap:8px;perspective:320px;animation:buddybob 3s ease-in-out infinite}
 #buddy-btn{position:relative;overflow:hidden;background:var(--paper);border:2px solid var(--line);border-radius:50%;width:68px;height:68px;padding:0;box-shadow:0 10px 26px #4a412a40;transform-style:preserve-3d;will-change:transform}
-#buddy-btn img{width:100%;height:100%;object-fit:cover;display:block;border-radius:50%}
+#buddy-btn canvas{width:100%;height:100%;display:block;border-radius:50%}
 #buddy-btn::after{content:'';position:absolute;inset:0;border-radius:50%;background:radial-gradient(circle at var(--gx,30%) var(--gy,25%),#ffffff66,transparent 55%);pointer-events:none}
 #chimp-buddy.muted #buddy-btn{opacity:.4;filter:grayscale(1)}
 .buddy-bubble{max-width:230px;background:var(--paper);border:1px solid var(--line);border-radius:12px 12px 4px 12px;padding:10px 12px;font-size:12px;line-height:1.5;box-shadow:0 8px 24px #4a412a25;animation:packpop .25s ease-out}
 @keyframes buddybob{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@keyframes buddyglow{0%,100%{box-shadow:0 10px 26px #4a412a40,0 0 0 3px #b9c5f355,0 0 18px #b9c5f366}50%{box-shadow:0 10px 26px #4a412a40,0 0 0 3px #b9c5f388,0 0 30px #b9c5f3aa}}
+#buddy-btn{animation:buddyglow 3s ease-in-out infinite}
+.buddy-bubble.typing::after{content:'▍';animation:buddycaret .7s steps(1) infinite;color:var(--olive-soft)}
+@keyframes buddycaret{50%{opacity:0}}
+@media(prefers-reduced-motion:reduce){#chimp-buddy{animation:none}#buddy-btn{animation:none}}
 @media(max-width:650px){#chimp-buddy{bottom:76px;right:12px}#buddy-btn{width:54px;height:54px}}
 @media(prefers-reduced-motion:reduce){#buddy-btn{animation:none}}
 .reveal-actions{margin-top:10px;display:flex;justify-content:center}
