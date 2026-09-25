@@ -123,13 +123,13 @@ footer{color:#6e6957}
 .mobile-nav button{color:#6e6957}
 .search-wrap svg{color:#6e6957}
 .hero-footnote{color:#c6bfa9}
-#chimp-buddy{position:fixed;right:18px;bottom:18px;z-index:150;display:flex;flex-direction:column;align-items:end;gap:8px;perspective:320px;animation:buddybob 3s ease-in-out infinite;transition:opacity .25s,transform .25s}
+#chimp-buddy{position:fixed;right:18px;bottom:18px;z-index:150;display:flex;flex-direction:column;align-items:end;gap:8px;perspective:320px;animation:buddybob 3s ease-in-out infinite;transition:opacity .25s,transform .25s;translate:var(--buddy-home-x,0) var(--buddy-home-y,0)}
 #chimp-buddy.away{opacity:.48;scale:.84;transform-origin:bottom right}
 #buddy-btn{position:relative;overflow:visible;background:transparent;border:0;border-radius:50%;width:76px;height:76px;padding:0;box-shadow:0 10px 26px #4a412a40;transform:translate3d(var(--buddy-drag-x,0),var(--buddy-drag-y,0),0) rotateY(var(--buddy-ry,0deg)) rotateX(var(--buddy-rx,0deg)) rotateZ(var(--buddy-tilt,0deg)) scale(var(--buddy-scale,1));transform-style:preserve-3d;will-change:transform;cursor:grab;touch-action:none;animation:buddyglow 3s ease-in-out infinite;transition:transform .2s,filter .2s}
 #buddy-btn:hover,#buddy-btn.hovered{--buddy-scale:1.1}
 #buddy-btn.dragging{cursor:grabbing;--buddy-scale:1.04}
 #buddy-btn:active{--buddy-scale:.94}
-#buddy-btn canvas{width:100%;height:100%;display:block;border-radius:50%;filter:drop-shadow(0 3px 1px #4a412a22)}
+#buddy-btn canvas{width:100%;height:100%;display:block;filter:drop-shadow(0 4px 2px #4a412a2e)}
 #buddy-btn::after{content:'';position:absolute;inset:5px;border-radius:50%;background:radial-gradient(circle at var(--gx,30%) var(--gy,25%),#ffffff66,transparent 42%);pointer-events:none;mix-blend-mode:screen;opacity:.55}
 #chimp-buddy.muted #buddy-btn{opacity:.4;filter:grayscale(1)}
 .buddy-bubble{position:relative;max-width:230px;background:var(--paper);border:1px solid var(--line);border-radius:12px 12px 4px 12px;padding:10px 12px;font-size:12px;line-height:1.5;box-shadow:0 8px 24px #4a412a25;animation:packpop .25s ease-out}

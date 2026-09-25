@@ -85,16 +85,44 @@ Biscuit is the small animated cat in the corner. She is not a mascot wallpaper; 
 
 ### She can
 
-- follow your cursor with her eyes
-- blink, breathe, wag her tail, and twitch her ears
+- lean toward your cursor as you move it
+- blink, breathe, sway, and bounce
 - react with curious, smug, judging, grumpy, excited, happy, and sleepy expressions
-- bounce, wave, shake, and throw off stars and hearts
-- speak in contextual quips
-- react to saves, rare pulls, streaks, creations, and late-night browsing
-- be poked, dragged, and released into a tiny bounce
+- bounce, wave, shake, and throw off stars, hearts, crumbs, and paw prints
+- speak in contextual quips that never repeat back to back
+- react to saves, rare pulls, streaks, creations, achievements, and late-night browsing
+- react to what you are actually looking at — chaotic, wholesome, sleepy, or unhinged memes each get their own verdict
+- notice when you re-open the same meme, or stare at one for too long
+- hold a different expression on every page
+- be poked, belly-rubbed, fed, carried, dropped, and released into a tiny bounce
+- be flicked across the screen — she keeps your throw velocity, tumbles, and lands dizzy with stars orbiting her head
+- lean into your scrolling, squint and startle when you click too fast, and glance at whatever card your pointer is on
+- be dragged anywhere on screen and **stay there**, even after a reload
+- leap onto the sidebar, a nav item, or the top of a meme card, and drop back to the floor whenever the page re-renders underneath her
+- wander to a new perch now and then, and grumble about it
+- purr with her eyes closed, chew a treat, knead, and go cross-eyed with delight
 - shrink away while you scroll, then quietly return
 
-Long-press Biscuit to mute her. The setting persists locally.
+### Biscuit’s trust
+
+Biscuit keeps a trust score from 0 to 100. Poke her, save memes, rip packs, belly-rub her (double-click, or `B`), and feed her (`T`) to raise it. Trust only ever goes up and unlocks extra quips. Hover her to see where you stand; she has no buttons, no meters, and no menus about it.
+
+Treats are the exception: she starts with two, one refills every twenty minutes, and she tops out at five. When she is out, she says so.
+
+`G` brings her back to her corner. Long-press her, or press `V`, to mute her. “Reset Biscuit’s trust” in the shortcuts dialog wipes her memory, position, and treats. Everything is stored in your browser.
+
+| Where | What |
+|---|---|
+| `localStorage` (`mmc-buddy`) | trust, treats, mute, resting position |
+| Nothing | leaves your browser |
+
+### How she is drawn
+
+Biscuit is one painted sprite, [`public/assets/biscuit.png`](public/assets/biscuit.png), drawn to a canvas each frame. Her expressions are layered on top of it rather than redrawn: heart eyes, squinting lids, closed-eye arcs, dizzy spirals, a question mark, an anger mark, chewing crumbs, and motion arcs when she waves. The engine positions the sprite and everything else is an overlay, so swapping the artwork means updating the handful of coordinates in `BUDDY_ART`.
+
+The physics, particles, ground shadow, and the CSS tilt and glow are all still procedural. If the artwork ever fails to load she falls back to a drawn shape rather than disappearing.
+
+She is also considerate: with `prefers-reduced-motion` she draws one still frame per expression and never animates, and she stops drawing entirely when nothing is happening.
 
 ---
 
@@ -108,6 +136,10 @@ Long-press Biscuit to mute her. The setting persists locally.
 | `←` / `→` | Browse in the viewer |
 | `S` | Save the current meme |
 | `Space` | Toggle autoplay |
+| `B` | Belly rub Biscuit (or double-click her) |
+| `T` | Give Biscuit a treat |
+| `G` | Bring Biscuit back to her corner |
+| `V` | Mute / unmute Biscuit |
 | `Esc` | Close a dialog |
 
 Autoplay pauses when the tab is hidden.
@@ -118,7 +150,7 @@ Autoplay pauses when the tab is hidden.
 
 MEMECHIMP is designed to stay local.
 
-- Favorites, seen state, preferences, and Biscuit’s mute setting use `localStorage`.
+- Favorites, seen state, preferences, and Biscuit’s trust, treats, mute, and resting spot use `localStorage`.
 - Creations and uploaded TV clips use `IndexedDB`.
 - Nothing is uploaded by the app.
 - Clearing browser data removes local favorites and creations.
