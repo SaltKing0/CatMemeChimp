@@ -8,7 +8,7 @@ Open the **MEMECHIMP** desktop shortcut, double-click **start.vbs**, or visit **
 
 ## What is inside
 
-- 120 curated caption remixes (60 cat + 60 general) using 31 community cat templates plus 10 classic general templates (Drake, Distracted Boyfriend, Two Buttons, Change My Mind, This Is Fine, Pikachu, Boromir, Roll Safe, Left Exit, Spider-Man), with individual source links. Entries carry `category: cat` or `general`.
+- 120 curated caption remixes (60 cat + 60 general) using 31 community cat templates plus 15 classic general templates, with individual source links. Entries carry `category: cat` or `general`.
 - Six mood filters, multiword search, curated/A–Z/unseen sorting, shuffle, comfortable/compact grids, and incremental browsing.
 - Saved favorites and three curated collections: office survival, low battery, and serotonin.
 - A focused viewer: arrow keys, swipe navigation, save, remix, six-second autoplay, PNG download, and local deep links.

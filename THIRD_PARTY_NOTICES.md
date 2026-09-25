@@ -6,7 +6,7 @@ MEMECHIMP is open-source software. The MIT license in this repository covers the
 
 The 31 JPG files in `public/assets/memes/` are community meme templates obtained from Imgflip. Each cat item in `public/library.json` records the template name and its individual Imgflip source page. The application also exposes that source link in the focused viewer.
 
-The 10 `gen-*.jpg` files in `public/assets/memes/` are blank classic meme templates obtained from Imgflip (same provenance as the cat templates): Drake Hotline Bling, Distracted Boyfriend, Two Buttons, Change My Mind, This Is Fine, Surprised Pikachu, One Does Not Simply, Roll Safe, Left Exit 12 Off Ramp, and Spider-Man Pointing. Each general item in `public/library.json` records its Imgflip meme page, also linked in the viewer.
+The 10 `gen-*.jpg` files in `public/assets/memes/` are blank classic meme templates obtained from Imgflip (same provenance as the cat templates): Drake Hotline Bling, Distracted Boyfriend, Two Buttons, Change My Mind, This Is Fine, Surprised Pikachu, One Does Not Simply, Roll Safe, Left Exit 12 Off Ramp, and Spider-Man Pointing. Each general item in `public/library.json` records its Imgflip meme page, also linked in the viewer. Second batch: Bernie Asks, Grim Reaper Knocks, Is This a Pigeon, Spider-Man Triple, and Skeptical Kid.
 
 Imgflip is a user-generated-content platform and may not own every image uploaded to it. The inclusion of a source link is attribution and provenance, not a claim that Imgflip or this project can relicense the underlying image. These images are bundled to support the project's caption remixes and offline experience. They are expressly excluded from the repository's MIT license.
 
