@@ -1258,5 +1258,805 @@
     "lore": "Likes the fire. Is the fire.",
     "legacyId": "cat-290",
     "category": "cat"
+  },
+  {
+    "id": "meme-061",
+    "title": "The monday void",
+    "top": "me: weekend was restorative",
+    "bottom": "monday 8:59am:",
+    "mood": "relatable",
+    "tags": [
+      "monday",
+      "work"
+    ],
+    "image": "/assets/memes/general-01.svg",
+    "template": "Monday Void",
+    "source": null,
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "The void stares back. It has standup.",
+    "category": "general"
+  },
+  {
+    "id": "meme-062",
+    "title": "Circular logic",
+    "top": "i love my job",
+    "bottom": "said no one on a monday",
+    "mood": "judgment",
+    "tags": [
+      "monday",
+      "work"
+    ],
+    "image": "/assets/memes/general-01.svg",
+    "template": "Monday Void",
+    "source": null,
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "HR has been notified.",
+    "category": "general"
+  },
+  {
+    "id": "meme-063",
+    "title": "Snooze math",
+    "top": "5 more minutes",
+    "bottom": "now i live here",
+    "mood": "sleepy",
+    "tags": [
+      "sleep",
+      "morning"
+    ],
+    "image": "/assets/memes/general-01.svg",
+    "template": "Monday Void",
+    "source": null,
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "The blanket won.",
+    "category": "general"
+  },
+  {
+    "id": "meme-064",
+    "title": "Weekend speedrun",
+    "top": "friday: 5pm freedom",
+    "bottom": "monday: speedrun any% back to bed",
+    "mood": "chaos",
+    "tags": [
+      "weekend",
+      "monday"
+    ],
+    "image": "/assets/memes/general-01.svg",
+    "template": "Monday Void",
+    "source": null,
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "World record. No prize.",
+    "category": "general"
+  },
+  {
+    "id": "meme-065",
+    "title": "The wifi seance",
+    "top": "can you hear me?",
+    "bottom": "you froze on the good part",
+    "mood": "relatable",
+    "tags": [
+      "wifi",
+      "meeting"
+    ],
+    "image": "/assets/memes/general-02.svg",
+    "template": "Wifi Ghost",
+    "source": null,
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "Have you tried turning yourself off?",
+    "category": "general"
+  },
+  {
+    "id": "meme-066",
+    "title": "Buffering personality",
+    "top": "my camera is off",
+    "bottom": "for spiritual reasons",
+    "mood": "chaos",
+    "tags": [
+      "meeting",
+      "camera"
+    ],
+    "image": "/assets/memes/general-02.svg",
+    "template": "Wifi Ghost",
+    "source": null,
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "Mystery keeps the salary.",
+    "category": "general"
+  },
+  {
+    "id": "meme-067",
+    "title": "Bars of lies",
+    "top": "full wifi bars",
+    "bottom": "zero actual internet",
+    "mood": "judgment",
+    "tags": [
+      "wifi",
+      "lies"
+    ],
+    "image": "/assets/memes/general-02.svg",
+    "template": "Wifi Ghost",
+    "source": null,
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "The router is gaslighting you.",
+    "category": "general"
+  },
+  {
+    "id": "meme-068",
+    "title": "Reconnection arc",
+    "top": "sorry i dropped",
+    "bottom": "i am back and worse",
+    "mood": "wholesome",
+    "tags": [
+      "meeting",
+      "back"
+    ],
+    "image": "/assets/memes/general-02.svg",
+    "template": "Wifi Ghost",
+    "source": null,
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "Growth. Mostly latency.",
+    "category": "general"
+  },
+  {
+    "id": "meme-069",
+    "title": "The two buttons",
+    "top": "ship it friday 5pm",
+    "bottom": "test it like an adult",
+    "mood": "chaos",
+    "tags": [
+      "work",
+      "deploy"
+    ],
+    "image": "/assets/memes/general-03.svg",
+    "template": "Ship vs Test",
+    "source": null,
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "Sweating increases velocity.",
+    "category": "general"
+  },
+  {
+    "id": "meme-070",
+    "title": "Code review roulette",
+    "top": "looks good to me",
+    "bottom": "did not look",
+    "mood": "relatable",
+    "tags": [
+      "code",
+      "review"
+    ],
+    "image": "/assets/memes/general-03.svg",
+    "template": "Ship vs Test",
+    "source": null,
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "Approved with confidence.",
+    "category": "general"
+  },
+  {
+    "id": "meme-071",
+    "title": "QA prophecy",
+    "top": "works on my machine",
+    "bottom": "famous last words",
+    "mood": "judgment",
+    "tags": [
+      "code",
+      "qa"
+    ],
+    "image": "/assets/memes/general-03.svg",
+    "template": "Ship vs Test",
+    "source": null,
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "The demo gods heard that.",
+    "category": "general"
+  },
+  {
+    "id": "meme-072",
+    "title": "Hotfix hours",
+    "top": "quick fix, no review",
+    "bottom": "monday: 14 new bugs",
+    "mood": "sleepy",
+    "tags": [
+      "code",
+      "hotfix"
+    ],
+    "image": "/assets/memes/general-03.svg",
+    "template": "Ship vs Test",
+    "source": null,
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "Sleep is a legacy feature.",
+    "category": "general"
+  },
+  {
+    "id": "meme-073",
+    "title": "Portfolio of feelings",
+    "top": "invested in naps",
+    "bottom": "returns are emotional",
+    "mood": "wholesome",
+    "tags": [
+      "money",
+      "feelings"
+    ],
+    "image": "/assets/memes/general-04.svg",
+    "template": "Emotional Stonks",
+    "source": null,
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "Diversify your blankets.",
+    "category": "general"
+  },
+  {
+    "id": "meme-074",
+    "title": "Rent due arc",
+    "top": "payday: main character",
+    "bottom": "rent due: npc",
+    "mood": "relatable",
+    "tags": [
+      "money",
+      "rent"
+    ],
+    "image": "/assets/memes/general-04.svg",
+    "template": "Emotional Stonks",
+    "source": null,
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "The market is my landlord.",
+    "category": "general"
+  },
+  {
+    "id": "meme-075",
+    "title": "Budget lore",
+    "top": "i have a budget",
+    "bottom": "it is called vibes",
+    "mood": "chaos",
+    "tags": [
+      "money",
+      "budget"
+    ],
+    "image": "/assets/memes/general-04.svg",
+    "template": "Emotional Stonks",
+    "source": null,
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "Certified financial-ish advice.",
+    "category": "general"
+  },
+  {
+    "id": "meme-076",
+    "title": "Savings speedrun",
+    "top": "saving money",
+    "bottom": "by not checking the balance",
+    "mood": "judgment",
+    "tags": [
+      "money",
+      "savings"
+    ],
+    "image": "/assets/memes/general-04.svg",
+    "template": "Emotional Stonks",
+    "source": null,
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "Ignorance compounds daily.",
+    "category": "general"
+  },
+  {
+    "id": "meme-077",
+    "title": "Midweek entity",
+    "top": "it is wednesday",
+    "bottom": "act accordingly",
+    "mood": "wholesome",
+    "tags": [
+      "wednesday",
+      "ritual"
+    ],
+    "image": "/assets/memes/general-05.svg",
+    "template": "Wednesday Blob",
+    "source": null,
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "HR approved the blob.",
+    "category": "general"
+  },
+  {
+    "id": "meme-078",
+    "title": "Hump day math",
+    "top": "halfway through the week",
+    "bottom": "fully out of patience",
+    "mood": "relatable",
+    "tags": [
+      "week",
+      "tired"
+    ],
+    "image": "/assets/memes/general-05.svg",
+    "template": "Wednesday Blob",
+    "source": null,
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "The camel was right.",
+    "category": "general"
+  },
+  {
+    "id": "meme-079",
+    "title": "Blob wisdom",
+    "top": "no thoughts",
+    "bottom": "only wednesday",
+    "mood": "sleepy",
+    "tags": [
+      "wednesday",
+      "blank"
+    ],
+    "image": "/assets/memes/general-05.svg",
+    "template": "Wednesday Blob",
+    "source": null,
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "Enlightenment, but mid.",
+    "category": "general"
+  },
+  {
+    "id": "meme-080",
+    "title": "Meeting blob",
+    "top": "this could have been an email",
+    "bottom": "it is now a blob staring contest",
+    "mood": "judgment",
+    "tags": [
+      "meeting",
+      "email"
+    ],
+    "image": "/assets/memes/general-05.svg",
+    "template": "Wednesday Blob",
+    "source": null,
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "The blob takes notes. Menacingly.",
+    "category": "general"
+  },
+  {
+    "id": "meme-081",
+    "title": "The email jumpscare",
+    "top": "quick sync?",
+    "bottom": "plot twist: it was a layoff bingo",
+    "mood": "chaos",
+    "tags": [
+      "email",
+      "meeting"
+    ],
+    "image": "/assets/memes/general-06.svg",
+    "template": "Plot Twist",
+    "source": null,
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "Decline with confidence.",
+    "category": "general"
+  },
+  {
+    "id": "meme-082",
+    "title": "Reply-all horror",
+    "top": "just replying all",
+    "bottom": "to 400 people. about lunch.",
+    "mood": "relatable",
+    "tags": [
+      "email",
+      "oops"
+    ],
+    "image": "/assets/memes/general-06.svg",
+    "template": "Plot Twist",
+    "source": null,
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "Legend status: break room.",
+    "category": "general"
+  },
+  {
+    "id": "meme-083",
+    "title": "Per my last email",
+    "top": "per my last email",
+    "bottom": "translation: read it, kevin",
+    "mood": "judgment",
+    "tags": [
+      "email",
+      "kevin"
+    ],
+    "image": "/assets/memes/general-06.svg",
+    "template": "Plot Twist",
+    "source": null,
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "Kevin knows what he did.",
+    "category": "general"
+  },
+  {
+    "id": "meme-084",
+    "title": "Inbox zero lore",
+    "top": "inbox zero",
+    "bottom": "achieved by deleting everything",
+    "mood": "wholesome",
+    "tags": [
+      "email",
+      "peace"
+    ],
+    "image": "/assets/memes/general-06.svg",
+    "template": "Plot Twist",
+    "source": null,
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "Inner peace, 0 unread.",
+    "category": "general"
+  },
+  {
+    "id": "meme-085",
+    "title": "Tier 1 wisdom",
+    "top": "have you tried",
+    "bottom": "turning it off and on again",
+    "mood": "relatable",
+    "tags": [
+      "tech",
+      "support"
+    ],
+    "image": "/assets/memes/general-07.svg",
+    "template": "Tech Support",
+    "source": null,
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "It fixes 90%. And feelings.",
+    "category": "general"
+  },
+  {
+    "id": "meme-086",
+    "title": "Password arc",
+    "top": "incorrect password",
+    "bottom": "correct password also incorrect",
+    "mood": "chaos",
+    "tags": [
+      "password",
+      "tech"
+    ],
+    "image": "/assets/memes/general-07.svg",
+    "template": "Tech Support",
+    "source": null,
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "The system has chosen violence.",
+    "category": "general"
+  },
+  {
+    "id": "meme-087",
+    "title": "Update lore",
+    "top": "update required",
+    "bottom": "restart in 3...2... during your demo",
+    "mood": "judgment",
+    "tags": [
+      "update",
+      "tech"
+    ],
+    "image": "/assets/memes/general-07.svg",
+    "template": "Tech Support",
+    "source": null,
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "Progress demands sacrifice.",
+    "category": "general"
+  },
+  {
+    "id": "meme-088",
+    "title": "Charger peace",
+    "top": "1% battery",
+    "bottom": "suddenly very zen about priorities",
+    "mood": "sleepy",
+    "tags": [
+      "battery",
+      "phone"
+    ],
+    "image": "/assets/memes/general-07.svg",
+    "template": "Tech Support",
+    "source": null,
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "Low power, high clarity.",
+    "category": "general"
+  },
+  {
+    "id": "meme-089",
+    "title": "Bean economics",
+    "top": "decaf?",
+    "bottom": "in THIS economy?",
+    "mood": "snacks",
+    "tags": [
+      "coffee",
+      "economy"
+    ],
+    "image": "/assets/memes/general-08.svg",
+    "template": "Coffee Truth",
+    "source": null,
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "Fully caffeinated opinions.",
+    "category": "general"
+  },
+  {
+    "id": "meme-090",
+    "title": "Cup one lore",
+    "top": "before coffee: npc",
+    "bottom": "after coffee: slightly faster npc",
+    "mood": "sleepy",
+    "tags": [
+      "coffee",
+      "morning"
+    ],
+    "image": "/assets/memes/general-08.svg",
+    "template": "Coffee Truth",
+    "source": null,
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "Character development.",
+    "category": "general"
+  },
+  {
+    "id": "meme-091",
+    "title": "Espresso math",
+    "top": "one more cup",
+    "bottom": "will fix my sleep schedule (it wont)",
+    "mood": "relatable",
+    "tags": [
+      "coffee",
+      "sleep"
+    ],
+    "image": "/assets/memes/general-08.svg",
+    "template": "Coffee Truth",
+    "source": null,
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "Science-ish.",
+    "category": "general"
+  },
+  {
+    "id": "meme-092",
+    "title": "Barista blessing",
+    "top": "your name for the order?",
+    "bottom": "definitely not my real name",
+    "mood": "wholesome",
+    "tags": [
+      "coffee",
+      "alias"
+    ],
+    "image": "/assets/memes/general-08.svg",
+    "template": "Coffee Truth",
+    "source": null,
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "Today I am Thunder.",
+    "category": "general"
+  },
+  {
+    "id": "meme-093",
+    "title": "Error 404",
+    "top": "motivation not found",
+    "bottom": "retry monday never works",
+    "mood": "sleepy",
+    "tags": [
+      "monday",
+      "motivation"
+    ],
+    "image": "/assets/memes/general-09.svg",
+    "template": "Motivation 404",
+    "source": null,
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "Have you tried snacks?",
+    "category": "general"
+  },
+  {
+    "id": "meme-094",
+    "title": "Gym membership lore",
+    "top": "paying for the gym",
+    "bottom": "is my cardio",
+    "mood": "judgment",
+    "tags": [
+      "gym",
+      "money"
+    ],
+    "image": "/assets/memes/general-09.svg",
+    "template": "Motivation 404",
+    "source": null,
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "Financial fitness.",
+    "category": "general"
+  },
+  {
+    "id": "meme-095",
+    "title": "To-do list speedrun",
+    "top": "wrote 10 tasks",
+    "bottom": "did the easiest, felt great",
+    "mood": "wholesome",
+    "tags": [
+      "todo",
+      "win"
+    ],
+    "image": "/assets/memes/general-09.svg",
+    "template": "Motivation 404",
+    "source": null,
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "Productivity, but make it kind.",
+    "category": "general"
+  },
+  {
+    "id": "meme-096",
+    "title": "Monday patch notes",
+    "top": "new week, new me",
+    "bottom": "same bugs, new build",
+    "mood": "chaos",
+    "tags": [
+      "monday",
+      "reset"
+    ],
+    "image": "/assets/memes/general-09.svg",
+    "template": "Motivation 404",
+    "source": null,
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "Changelog: vibes.",
+    "category": "general"
+  },
+  {
+    "id": "meme-097",
+    "title": "Unsubscribed",
+    "top": "adulting?",
+    "bottom": "unsubscribed, still charged",
+    "mood": "relatable",
+    "tags": [
+      "adult",
+      "bills"
+    ],
+    "image": "/assets/memes/general-10.svg",
+    "template": "Adulting",
+    "source": null,
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "No refunds. Only laundry.",
+    "category": "general"
+  },
+  {
+    "id": "meme-098",
+    "title": "Fridge lore",
+    "top": "nothing to eat",
+    "bottom": "fridge full of ingredients and regret",
+    "mood": "snacks",
+    "tags": [
+      "food",
+      "fridge"
+    ],
+    "image": "/assets/memes/general-10.svg",
+    "template": "Adulting",
+    "source": null,
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "A cooking show where nobody cooks.",
+    "category": "general"
+  },
+  {
+    "id": "meme-099",
+    "title": "Laundry final boss",
+    "top": "clean laundry",
+    "bottom": "lives in the basket now",
+    "mood": "sleepy",
+    "tags": [
+      "laundry",
+      "home"
+    ],
+    "image": "/assets/memes/general-10.svg",
+    "template": "Adulting",
+    "source": null,
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "The basket is furniture.",
+    "category": "general"
+  },
+  {
+    "id": "meme-100",
+    "title": "Appointment arc",
+    "top": "remembered the appointment",
+    "bottom": "forgot why i walked in",
+    "mood": "chaos",
+    "tags": [
+      "brain",
+      "adult"
+    ],
+    "image": "/assets/memes/general-10.svg",
+    "template": "Adulting",
+    "source": null,
+    "kind": "remix",
+    "added": "2026-09-25",
+    "origin": 2026,
+    "status": "alive",
+    "lore": "Side quest complete-ish.",
+    "category": "general"
   }
 ]

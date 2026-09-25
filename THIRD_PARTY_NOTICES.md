@@ -4,7 +4,9 @@ MEMECHIMP is open-source software. The MIT license in this repository covers the
 
 ## Meme template images
 
-The 31 files in `public/assets/memes/` are community meme templates obtained from Imgflip. Each item in `public/library.json` records the template name and its individual Imgflip source page. The application also exposes that source link in the focused viewer.
+The 31 JPG files in `public/assets/memes/` are community meme templates obtained from Imgflip. Each cat item in `public/library.json` records the template name and its individual Imgflip source page. The application also exposes that source link in the focused viewer.
+
+The 10 `general-*.svg` files in `public/assets/memes/` are original MemeChimp artwork, covered by this repository's MIT license. General entries in `public/library.json` use `"source": null`.
 
 Imgflip is a user-generated-content platform and may not own every image uploaded to it. The inclusion of a source link is attribution and provenance, not a claim that Imgflip or this project can relicense the underlying image. These images are bundled to support the project's caption remixes and offline experience. They are expressly excluded from the repository's MIT license.
 
