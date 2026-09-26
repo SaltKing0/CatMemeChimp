@@ -1,10 +1,10 @@
 {
-  "name": "catmemechimp", "version": "1.0.0", "private": false, "type": "module",
-  "description": "An unserious cat archive in a very serious color.",
+  "name": "memechimp", "version": "1.0.0", "private": true, "type": "module",
+  "description": "An unserious meme archive in a very serious color.",
   "license": "MIT",
-  "repository": {"type": "git", "url": "git+https://github.com/burhama/CatMemeChimp.git"},
-  "bugs": {"url": "https://github.com/burhama/CatMemeChimp/issues"},
-  "homepage": "https://github.com/burhama/CatMemeChimp#readme",
+  "repository": {"type": "git", "url": "git+https://github.com/SaltKing0/MemeChimp.git"},
+  "bugs": {"url": "https://github.com/SaltKing0/MemeChimp/issues"},
+  "homepage": "https://github.com/SaltKing0/MemeChimp#readme",
   "engines": {"node": ">=22"},
-  "scripts": {"start": "node server.mjs", "smoke": "node scripts/smoke.mjs", "check": "node --check server.mjs && node --check public/app.js && node scripts/smoke.mjs"}
+  "scripts": {"start": "node server.mjs", "smoke": "node scripts/smoke.mjs", "test": "node --test", "check": "node --check server.mjs && node --check public/app.js && node --check public/lib/state.mjs && node --check public/lib/pack.mjs && npm test && node scripts/smoke.mjs"}
 }
